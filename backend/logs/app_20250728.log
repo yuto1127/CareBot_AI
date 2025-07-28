@@ -840,3 +840,475 @@
 2025-07-28 21:29:29,331 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
 2025-07-28 21:29:29,331 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
 2025-07-28 21:29:29,331 - carebot_ai - INFO - CareBot AI アプリケーションが正常に起動しました
+2025-07-28 21:38:41,904 - carebot_ai - INFO - CareBot AI アプリケーションを起動中...
+2025-07-28 21:38:41,904 - carebot_ai - INFO - RLSポリシーを設定中...
+2025-07-28 21:38:41,904 - carebot_ai - INFO - RLSポリシーの設定を開始
+2025-07-28 21:38:41,904 - carebot_ai - INFO - RLS enabled for table: users
+2025-07-28 21:38:41,904 - carebot_ai - INFO - RLS enabled for table: journals
+2025-07-28 21:38:41,904 - carebot_ai - INFO - RLS enabled for table: moods
+2025-07-28 21:38:41,904 - carebot_ai - INFO - RLS enabled for table: usage_counts
+2025-07-28 21:38:41,904 - carebot_ai - INFO - ユーザーテーブルのポリシー設定完了
+2025-07-28 21:38:41,904 - carebot_ai - INFO - ジャーナルテーブルのポリシー設定完了
+2025-07-28 21:38:41,904 - carebot_ai - INFO - 気分記録テーブルのポリシー設定完了
+2025-07-28 21:38:41,905 - carebot_ai - INFO - 使用回数テーブルのポリシー設定完了
+2025-07-28 21:38:41,905 - carebot_ai - INFO - RLSポリシーの設定が完了しました
+2025-07-28 21:38:41,905 - carebot_ai - INFO - テーブル users のポリシー検証: 設定済み
+2025-07-28 21:38:41,905 - carebot_ai - INFO - テーブル journals のポリシー検証: 設定済み
+2025-07-28 21:38:41,905 - carebot_ai - INFO - テーブル moods のポリシー検証: 設定済み
+2025-07-28 21:38:41,905 - carebot_ai - INFO - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-28 21:38:41,905 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:38:41,905 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:38:41,905 - carebot_ai - INFO - CareBot AI アプリケーションが正常に起動しました
+2025-07-28 21:39:42,723 - carebot_ai - INFO - リクエスト開始: OPTIONS /api/auth/login
+2025-07-28 21:39:42,724 - carebot_ai - INFO - リクエスト完了: OPTIONS /api/auth/login - ステータス: 200
+2025-07-28 21:39:42,726 - carebot_ai - INFO - リクエスト開始: POST /api/auth/login
+2025-07-28 21:39:42,744 - carebot_ai - INFO - API Request: POST /api/auth/login - {"method": "POST", "path": "/api/auth/login", "user_id": null, "status_code": 200, "timestamp": "2025-07-28T21:39:42.744167"}
+2025-07-28 21:39:42,744 - carebot_ai - ERROR - ログインエラー - Error: type object 'SupabaseDB' has no attribute 'authenticate_user' - {"email": "user1@gmail.com"}
+2025-07-28 21:39:42,745 - carebot_ai - ERROR - API Error: POST /api/auth/login - Error: type object 'SupabaseDB' has no attribute 'authenticate_user' - {"method": "POST", "path": "/api/auth/login", "user_id": null, "error_type": "AttributeError", "timestamp": "2025-07-28T21:39:42.744997"}
+2025-07-28 21:39:42,745 - carebot_ai - INFO - リクエスト完了: POST /api/auth/login - ステータス: 500
+2025-07-28 21:39:50,054 - carebot_ai - INFO - リクエスト開始: GET /docs
+2025-07-28 21:39:50,060 - carebot_ai - INFO - リクエスト完了: GET /docs - ステータス: 200
+2025-07-28 21:39:50,248 - carebot_ai - INFO - リクエスト開始: GET /openapi.json
+2025-07-28 21:39:50,298 - carebot_ai - INFO - リクエスト完了: GET /openapi.json - ステータス: 200
+2025-07-28 21:40:16,907 - carebot_ai - INFO - リクエスト開始: POST /api/auth/login
+2025-07-28 21:40:16,923 - carebot_ai - INFO - API Request: POST /api/auth/login - {"method": "POST", "path": "/api/auth/login", "user_id": null, "status_code": 200, "timestamp": "2025-07-28T21:40:16.923699"}
+2025-07-28 21:40:16,924 - carebot_ai - ERROR - ログインエラー - Error: type object 'SupabaseDB' has no attribute 'authenticate_user' - {"email": "user1@gmail.com"}
+2025-07-28 21:40:16,924 - carebot_ai - ERROR - API Error: POST /api/auth/login - Error: type object 'SupabaseDB' has no attribute 'authenticate_user' - {"method": "POST", "path": "/api/auth/login", "user_id": null, "error_type": "AttributeError", "timestamp": "2025-07-28T21:40:16.924554"}
+2025-07-28 21:40:16,925 - carebot_ai - INFO - リクエスト完了: POST /api/auth/login - ステータス: 500
+2025-07-28 21:41:14,413 - carebot_ai - INFO - CareBot AI アプリケーションを終了中...
+2025-07-28 21:41:14,517 - carebot_ai - INFO - CareBot AI アプリケーションを終了中...
+2025-07-28 21:41:16,342 - carebot_ai - INFO - CareBot AI アプリケーションを起動中...
+2025-07-28 21:41:16,342 - carebot_ai - INFO - RLSポリシーを設定中...
+2025-07-28 21:41:16,342 - carebot_ai - INFO - RLSポリシーの設定を開始
+2025-07-28 21:41:16,342 - carebot_ai - INFO - RLS enabled for table: users
+2025-07-28 21:41:16,342 - carebot_ai - INFO - RLS enabled for table: journals
+2025-07-28 21:41:16,342 - carebot_ai - INFO - RLS enabled for table: moods
+2025-07-28 21:41:16,342 - carebot_ai - INFO - RLS enabled for table: usage_counts
+2025-07-28 21:41:16,342 - carebot_ai - INFO - ユーザーテーブルのポリシー設定完了
+2025-07-28 21:41:16,342 - carebot_ai - INFO - ジャーナルテーブルのポリシー設定完了
+2025-07-28 21:41:16,342 - carebot_ai - INFO - 気分記録テーブルのポリシー設定完了
+2025-07-28 21:41:16,342 - carebot_ai - INFO - 使用回数テーブルのポリシー設定完了
+2025-07-28 21:41:16,342 - carebot_ai - INFO - RLSポリシーの設定が完了しました
+2025-07-28 21:41:16,342 - carebot_ai - INFO - テーブル users のポリシー検証: 設定済み
+2025-07-28 21:41:16,342 - carebot_ai - INFO - テーブル journals のポリシー検証: 設定済み
+2025-07-28 21:41:16,342 - carebot_ai - INFO - テーブル moods のポリシー検証: 設定済み
+2025-07-28 21:41:16,342 - carebot_ai - INFO - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-28 21:41:16,343 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:41:16,343 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:41:16,343 - carebot_ai - INFO - CareBot AI アプリケーションが正常に起動しました
+2025-07-28 21:41:16,387 - carebot_ai - INFO - CareBot AI アプリケーションを起動中...
+2025-07-28 21:41:16,387 - carebot_ai - INFO - RLSポリシーを設定中...
+2025-07-28 21:41:16,387 - carebot_ai - INFO - RLSポリシーの設定を開始
+2025-07-28 21:41:16,387 - carebot_ai - INFO - RLS enabled for table: users
+2025-07-28 21:41:16,387 - carebot_ai - INFO - RLS enabled for table: journals
+2025-07-28 21:41:16,387 - carebot_ai - INFO - RLS enabled for table: moods
+2025-07-28 21:41:16,387 - carebot_ai - INFO - RLS enabled for table: usage_counts
+2025-07-28 21:41:16,387 - carebot_ai - INFO - ユーザーテーブルのポリシー設定完了
+2025-07-28 21:41:16,387 - carebot_ai - INFO - ジャーナルテーブルのポリシー設定完了
+2025-07-28 21:41:16,387 - carebot_ai - INFO - 気分記録テーブルのポリシー設定完了
+2025-07-28 21:41:16,387 - carebot_ai - INFO - 使用回数テーブルのポリシー設定完了
+2025-07-28 21:41:16,387 - carebot_ai - INFO - RLSポリシーの設定が完了しました
+2025-07-28 21:41:16,388 - carebot_ai - INFO - テーブル users のポリシー検証: 設定済み
+2025-07-28 21:41:16,388 - carebot_ai - INFO - テーブル journals のポリシー検証: 設定済み
+2025-07-28 21:41:16,388 - carebot_ai - INFO - テーブル moods のポリシー検証: 設定済み
+2025-07-28 21:41:16,388 - carebot_ai - INFO - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-28 21:41:16,388 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:41:16,388 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:41:16,388 - carebot_ai - INFO - CareBot AI アプリケーションが正常に起動しました
+2025-07-28 21:41:25,102 - carebot_ai - INFO - CareBot AI アプリケーションを終了中...
+2025-07-28 21:41:25,188 - carebot_ai - INFO - CareBot AI アプリケーションを終了中...
+2025-07-28 21:41:25,984 - carebot_ai - INFO - CareBot AI アプリケーションを起動中...
+2025-07-28 21:41:25,984 - carebot_ai - INFO - RLSポリシーを設定中...
+2025-07-28 21:41:25,984 - carebot_ai - INFO - RLSポリシーの設定を開始
+2025-07-28 21:41:25,984 - carebot_ai - INFO - RLS enabled for table: users
+2025-07-28 21:41:25,984 - carebot_ai - INFO - RLS enabled for table: journals
+2025-07-28 21:41:25,985 - carebot_ai - INFO - RLS enabled for table: moods
+2025-07-28 21:41:25,985 - carebot_ai - INFO - RLS enabled for table: usage_counts
+2025-07-28 21:41:25,985 - carebot_ai - INFO - ユーザーテーブルのポリシー設定完了
+2025-07-28 21:41:25,985 - carebot_ai - INFO - ジャーナルテーブルのポリシー設定完了
+2025-07-28 21:41:25,985 - carebot_ai - INFO - 気分記録テーブルのポリシー設定完了
+2025-07-28 21:41:25,985 - carebot_ai - INFO - 使用回数テーブルのポリシー設定完了
+2025-07-28 21:41:25,985 - carebot_ai - INFO - RLSポリシーの設定が完了しました
+2025-07-28 21:41:25,985 - carebot_ai - INFO - テーブル users のポリシー検証: 設定済み
+2025-07-28 21:41:25,985 - carebot_ai - INFO - テーブル journals のポリシー検証: 設定済み
+2025-07-28 21:41:25,985 - carebot_ai - INFO - テーブル moods のポリシー検証: 設定済み
+2025-07-28 21:41:25,985 - carebot_ai - INFO - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-28 21:41:25,985 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:41:25,985 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:41:25,985 - carebot_ai - INFO - CareBot AI アプリケーションが正常に起動しました
+2025-07-28 21:41:25,986 - carebot_ai - INFO - CareBot AI アプリケーションを起動中...
+2025-07-28 21:41:25,986 - carebot_ai - INFO - RLSポリシーを設定中...
+2025-07-28 21:41:25,986 - carebot_ai - INFO - RLSポリシーの設定を開始
+2025-07-28 21:41:25,986 - carebot_ai - INFO - RLS enabled for table: users
+2025-07-28 21:41:25,986 - carebot_ai - INFO - RLS enabled for table: journals
+2025-07-28 21:41:25,986 - carebot_ai - INFO - RLS enabled for table: moods
+2025-07-28 21:41:25,986 - carebot_ai - INFO - RLS enabled for table: usage_counts
+2025-07-28 21:41:25,986 - carebot_ai - INFO - ユーザーテーブルのポリシー設定完了
+2025-07-28 21:41:25,986 - carebot_ai - INFO - ジャーナルテーブルのポリシー設定完了
+2025-07-28 21:41:25,986 - carebot_ai - INFO - 気分記録テーブルのポリシー設定完了
+2025-07-28 21:41:25,986 - carebot_ai - INFO - 使用回数テーブルのポリシー設定完了
+2025-07-28 21:41:25,986 - carebot_ai - INFO - RLSポリシーの設定が完了しました
+2025-07-28 21:41:25,986 - carebot_ai - INFO - テーブル users のポリシー検証: 設定済み
+2025-07-28 21:41:25,986 - carebot_ai - INFO - テーブル journals のポリシー検証: 設定済み
+2025-07-28 21:41:25,986 - carebot_ai - INFO - テーブル moods のポリシー検証: 設定済み
+2025-07-28 21:41:25,986 - carebot_ai - INFO - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-28 21:41:25,986 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:41:25,986 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:41:25,986 - carebot_ai - INFO - CareBot AI アプリケーションが正常に起動しました
+2025-07-28 21:41:31,948 - carebot_ai - INFO - CareBot AI アプリケーションを終了中...
+2025-07-28 21:41:32,049 - carebot_ai - INFO - CareBot AI アプリケーションを終了中...
+2025-07-28 21:45:05,705 - carebot_ai - INFO - CareBot AI アプリケーションを起動中...
+2025-07-28 21:45:05,705 - carebot_ai - INFO - RLSポリシーを設定中...
+2025-07-28 21:45:05,705 - carebot_ai - INFO - RLSポリシーの設定を開始
+2025-07-28 21:45:05,705 - carebot_ai - INFO - RLS enabled for table: users
+2025-07-28 21:45:05,705 - carebot_ai - INFO - RLS enabled for table: journals
+2025-07-28 21:45:05,705 - carebot_ai - INFO - RLS enabled for table: moods
+2025-07-28 21:45:05,705 - carebot_ai - INFO - RLS enabled for table: usage_counts
+2025-07-28 21:45:05,705 - carebot_ai - INFO - ユーザーテーブルのポリシー設定完了
+2025-07-28 21:45:05,705 - carebot_ai - INFO - ジャーナルテーブルのポリシー設定完了
+2025-07-28 21:45:05,706 - carebot_ai - INFO - 気分記録テーブルのポリシー設定完了
+2025-07-28 21:45:05,706 - carebot_ai - INFO - 使用回数テーブルのポリシー設定完了
+2025-07-28 21:45:05,706 - carebot_ai - INFO - RLSポリシーの設定が完了しました
+2025-07-28 21:45:05,706 - carebot_ai - INFO - テーブル users のポリシー検証: 設定済み
+2025-07-28 21:45:05,706 - carebot_ai - INFO - テーブル journals のポリシー検証: 設定済み
+2025-07-28 21:45:05,706 - carebot_ai - INFO - テーブル moods のポリシー検証: 設定済み
+2025-07-28 21:45:05,706 - carebot_ai - INFO - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-28 21:45:05,706 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:45:05,706 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:45:05,706 - carebot_ai - INFO - CareBot AI アプリケーションが正常に起動しました
+2025-07-28 21:45:05,776 - carebot_ai - INFO - CareBot AI アプリケーションを起動中...
+2025-07-28 21:45:05,777 - carebot_ai - INFO - RLSポリシーを設定中...
+2025-07-28 21:45:05,777 - carebot_ai - INFO - RLSポリシーの設定を開始
+2025-07-28 21:45:05,777 - carebot_ai - INFO - RLS enabled for table: users
+2025-07-28 21:45:05,777 - carebot_ai - INFO - RLS enabled for table: journals
+2025-07-28 21:45:05,777 - carebot_ai - INFO - RLS enabled for table: moods
+2025-07-28 21:45:05,777 - carebot_ai - INFO - RLS enabled for table: usage_counts
+2025-07-28 21:45:05,777 - carebot_ai - INFO - ユーザーテーブルのポリシー設定完了
+2025-07-28 21:45:05,777 - carebot_ai - INFO - ジャーナルテーブルのポリシー設定完了
+2025-07-28 21:45:05,777 - carebot_ai - INFO - 気分記録テーブルのポリシー設定完了
+2025-07-28 21:45:05,778 - carebot_ai - INFO - 使用回数テーブルのポリシー設定完了
+2025-07-28 21:45:05,778 - carebot_ai - INFO - RLSポリシーの設定が完了しました
+2025-07-28 21:45:05,778 - carebot_ai - INFO - テーブル users のポリシー検証: 設定済み
+2025-07-28 21:45:05,778 - carebot_ai - INFO - テーブル journals のポリシー検証: 設定済み
+2025-07-28 21:45:05,778 - carebot_ai - INFO - テーブル moods のポリシー検証: 設定済み
+2025-07-28 21:45:05,778 - carebot_ai - INFO - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-28 21:45:05,778 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:45:05,778 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:45:05,778 - carebot_ai - INFO - CareBot AI アプリケーションが正常に起動しました
+2025-07-28 21:45:13,595 - carebot_ai - INFO - CareBot AI アプリケーションを終了中...
+2025-07-28 21:45:13,694 - carebot_ai - INFO - CareBot AI アプリケーションを終了中...
+2025-07-28 21:45:15,551 - carebot_ai - INFO - CareBot AI アプリケーションを起動中...
+2025-07-28 21:45:15,551 - carebot_ai - INFO - RLSポリシーを設定中...
+2025-07-28 21:45:15,551 - carebot_ai - INFO - RLSポリシーの設定を開始
+2025-07-28 21:45:15,551 - carebot_ai - INFO - RLS enabled for table: users
+2025-07-28 21:45:15,551 - carebot_ai - INFO - RLS enabled for table: journals
+2025-07-28 21:45:15,551 - carebot_ai - INFO - RLS enabled for table: moods
+2025-07-28 21:45:15,551 - carebot_ai - INFO - RLS enabled for table: usage_counts
+2025-07-28 21:45:15,551 - carebot_ai - INFO - ユーザーテーブルのポリシー設定完了
+2025-07-28 21:45:15,551 - carebot_ai - INFO - ジャーナルテーブルのポリシー設定完了
+2025-07-28 21:45:15,551 - carebot_ai - INFO - 気分記録テーブルのポリシー設定完了
+2025-07-28 21:45:15,551 - carebot_ai - INFO - 使用回数テーブルのポリシー設定完了
+2025-07-28 21:45:15,552 - carebot_ai - INFO - RLSポリシーの設定が完了しました
+2025-07-28 21:45:15,552 - carebot_ai - INFO - テーブル users のポリシー検証: 設定済み
+2025-07-28 21:45:15,552 - carebot_ai - INFO - テーブル journals のポリシー検証: 設定済み
+2025-07-28 21:45:15,552 - carebot_ai - INFO - テーブル moods のポリシー検証: 設定済み
+2025-07-28 21:45:15,552 - carebot_ai - INFO - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-28 21:45:15,552 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:45:15,552 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:45:15,552 - carebot_ai - INFO - CareBot AI アプリケーションが正常に起動しました
+2025-07-28 21:45:15,626 - carebot_ai - INFO - CareBot AI アプリケーションを起動中...
+2025-07-28 21:45:15,626 - carebot_ai - INFO - RLSポリシーを設定中...
+2025-07-28 21:45:15,626 - carebot_ai - INFO - RLSポリシーの設定を開始
+2025-07-28 21:45:15,626 - carebot_ai - INFO - RLS enabled for table: users
+2025-07-28 21:45:15,626 - carebot_ai - INFO - RLS enabled for table: journals
+2025-07-28 21:45:15,626 - carebot_ai - INFO - RLS enabled for table: moods
+2025-07-28 21:45:15,626 - carebot_ai - INFO - RLS enabled for table: usage_counts
+2025-07-28 21:45:15,626 - carebot_ai - INFO - ユーザーテーブルのポリシー設定完了
+2025-07-28 21:45:15,626 - carebot_ai - INFO - ジャーナルテーブルのポリシー設定完了
+2025-07-28 21:45:15,626 - carebot_ai - INFO - 気分記録テーブルのポリシー設定完了
+2025-07-28 21:45:15,626 - carebot_ai - INFO - 使用回数テーブルのポリシー設定完了
+2025-07-28 21:45:15,626 - carebot_ai - INFO - RLSポリシーの設定が完了しました
+2025-07-28 21:45:15,626 - carebot_ai - INFO - テーブル users のポリシー検証: 設定済み
+2025-07-28 21:45:15,627 - carebot_ai - INFO - テーブル journals のポリシー検証: 設定済み
+2025-07-28 21:45:15,627 - carebot_ai - INFO - テーブル moods のポリシー検証: 設定済み
+2025-07-28 21:45:15,627 - carebot_ai - INFO - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-28 21:45:15,627 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:45:15,627 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:45:15,627 - carebot_ai - INFO - CareBot AI アプリケーションが正常に起動しました
+2025-07-28 21:45:41,530 - carebot_ai - INFO - リクエスト開始: GET /docs
+2025-07-28 21:45:41,531 - carebot_ai - INFO - リクエスト完了: GET /docs - ステータス: 200
+2025-07-28 21:45:41,733 - carebot_ai - INFO - リクエスト開始: GET /openapi.json
+2025-07-28 21:45:41,781 - carebot_ai - INFO - リクエスト完了: GET /openapi.json - ステータス: 200
+2025-07-28 21:45:52,722 - carebot_ai - INFO - リクエスト開始: POST /api/auth/login
+2025-07-28 21:45:52,749 - carebot_ai - INFO - API Request: POST /api/auth/login - {"method": "POST", "path": "/api/auth/login", "user_id": null, "status_code": 200, "timestamp": "2025-07-28T21:45:52.749477"}
+2025-07-28 21:45:54,243 - carebot_ai - ERROR - API Error: POST /api/auth/login - Error: メールアドレスまたはパスワードが正しくありません - {"method": "POST", "path": "/api/auth/login", "user_id": null, "error_type": "AuthenticationError", "timestamp": "2025-07-28T21:45:54.243073"}
+2025-07-28 21:45:54,243 - carebot_ai - INFO - リクエスト完了: POST /api/auth/login - ステータス: 401
+2025-07-28 21:46:26,139 - carebot_ai - INFO - CareBot AI アプリケーションを終了中...
+2025-07-28 21:46:26,151 - carebot_ai - INFO - CareBot AI アプリケーションを終了中...
+2025-07-28 21:46:28,278 - carebot_ai - INFO - CareBot AI アプリケーションを起動中...
+2025-07-28 21:46:28,278 - carebot_ai - INFO - RLSポリシーを設定中...
+2025-07-28 21:46:28,278 - carebot_ai - INFO - RLSポリシーの設定を開始
+2025-07-28 21:46:28,279 - carebot_ai - INFO - RLS enabled for table: users
+2025-07-28 21:46:28,279 - carebot_ai - INFO - RLS enabled for table: journals
+2025-07-28 21:46:28,279 - carebot_ai - INFO - RLS enabled for table: moods
+2025-07-28 21:46:28,279 - carebot_ai - INFO - RLS enabled for table: usage_counts
+2025-07-28 21:46:28,279 - carebot_ai - INFO - ユーザーテーブルのポリシー設定完了
+2025-07-28 21:46:28,279 - carebot_ai - INFO - ジャーナルテーブルのポリシー設定完了
+2025-07-28 21:46:28,279 - carebot_ai - INFO - 気分記録テーブルのポリシー設定完了
+2025-07-28 21:46:28,279 - carebot_ai - INFO - 使用回数テーブルのポリシー設定完了
+2025-07-28 21:46:28,279 - carebot_ai - INFO - RLSポリシーの設定が完了しました
+2025-07-28 21:46:28,279 - carebot_ai - INFO - テーブル users のポリシー検証: 設定済み
+2025-07-28 21:46:28,279 - carebot_ai - INFO - テーブル journals のポリシー検証: 設定済み
+2025-07-28 21:46:28,279 - carebot_ai - INFO - テーブル moods のポリシー検証: 設定済み
+2025-07-28 21:46:28,279 - carebot_ai - INFO - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-28 21:46:28,279 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:46:28,280 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:46:28,280 - carebot_ai - INFO - CareBot AI アプリケーションが正常に起動しました
+2025-07-28 21:46:28,321 - carebot_ai - INFO - CareBot AI アプリケーションを起動中...
+2025-07-28 21:46:28,322 - carebot_ai - INFO - RLSポリシーを設定中...
+2025-07-28 21:46:28,322 - carebot_ai - INFO - RLSポリシーの設定を開始
+2025-07-28 21:46:28,322 - carebot_ai - INFO - RLS enabled for table: users
+2025-07-28 21:46:28,322 - carebot_ai - INFO - RLS enabled for table: journals
+2025-07-28 21:46:28,322 - carebot_ai - INFO - RLS enabled for table: moods
+2025-07-28 21:46:28,322 - carebot_ai - INFO - RLS enabled for table: usage_counts
+2025-07-28 21:46:28,322 - carebot_ai - INFO - ユーザーテーブルのポリシー設定完了
+2025-07-28 21:46:28,322 - carebot_ai - INFO - ジャーナルテーブルのポリシー設定完了
+2025-07-28 21:46:28,322 - carebot_ai - INFO - 気分記録テーブルのポリシー設定完了
+2025-07-28 21:46:28,322 - carebot_ai - INFO - 使用回数テーブルのポリシー設定完了
+2025-07-28 21:46:28,322 - carebot_ai - INFO - RLSポリシーの設定が完了しました
+2025-07-28 21:46:28,322 - carebot_ai - INFO - テーブル users のポリシー検証: 設定済み
+2025-07-28 21:46:28,322 - carebot_ai - INFO - テーブル journals のポリシー検証: 設定済み
+2025-07-28 21:46:28,322 - carebot_ai - INFO - テーブル moods のポリシー検証: 設定済み
+2025-07-28 21:46:28,322 - carebot_ai - INFO - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-28 21:46:28,322 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:46:28,322 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:46:28,322 - carebot_ai - INFO - CareBot AI アプリケーションが正常に起動しました
+2025-07-28 21:46:34,208 - carebot_ai - INFO - CareBot AI アプリケーションを終了中...
+2025-07-28 21:46:34,409 - carebot_ai - INFO - CareBot AI アプリケーションを終了中...
+2025-07-28 21:46:35,805 - carebot_ai - INFO - CareBot AI アプリケーションを起動中...
+2025-07-28 21:46:35,806 - carebot_ai - INFO - RLSポリシーを設定中...
+2025-07-28 21:46:35,806 - carebot_ai - INFO - RLSポリシーの設定を開始
+2025-07-28 21:46:35,806 - carebot_ai - INFO - RLS enabled for table: users
+2025-07-28 21:46:35,806 - carebot_ai - INFO - RLS enabled for table: journals
+2025-07-28 21:46:35,806 - carebot_ai - INFO - RLS enabled for table: moods
+2025-07-28 21:46:35,806 - carebot_ai - INFO - RLS enabled for table: usage_counts
+2025-07-28 21:46:35,806 - carebot_ai - INFO - ユーザーテーブルのポリシー設定完了
+2025-07-28 21:46:35,806 - carebot_ai - INFO - ジャーナルテーブルのポリシー設定完了
+2025-07-28 21:46:35,806 - carebot_ai - INFO - 気分記録テーブルのポリシー設定完了
+2025-07-28 21:46:35,806 - carebot_ai - INFO - 使用回数テーブルのポリシー設定完了
+2025-07-28 21:46:35,806 - carebot_ai - INFO - RLSポリシーの設定が完了しました
+2025-07-28 21:46:35,806 - carebot_ai - INFO - テーブル users のポリシー検証: 設定済み
+2025-07-28 21:46:35,806 - carebot_ai - INFO - テーブル journals のポリシー検証: 設定済み
+2025-07-28 21:46:35,806 - carebot_ai - INFO - テーブル moods のポリシー検証: 設定済み
+2025-07-28 21:46:35,806 - carebot_ai - INFO - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-28 21:46:35,806 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:46:35,806 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:46:35,806 - carebot_ai - INFO - CareBot AI アプリケーションが正常に起動しました
+2025-07-28 21:46:35,956 - carebot_ai - INFO - CareBot AI アプリケーションを起動中...
+2025-07-28 21:46:35,956 - carebot_ai - INFO - RLSポリシーを設定中...
+2025-07-28 21:46:35,956 - carebot_ai - INFO - RLSポリシーの設定を開始
+2025-07-28 21:46:35,956 - carebot_ai - INFO - RLS enabled for table: users
+2025-07-28 21:46:35,956 - carebot_ai - INFO - RLS enabled for table: journals
+2025-07-28 21:46:35,957 - carebot_ai - INFO - RLS enabled for table: moods
+2025-07-28 21:46:35,957 - carebot_ai - INFO - RLS enabled for table: usage_counts
+2025-07-28 21:46:35,957 - carebot_ai - INFO - ユーザーテーブルのポリシー設定完了
+2025-07-28 21:46:35,957 - carebot_ai - INFO - ジャーナルテーブルのポリシー設定完了
+2025-07-28 21:46:35,957 - carebot_ai - INFO - 気分記録テーブルのポリシー設定完了
+2025-07-28 21:46:35,957 - carebot_ai - INFO - 使用回数テーブルのポリシー設定完了
+2025-07-28 21:46:35,957 - carebot_ai - INFO - RLSポリシーの設定が完了しました
+2025-07-28 21:46:35,957 - carebot_ai - INFO - テーブル users のポリシー検証: 設定済み
+2025-07-28 21:46:35,957 - carebot_ai - INFO - テーブル journals のポリシー検証: 設定済み
+2025-07-28 21:46:35,957 - carebot_ai - INFO - テーブル moods のポリシー検証: 設定済み
+2025-07-28 21:46:35,957 - carebot_ai - INFO - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-28 21:46:35,957 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:46:35,957 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:46:35,957 - carebot_ai - INFO - CareBot AI アプリケーションが正常に起動しました
+2025-07-28 21:46:49,954 - carebot_ai - INFO - リクエスト開始: POST /api/auth/login
+2025-07-28 21:46:49,969 - carebot_ai - INFO - API Request: POST /api/auth/login - {"method": "POST", "path": "/api/auth/login", "user_id": null, "status_code": 200, "timestamp": "2025-07-28T21:46:49.969031"}
+2025-07-28 21:46:50,236 - carebot_ai - ERROR - API Error: POST /api/auth/login - Error: メールアドレスまたはパスワードが正しくありません - {"method": "POST", "path": "/api/auth/login", "user_id": null, "error_type": "AuthenticationError", "timestamp": "2025-07-28T21:46:50.236405"}
+2025-07-28 21:46:50,236 - carebot_ai - INFO - リクエスト完了: POST /api/auth/login - ステータス: 401
+2025-07-28 21:47:02,313 - carebot_ai - INFO - CareBot AI アプリケーションを終了中...
+2025-07-28 21:47:02,715 - carebot_ai - INFO - CareBot AI アプリケーションを終了中...
+2025-07-28 21:47:04,967 - carebot_ai - INFO - CareBot AI アプリケーションを起動中...
+2025-07-28 21:47:04,967 - carebot_ai - INFO - RLSポリシーを設定中...
+2025-07-28 21:47:04,967 - carebot_ai - INFO - RLSポリシーの設定を開始
+2025-07-28 21:47:04,967 - carebot_ai - INFO - RLS enabled for table: users
+2025-07-28 21:47:04,967 - carebot_ai - INFO - RLS enabled for table: journals
+2025-07-28 21:47:04,967 - carebot_ai - INFO - RLS enabled for table: moods
+2025-07-28 21:47:04,967 - carebot_ai - INFO - RLS enabled for table: usage_counts
+2025-07-28 21:47:04,967 - carebot_ai - INFO - ユーザーテーブルのポリシー設定完了
+2025-07-28 21:47:04,967 - carebot_ai - INFO - ジャーナルテーブルのポリシー設定完了
+2025-07-28 21:47:04,967 - carebot_ai - INFO - 気分記録テーブルのポリシー設定完了
+2025-07-28 21:47:04,967 - carebot_ai - INFO - 使用回数テーブルのポリシー設定完了
+2025-07-28 21:47:04,967 - carebot_ai - INFO - RLSポリシーの設定が完了しました
+2025-07-28 21:47:04,967 - carebot_ai - INFO - テーブル users のポリシー検証: 設定済み
+2025-07-28 21:47:04,968 - carebot_ai - INFO - テーブル journals のポリシー検証: 設定済み
+2025-07-28 21:47:04,968 - carebot_ai - INFO - テーブル moods のポリシー検証: 設定済み
+2025-07-28 21:47:04,968 - carebot_ai - INFO - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-28 21:47:04,968 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:47:04,968 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:47:04,968 - carebot_ai - INFO - CareBot AI アプリケーションが正常に起動しました
+2025-07-28 21:47:05,153 - carebot_ai - INFO - CareBot AI アプリケーションを起動中...
+2025-07-28 21:47:05,154 - carebot_ai - INFO - RLSポリシーを設定中...
+2025-07-28 21:47:05,154 - carebot_ai - INFO - RLSポリシーの設定を開始
+2025-07-28 21:47:05,154 - carebot_ai - INFO - RLS enabled for table: users
+2025-07-28 21:47:05,154 - carebot_ai - INFO - RLS enabled for table: journals
+2025-07-28 21:47:05,154 - carebot_ai - INFO - RLS enabled for table: moods
+2025-07-28 21:47:05,154 - carebot_ai - INFO - RLS enabled for table: usage_counts
+2025-07-28 21:47:05,154 - carebot_ai - INFO - ユーザーテーブルのポリシー設定完了
+2025-07-28 21:47:05,154 - carebot_ai - INFO - ジャーナルテーブルのポリシー設定完了
+2025-07-28 21:47:05,154 - carebot_ai - INFO - 気分記録テーブルのポリシー設定完了
+2025-07-28 21:47:05,154 - carebot_ai - INFO - 使用回数テーブルのポリシー設定完了
+2025-07-28 21:47:05,154 - carebot_ai - INFO - RLSポリシーの設定が完了しました
+2025-07-28 21:47:05,154 - carebot_ai - INFO - テーブル users のポリシー検証: 設定済み
+2025-07-28 21:47:05,154 - carebot_ai - INFO - テーブル journals のポリシー検証: 設定済み
+2025-07-28 21:47:05,154 - carebot_ai - INFO - テーブル moods のポリシー検証: 設定済み
+2025-07-28 21:47:05,154 - carebot_ai - INFO - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-28 21:47:05,154 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:47:05,154 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:47:05,154 - carebot_ai - INFO - CareBot AI アプリケーションが正常に起動しました
+2025-07-28 21:47:06,003 - carebot_ai - INFO - CareBot AI アプリケーションを起動中...
+2025-07-28 21:47:06,003 - carebot_ai - INFO - RLSポリシーを設定中...
+2025-07-28 21:47:06,003 - carebot_ai - INFO - RLSポリシーの設定を開始
+2025-07-28 21:47:06,003 - carebot_ai - INFO - RLS enabled for table: users
+2025-07-28 21:47:06,003 - carebot_ai - INFO - RLS enabled for table: journals
+2025-07-28 21:47:06,003 - carebot_ai - INFO - RLS enabled for table: moods
+2025-07-28 21:47:06,003 - carebot_ai - INFO - RLS enabled for table: usage_counts
+2025-07-28 21:47:06,003 - carebot_ai - INFO - ユーザーテーブルのポリシー設定完了
+2025-07-28 21:47:06,003 - carebot_ai - INFO - ジャーナルテーブルのポリシー設定完了
+2025-07-28 21:47:06,003 - carebot_ai - INFO - 気分記録テーブルのポリシー設定完了
+2025-07-28 21:47:06,003 - carebot_ai - INFO - 使用回数テーブルのポリシー設定完了
+2025-07-28 21:47:06,003 - carebot_ai - INFO - RLSポリシーの設定が完了しました
+2025-07-28 21:47:06,004 - carebot_ai - INFO - テーブル users のポリシー検証: 設定済み
+2025-07-28 21:47:06,004 - carebot_ai - INFO - テーブル journals のポリシー検証: 設定済み
+2025-07-28 21:47:06,004 - carebot_ai - INFO - テーブル moods のポリシー検証: 設定済み
+2025-07-28 21:47:06,004 - carebot_ai - INFO - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-28 21:47:06,004 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:47:06,004 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:47:06,004 - carebot_ai - INFO - CareBot AI アプリケーションが正常に起動しました
+2025-07-28 21:47:14,102 - carebot_ai - INFO - リクエスト開始: POST /api/auth/login
+2025-07-28 21:47:14,111 - carebot_ai - INFO - API Request: POST /api/auth/login - {"method": "POST", "path": "/api/auth/login", "user_id": null, "status_code": 200, "timestamp": "2025-07-28T21:47:14.111046"}
+2025-07-28 21:47:14,311 - carebot_ai - ERROR - API Error: POST /api/auth/login - Error: メールアドレスまたはパスワードが正しくありません - {"method": "POST", "path": "/api/auth/login", "user_id": null, "error_type": "AuthenticationError", "timestamp": "2025-07-28T21:47:14.311010"}
+2025-07-28 21:47:14,311 - carebot_ai - INFO - リクエスト完了: POST /api/auth/login - ステータス: 401
+2025-07-28 21:47:21,221 - carebot_ai - INFO - リクエスト開始: POST /api/auth/login
+2025-07-28 21:47:21,222 - carebot_ai - INFO - API Request: POST /api/auth/login - {"method": "POST", "path": "/api/auth/login", "user_id": null, "status_code": 200, "timestamp": "2025-07-28T21:47:21.222006"}
+2025-07-28 21:47:21,765 - carebot_ai - ERROR - API Error: POST /api/auth/login - Error: メールアドレスまたはパスワードが正しくありません - {"method": "POST", "path": "/api/auth/login", "user_id": null, "error_type": "AuthenticationError", "timestamp": "2025-07-28T21:47:21.765482"}
+2025-07-28 21:47:21,765 - carebot_ai - INFO - リクエスト完了: POST /api/auth/login - ステータス: 401
+2025-07-28 21:47:33,302 - carebot_ai - INFO - リクエスト開始: POST /api/auth/login
+2025-07-28 21:47:33,303 - carebot_ai - INFO - API Request: POST /api/auth/login - {"method": "POST", "path": "/api/auth/login", "user_id": null, "status_code": 200, "timestamp": "2025-07-28T21:47:33.303472"}
+2025-07-28 21:47:33,510 - carebot_ai - ERROR - API Error: POST /api/auth/login - Error: メールアドレスまたはパスワードが正しくありません - {"method": "POST", "path": "/api/auth/login", "user_id": null, "error_type": "AuthenticationError", "timestamp": "2025-07-28T21:47:33.510205"}
+2025-07-28 21:47:33,510 - carebot_ai - INFO - リクエスト完了: POST /api/auth/login - ステータス: 401
+2025-07-28 21:48:09,986 - carebot_ai - INFO - CareBot AI アプリケーションを終了中...
+2025-07-28 21:48:12,677 - carebot_ai - INFO - CareBot AI アプリケーションを起動中...
+2025-07-28 21:48:12,678 - carebot_ai - INFO - RLSポリシーを設定中...
+2025-07-28 21:48:12,678 - carebot_ai - INFO - RLSポリシーの設定を開始
+2025-07-28 21:48:12,678 - carebot_ai - INFO - RLS enabled for table: users
+2025-07-28 21:48:12,678 - carebot_ai - INFO - RLS enabled for table: journals
+2025-07-28 21:48:12,678 - carebot_ai - INFO - RLS enabled for table: moods
+2025-07-28 21:48:12,678 - carebot_ai - INFO - RLS enabled for table: usage_counts
+2025-07-28 21:48:12,679 - carebot_ai - INFO - ユーザーテーブルのポリシー設定完了
+2025-07-28 21:48:12,680 - carebot_ai - INFO - ジャーナルテーブルのポリシー設定完了
+2025-07-28 21:48:12,680 - carebot_ai - INFO - 気分記録テーブルのポリシー設定完了
+2025-07-28 21:48:12,680 - carebot_ai - INFO - 使用回数テーブルのポリシー設定完了
+2025-07-28 21:48:12,680 - carebot_ai - INFO - RLSポリシーの設定が完了しました
+2025-07-28 21:48:12,680 - carebot_ai - INFO - テーブル users のポリシー検証: 設定済み
+2025-07-28 21:48:12,680 - carebot_ai - INFO - テーブル journals のポリシー検証: 設定済み
+2025-07-28 21:48:12,680 - carebot_ai - INFO - テーブル moods のポリシー検証: 設定済み
+2025-07-28 21:48:12,680 - carebot_ai - INFO - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-28 21:48:12,680 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:48:12,680 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:48:12,680 - carebot_ai - INFO - CareBot AI アプリケーションが正常に起動しました
+2025-07-28 21:49:13,581 - carebot_ai - INFO - リクエスト開始: POST /api/auth/login
+2025-07-28 21:49:13,603 - carebot_ai - INFO - API Request: POST /api/auth/login - {"method": "POST", "path": "/api/auth/login", "user_id": null, "status_code": 200, "timestamp": "2025-07-28T21:49:13.603233"}
+2025-07-28 21:49:14,188 - carebot_ai - ERROR - API Error: POST /api/auth/login - Error: メールアドレスまたはパスワードが正しくありません - {"method": "POST", "path": "/api/auth/login", "user_id": null, "error_type": "AuthenticationError", "timestamp": "2025-07-28T21:49:14.188140"}
+2025-07-28 21:49:14,188 - carebot_ai - INFO - リクエスト完了: POST /api/auth/login - ステータス: 401
+2025-07-28 21:51:25,697 - carebot_ai - INFO - CareBot AI アプリケーションを終了中...
+2025-07-28 21:51:25,701 - carebot_ai - INFO - CareBot AI アプリケーションを終了中...
+2025-07-28 21:51:29,407 - carebot_ai - INFO - CareBot AI アプリケーションを起動中...
+2025-07-28 21:51:29,407 - carebot_ai - INFO - RLSポリシーを設定中...
+2025-07-28 21:51:29,408 - carebot_ai - INFO - RLSポリシーの設定を開始
+2025-07-28 21:51:29,408 - carebot_ai - INFO - RLS enabled for table: users
+2025-07-28 21:51:29,408 - carebot_ai - INFO - RLS enabled for table: journals
+2025-07-28 21:51:29,408 - carebot_ai - INFO - RLS enabled for table: moods
+2025-07-28 21:51:29,408 - carebot_ai - INFO - RLS enabled for table: usage_counts
+2025-07-28 21:51:29,408 - carebot_ai - INFO - ユーザーテーブルのポリシー設定完了
+2025-07-28 21:51:29,408 - carebot_ai - INFO - ジャーナルテーブルのポリシー設定完了
+2025-07-28 21:51:29,408 - carebot_ai - INFO - 気分記録テーブルのポリシー設定完了
+2025-07-28 21:51:29,408 - carebot_ai - INFO - 使用回数テーブルのポリシー設定完了
+2025-07-28 21:51:29,409 - carebot_ai - INFO - RLSポリシーの設定が完了しました
+2025-07-28 21:51:29,409 - carebot_ai - INFO - テーブル users のポリシー検証: 設定済み
+2025-07-28 21:51:29,409 - carebot_ai - INFO - テーブル journals のポリシー検証: 設定済み
+2025-07-28 21:51:29,409 - carebot_ai - INFO - テーブル moods のポリシー検証: 設定済み
+2025-07-28 21:51:29,409 - carebot_ai - INFO - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-28 21:51:29,409 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:51:29,409 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:51:29,409 - carebot_ai - INFO - CareBot AI アプリケーションが正常に起動しました
+2025-07-28 21:51:29,481 - carebot_ai - INFO - CareBot AI アプリケーションを起動中...
+2025-07-28 21:51:29,481 - carebot_ai - INFO - RLSポリシーを設定中...
+2025-07-28 21:51:29,481 - carebot_ai - INFO - RLSポリシーの設定を開始
+2025-07-28 21:51:29,482 - carebot_ai - INFO - RLS enabled for table: users
+2025-07-28 21:51:29,482 - carebot_ai - INFO - RLS enabled for table: journals
+2025-07-28 21:51:29,482 - carebot_ai - INFO - RLS enabled for table: moods
+2025-07-28 21:51:29,482 - carebot_ai - INFO - RLS enabled for table: usage_counts
+2025-07-28 21:51:29,482 - carebot_ai - INFO - ユーザーテーブルのポリシー設定完了
+2025-07-28 21:51:29,482 - carebot_ai - INFO - ジャーナルテーブルのポリシー設定完了
+2025-07-28 21:51:29,482 - carebot_ai - INFO - 気分記録テーブルのポリシー設定完了
+2025-07-28 21:51:29,483 - carebot_ai - INFO - 使用回数テーブルのポリシー設定完了
+2025-07-28 21:51:29,483 - carebot_ai - INFO - RLSポリシーの設定が完了しました
+2025-07-28 21:51:29,483 - carebot_ai - INFO - テーブル users のポリシー検証: 設定済み
+2025-07-28 21:51:29,483 - carebot_ai - INFO - テーブル journals のポリシー検証: 設定済み
+2025-07-28 21:51:29,483 - carebot_ai - INFO - テーブル moods のポリシー検証: 設定済み
+2025-07-28 21:51:29,483 - carebot_ai - INFO - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-28 21:51:29,483 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:51:29,483 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:51:29,483 - carebot_ai - INFO - CareBot AI アプリケーションが正常に起動しました
+2025-07-28 21:51:41,753 - carebot_ai - INFO - リクエスト開始: POST /api/auth/login
+2025-07-28 21:51:41,775 - carebot_ai - INFO - API Request: POST /api/auth/login - {"method": "POST", "path": "/api/auth/login", "user_id": null, "status_code": 200, "timestamp": "2025-07-28T21:51:41.775458"}
+2025-07-28 21:51:41,790 - carebot_ai - INFO - User Action: user_login - {"user_id": 1, "action": "user_login", "details": {"email": "user1@gmail.com"}, "timestamp": "2025-07-28T21:51:41.790281"}
+2025-07-28 21:51:41,791 - carebot_ai - INFO - リクエスト完了: POST /api/auth/login - ステータス: 200
+2025-07-28 21:51:58,965 - carebot_ai - INFO - CareBot AI アプリケーションを終了中...
+2025-07-28 21:51:59,010 - carebot_ai - INFO - CareBot AI アプリケーションを終了中...
+2025-07-28 21:52:01,582 - carebot_ai - INFO - CareBot AI アプリケーションを起動中...
+2025-07-28 21:52:01,583 - carebot_ai - INFO - RLSポリシーを設定中...
+2025-07-28 21:52:01,593 - carebot_ai - INFO - RLSポリシーの設定を開始
+2025-07-28 21:52:01,593 - carebot_ai - INFO - RLS enabled for table: users
+2025-07-28 21:52:01,596 - carebot_ai - INFO - RLS enabled for table: journals
+2025-07-28 21:52:01,600 - carebot_ai - INFO - RLS enabled for table: moods
+2025-07-28 21:52:01,600 - carebot_ai - INFO - RLS enabled for table: usage_counts
+2025-07-28 21:52:01,600 - carebot_ai - INFO - ユーザーテーブルのポリシー設定完了
+2025-07-28 21:52:01,600 - carebot_ai - INFO - ジャーナルテーブルのポリシー設定完了
+2025-07-28 21:52:01,600 - carebot_ai - INFO - 気分記録テーブルのポリシー設定完了
+2025-07-28 21:52:01,600 - carebot_ai - INFO - 使用回数テーブルのポリシー設定完了
+2025-07-28 21:52:01,601 - carebot_ai - INFO - RLSポリシーの設定が完了しました
+2025-07-28 21:52:01,601 - carebot_ai - INFO - テーブル users のポリシー検証: 設定済み
+2025-07-28 21:52:01,601 - carebot_ai - INFO - テーブル journals のポリシー検証: 設定済み
+2025-07-28 21:52:01,601 - carebot_ai - INFO - テーブル moods のポリシー検証: 設定済み
+2025-07-28 21:52:01,601 - carebot_ai - INFO - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-28 21:52:01,615 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:52:01,615 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:52:01,615 - carebot_ai - INFO - CareBot AI アプリケーションが正常に起動しました
+2025-07-28 21:52:01,745 - carebot_ai - INFO - CareBot AI アプリケーションを起動中...
+2025-07-28 21:52:01,746 - carebot_ai - INFO - RLSポリシーを設定中...
+2025-07-28 21:52:01,746 - carebot_ai - INFO - RLSポリシーの設定を開始
+2025-07-28 21:52:01,746 - carebot_ai - INFO - RLS enabled for table: users
+2025-07-28 21:52:01,746 - carebot_ai - INFO - RLS enabled for table: journals
+2025-07-28 21:52:01,746 - carebot_ai - INFO - RLS enabled for table: moods
+2025-07-28 21:52:01,746 - carebot_ai - INFO - RLS enabled for table: usage_counts
+2025-07-28 21:52:01,746 - carebot_ai - INFO - ユーザーテーブルのポリシー設定完了
+2025-07-28 21:52:01,746 - carebot_ai - INFO - ジャーナルテーブルのポリシー設定完了
+2025-07-28 21:52:01,746 - carebot_ai - INFO - 気分記録テーブルのポリシー設定完了
+2025-07-28 21:52:01,746 - carebot_ai - INFO - 使用回数テーブルのポリシー設定完了
+2025-07-28 21:52:01,746 - carebot_ai - INFO - RLSポリシーの設定が完了しました
+2025-07-28 21:52:01,746 - carebot_ai - INFO - テーブル users のポリシー検証: 設定済み
+2025-07-28 21:52:01,746 - carebot_ai - INFO - テーブル journals のポリシー検証: 設定済み
+2025-07-28 21:52:01,746 - carebot_ai - INFO - テーブル moods のポリシー検証: 設定済み
+2025-07-28 21:52:01,747 - carebot_ai - INFO - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-28 21:52:01,747 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:52:01,747 - carebot_ai - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-28 21:52:01,747 - carebot_ai - INFO - CareBot AI アプリケーションが正常に起動しました
+2025-07-28 21:53:38,150 - carebot_ai - INFO - リクエスト開始: OPTIONS /api/auth/login
+2025-07-28 21:53:38,155 - carebot_ai - INFO - リクエスト完了: OPTIONS /api/auth/login - ステータス: 200
+2025-07-28 21:53:38,159 - carebot_ai - INFO - リクエスト開始: POST /api/auth/login
+2025-07-28 21:53:38,170 - carebot_ai - INFO - API Request: POST /api/auth/login - {"method": "POST", "path": "/api/auth/login", "user_id": null, "status_code": 200, "timestamp": "2025-07-28T21:53:38.170615"}
+2025-07-28 21:53:38,806 - carebot_ai - ERROR - API Error: POST /api/auth/login - Error: メールアドレスまたはパスワードが正しくありません - {"method": "POST", "path": "/api/auth/login", "user_id": null, "error_type": "AuthenticationError", "timestamp": "2025-07-28T21:53:38.806086"}
+2025-07-28 21:53:38,806 - carebot_ai - INFO - リクエスト完了: POST /api/auth/login - ステータス: 401

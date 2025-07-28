@@ -2,7 +2,7 @@ from fastapi import Depends, HTTPException, status
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from jose import JWTError, jwt
 from datetime import datetime, timedelta
-from app.database.supabase_db import SupabaseDB
+import bcrypt
 
 # JWT設定
 SECRET_KEY = "your-secret-key-here"  # 本番環境では環境変数から取得
@@ -10,6 +10,16 @@ ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
 security = HTTPBearer()
+
+def hash_password(password: str) -> str:
+    """パスワードをハッシュ化"""
+    salt = bcrypt.gensalt()
+    hashed = bcrypt.hashpw(password.encode('utf-8'), salt)
+    return hashed.decode('utf-8')
+
+def verify_password(plain_password: str, hashed_password: str) -> bool:
+    """パスワードを検証"""
+    return bcrypt.checkpw(plain_password.encode('utf-8'), hashed_password.encode('utf-8'))
 
 def create_access_token(data: dict, expires_delta: timedelta = None):
     to_encode = data.copy()
@@ -41,6 +51,8 @@ def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(securit
             headers={"WWW-Authenticate": "Bearer"},
         )
     
+    # 循環インポートを避けるため、ここでSupabaseDBをインポート
+    from app.database.supabase_db import SupabaseDB
     user = SupabaseDB.get_user_by_id(int(user_id))
     if user is None:
         raise HTTPException(
