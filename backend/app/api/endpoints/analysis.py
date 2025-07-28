@@ -7,7 +7,7 @@ from app.utils.usage_limits import can_use_feature, increment_usage
 from app.utils.ai_analyzer import AIAnalyzer
 from app.database.supabase_db import SupabaseDB
 
-router = APIRouter()
+router = APIRouter(tags=["analysis"])
 
 @router.get("/", response_model=List[AnalysisResponse])
 def get_analyses(current_user: dict = Depends(get_current_user)):

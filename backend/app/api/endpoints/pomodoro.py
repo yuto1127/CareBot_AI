@@ -5,7 +5,7 @@ from app.utils.pomodoro_timer import PomodoroTimer
 from app.utils.usage_limits import can_use_feature, increment_usage
 from app.database.supabase_db import SupabaseDB
 
-router = APIRouter(prefix="/pomodoro", tags=["Pomodoro"])
+router = APIRouter(tags=["pomodoro"])
 
 # ポモドーロタイマーの初期化
 pomodoro_timer = PomodoroTimer()
@@ -152,7 +152,7 @@ def get_user_statistics(current_user: dict = Depends(get_current_user)):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"統計取得エラー: {str(e)}")
 
-@router.get("/history")
+@router.get("/pomodoro-history")
 def get_pomodoro_history(current_user: dict = Depends(get_current_user)):
     """ポモドーロ履歴を取得"""
     try:

@@ -6,7 +6,7 @@ from app.utils.usage_limits import can_use_feature, increment_usage
 from app.database.supabase_db import SupabaseDB
 import json
 
-router = APIRouter(prefix="/cbt", tags=["CBT"])
+router = APIRouter(tags=["cbt"])
 
 # CBTアナライザーの初期化（完全無料版）
 cbt_analyzer = CBTAnalyzer()
@@ -107,7 +107,7 @@ def end_cbt_session(
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"CBTセッション終了エラー: {str(e)}")
 
-@router.get("/sessions")
+@router.get("/cbt-sessions")
 def get_cbt_sessions(current_user: dict = Depends(get_current_user)):
     """ユーザーのCBTセッション履歴を取得"""
     try:

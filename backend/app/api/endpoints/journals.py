@@ -5,7 +5,7 @@ from app.utils.auth import get_current_user
 from app.utils.usage_limits import can_use_feature, increment_usage
 from app.database.supabase_db import SupabaseDB
 
-router = APIRouter()
+router = APIRouter(tags=["journals"])
 
 @router.get("/", response_model=List[JournalResponse])
 def get_journals(current_user: dict = Depends(get_current_user)):

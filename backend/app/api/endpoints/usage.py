@@ -4,7 +4,7 @@ from app.utils.auth import get_current_user
 from app.utils.usage_limits import can_use_feature, get_usage_limit
 from app.database.supabase_db import SupabaseDB
 
-router = APIRouter()
+router = APIRouter(tags=["usage"])
 
 @router.get("/status")
 def get_usage_status(current_user: dict = Depends(get_current_user)):

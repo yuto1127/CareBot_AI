@@ -5,7 +5,7 @@ from app.utils.meditation_guide import MeditationGuide
 from app.utils.usage_limits import can_use_feature, increment_usage
 from app.database.supabase_db import SupabaseDB
 
-router = APIRouter(prefix="/meditation", tags=["Meditation"])
+router = APIRouter(tags=["meditation"])
 
 # 瞑想ガイドの初期化
 meditation_guide = MeditationGuide()
@@ -51,7 +51,7 @@ def get_meditation_session(
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"瞑想セッション取得エラー: {str(e)}")
 
-@router.get("/recommendations")
+@router.get("/meditation-recommendations")
 def get_personalized_recommendations(
     context: Optional[str] = None,
     current_user: dict = Depends(get_current_user)
@@ -131,7 +131,7 @@ def complete_meditation_session(
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"セッション完了エラー: {str(e)}")
 
-@router.get("/history")
+@router.get("/meditation-history")
 def get_meditation_history(current_user: dict = Depends(get_current_user)):
     """瞑想履歴を取得"""
     try:

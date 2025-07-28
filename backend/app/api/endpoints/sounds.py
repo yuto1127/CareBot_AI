@@ -5,7 +5,7 @@ from app.utils.relaxation_sounds import RelaxationSounds
 from app.utils.usage_limits import can_use_feature, increment_usage
 from app.database.supabase_db import SupabaseDB
 
-router = APIRouter(prefix="/sounds", tags=["Sounds"])
+router = APIRouter(tags=["sounds"])
 
 # リラックスサウンドシステムの初期化
 relaxation_sounds = RelaxationSounds()
