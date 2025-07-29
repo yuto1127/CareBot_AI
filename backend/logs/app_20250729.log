@@ -167,3 +167,227 @@
 2025-07-29 09:15:45,567 - carebot - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
 2025-07-29 09:15:45,568 - carebot - INFO - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
 2025-07-29 09:15:45,568 - carebot - INFO - CareBot AI アプリケーションが正常に起動しました
+2025-07-29 09:16:00,479 - carebot - INFO - リクエスト開始: GET /docs
+2025-07-29 09:16:00,482 - carebot - INFO - リクエスト完了: GET /docs - ステータス: 200
+2025-07-29 09:16:00,687 - carebot - INFO - リクエスト開始: GET /openapi.json
+2025-07-29 09:16:00,760 - carebot - INFO - リクエスト完了: GET /openapi.json - ステータス: 200
+2025-07-29 09:16:24,492 - carebot - INFO - リクエスト開始: OPTIONS /api/auth/register
+2025-07-29 09:16:24,495 - carebot - INFO - リクエスト完了: OPTIONS /api/auth/register - ステータス: 400
+2025-07-29 09:17:06,587 - carebot - INFO - リクエスト開始: GET /health
+2025-07-29 09:17:06,594 - carebot - INFO - ヘルスチェック実行
+2025-07-29 09:17:06,599 - carebot - INFO - リクエスト完了: GET /health - ステータス: 200
+2025-07-29 09:17:12,369 - carebot - INFO - リクエスト開始: OPTIONS /api/auth/register
+2025-07-29 09:17:12,370 - carebot - INFO - リクエスト完了: OPTIONS /api/auth/register - ステータス: 400
+2025-07-29 09:18:03,026 - carebot - INFO - CareBot AI アプリケーションを終了中...
+2025-07-29 09:18:19,234 - carebot - INFO - info:45 - CareBot AI アプリケーションを起動中... (環境: development)
+2025-07-29 09:18:19,234 - carebot - INFO - info:45 - RLSポリシーを設定中...
+2025-07-29 09:18:19,234 - carebot - INFO - info:45 - RLSポリシーの設定を開始
+2025-07-29 09:18:19,235 - carebot - INFO - info:45 - RLS enabled for table: users
+2025-07-29 09:18:19,235 - carebot - INFO - info:45 - RLS enabled for table: journals
+2025-07-29 09:18:19,235 - carebot - INFO - info:45 - RLS enabled for table: moods
+2025-07-29 09:18:19,235 - carebot - INFO - info:45 - RLS enabled for table: usage_counts
+2025-07-29 09:18:19,235 - carebot - INFO - info:45 - ユーザーテーブルのポリシー設定完了
+2025-07-29 09:18:19,235 - carebot - INFO - info:45 - ジャーナルテーブルのポリシー設定完了
+2025-07-29 09:18:19,235 - carebot - INFO - info:45 - 気分記録テーブルのポリシー設定完了
+2025-07-29 09:18:19,235 - carebot - INFO - info:45 - 使用回数テーブルのポリシー設定完了
+2025-07-29 09:18:19,235 - carebot - INFO - info:45 - RLSポリシーの設定が完了しました
+2025-07-29 09:18:19,235 - carebot - INFO - info:45 - テーブル users のポリシー検証: 設定済み
+2025-07-29 09:18:19,235 - carebot - INFO - info:45 - テーブル journals のポリシー検証: 設定済み
+2025-07-29 09:18:19,235 - carebot - INFO - info:45 - テーブル moods のポリシー検証: 設定済み
+2025-07-29 09:18:19,235 - carebot - INFO - info:45 - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-29 09:18:19,235 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-29 09:18:19,235 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-29 09:18:19,235 - carebot - INFO - info:45 - CareBot AI アプリケーションが正常に起動しました
+2025-07-29 09:18:47,156 - carebot - INFO - info:45 - リクエスト開始: GET /docs
+2025-07-29 09:18:47,171 - carebot - INFO - info:45 - リクエスト完了: GET /docs - ステータス: 200
+2025-07-29 09:18:47,558 - carebot - INFO - info:45 - リクエスト開始: GET /openapi.json
+2025-07-29 09:18:47,776 - carebot - INFO - info:45 - リクエスト完了: GET /openapi.json - ステータス: 200
+2025-07-29 09:19:10,431 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/auth/login
+2025-07-29 09:19:10,438 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/auth/login - ステータス: 200
+2025-07-29 09:19:10,448 - carebot - INFO - info:45 - リクエスト開始: POST /api/auth/login
+2025-07-29 09:19:10,480 - carebot - INFO - info:45 - API Request | Context: {'method': 'POST', 'path': '/api/auth/login'}
+2025-07-29 09:19:10,481 - carebot - INFO - info:45 - === ユーザーログイン開始 ===
+2025-07-29 09:19:10,481 - carebot - INFO - info:45 - ログインメールアドレス: user1@gmail.com
+2025-07-29 09:19:10,481 - carebot - INFO - info:45 - 認証処理開始: user1@gmail.com
+2025-07-29 09:19:10,481 - app.database.supabase_db - INFO - authenticate_user:116 - 認証開始: user1@gmail.com
+2025-07-29 09:19:10,648 - app.database.supabase_db - ERROR - get_user_by_email:89 - ユーザー取得エラー: [Errno 8] nodename nor servname provided, or not known
+2025-07-29 09:19:10,649 - app.database.supabase_db - WARNING - authenticate_user:124 - ユーザーが見つかりません: user1@gmail.com
+2025-07-29 09:19:10,655 - carebot - WARNING - warning:54 - 認証失敗: user1@gmail.com
+2025-07-29 09:19:10,657 - carebot - ERROR - error:63 - ログイン認証エラー: メールアドレスまたはパスワードが正しくありません
+2025-07-29 09:19:10,658 - carebot - ERROR - error:63 - API Error | Context: {'method': 'POST', 'path': '/api/auth/login'} | Error: メールアドレスまたはパスワードが正しくありません
+Traceback (most recent call last):
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/api/endpoints/auth.py", line 127, in login
+    raise AuthenticationError("メールアドレスまたはパスワードが正しくありません")
+app.utils.error_handler.AuthenticationError: メールアドレスまたはパスワードが正しくありません
+2025-07-29 09:19:10,663 - carebot - INFO - info:45 - リクエスト完了: POST /api/auth/login - ステータス: 401
+2025-07-29 09:19:15,622 - carebot - INFO - info:45 - リクエスト開始: POST /api/auth/login
+2025-07-29 09:19:15,624 - carebot - INFO - info:45 - API Request | Context: {'method': 'POST', 'path': '/api/auth/login'}
+2025-07-29 09:19:15,626 - carebot - INFO - info:45 - === ユーザーログイン開始 ===
+2025-07-29 09:19:15,626 - carebot - INFO - info:45 - ログインメールアドレス: user1@gmail.com
+2025-07-29 09:19:15,639 - carebot - INFO - info:45 - 認証処理開始: user1@gmail.com
+2025-07-29 09:19:15,639 - app.database.supabase_db - INFO - authenticate_user:116 - 認証開始: user1@gmail.com
+2025-07-29 09:19:15,644 - app.database.supabase_db - ERROR - get_user_by_email:89 - ユーザー取得エラー: [Errno 8] nodename nor servname provided, or not known
+2025-07-29 09:19:15,644 - app.database.supabase_db - WARNING - authenticate_user:124 - ユーザーが見つかりません: user1@gmail.com
+2025-07-29 09:19:15,644 - carebot - WARNING - warning:54 - 認証失敗: user1@gmail.com
+2025-07-29 09:19:15,644 - carebot - ERROR - error:63 - ログイン認証エラー: メールアドレスまたはパスワードが正しくありません
+2025-07-29 09:19:15,644 - carebot - ERROR - error:63 - API Error | Context: {'method': 'POST', 'path': '/api/auth/login'} | Error: メールアドレスまたはパスワードが正しくありません
+Traceback (most recent call last):
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/api/endpoints/auth.py", line 127, in login
+    raise AuthenticationError("メールアドレスまたはパスワードが正しくありません")
+app.utils.error_handler.AuthenticationError: メールアドレスまたはパスワードが正しくありません
+2025-07-29 09:19:15,647 - carebot - INFO - info:45 - リクエスト完了: POST /api/auth/login - ステータス: 401
+2025-07-29 09:19:46,477 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/auth/register
+2025-07-29 09:19:46,480 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/auth/register - ステータス: 200
+2025-07-29 09:19:46,499 - carebot - INFO - info:45 - リクエスト開始: POST /api/auth/register
+2025-07-29 09:19:46,539 - carebot - INFO - info:45 - API Request | Context: {'method': 'POST', 'path': '/api/auth/register'}
+2025-07-29 09:19:46,540 - carebot - INFO - info:45 - === ユーザー登録開始 ===
+2025-07-29 09:19:46,540 - carebot - INFO - info:45 - 登録メールアドレス: user2@gmail.com
+2025-07-29 09:19:46,540 - carebot - INFO - info:45 - 登録ユーザー名: user2
+2025-07-29 09:19:46,545 - app.database.supabase_db - ERROR - get_user_by_email:89 - ユーザー取得エラー: [Errno 8] nodename nor servname provided, or not known
+2025-07-29 09:19:46,545 - carebot - INFO - info:45 - データベースにユーザー登録中: user2@gmail.com
+2025-07-29 09:19:46,545 - app.database.supabase_db - INFO - create_user:24 - === ユーザー作成開始 ===
+2025-07-29 09:19:46,545 - app.database.supabase_db - INFO - create_user:25 - メールアドレス: user2@gmail.com
+2025-07-29 09:19:46,545 - app.database.supabase_db - INFO - create_user:26 - ユーザー名: user2
+2025-07-29 09:19:46,952 - app.database.supabase_db - INFO - create_user:34 - パスワードハッシュ化完了
+2025-07-29 09:19:46,952 - app.database.supabase_db - INFO - create_user:44 - Supabaseに挿入するデータ: {'email': 'user2@gmail.com', 'password': '$2b$12$t44AcZtaQvT1z4pgpb2tMu4IYJuvdu/aSrBjCjqhnTKbKXd.6CQ8i', 'name': 'user2', 'plan_type': 'free'}
+2025-07-29 09:19:46,952 - app.database.supabase_db - INFO - create_user:48 - Supabaseテーブルに挿入中（service_role使用）...
+2025-07-29 09:19:46,954 - app.database.supabase_db - ERROR - create_user:69 - ユーザー作成エラー: [Errno 8] nodename nor servname provided, or not known
+2025-07-29 09:19:46,955 - carebot - ERROR - error:63 - ユーザー登録エラー | Context: {'email': 'user2@gmail.com'} | Error: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+        pool_request.request
+    )
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    raise exc
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpcore/_sync/connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpcore/_sync/connection.py", line 124, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpcore/_backends/sync.py", line 207, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.5/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/api/endpoints/auth.py", line 69, in register
+    user = SupabaseDB.create_user(user_data)
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/database/supabase_db.py", line 49, in create_user
+    response = supabase_admin.table('users').insert(insert_data).execute()
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/postgrest/_sync/request_builder.py", line 57, in execute
+    r = self.session.request(
+        self.http_method,
+    ...<3 lines>...
+        headers=self.headers,
+    )
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpx/_client.py", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+        request,
+    ...<2 lines>...
+        history=[],
+    )
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+        request,
+        follow_redirects=follow_redirects,
+        history=history,
+    )
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.5/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 8] nodename nor servname provided, or not known
+2025-07-29 09:19:46,963 - carebot - ERROR - error:63 - API Error | Context: {'method': 'POST', 'path': '/api/auth/register'} | Error: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+        pool_request.request
+    )
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    raise exc
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpcore/_sync/connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpcore/_sync/connection.py", line 124, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpcore/_backends/sync.py", line 207, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.5/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/api/endpoints/auth.py", line 69, in register
+    user = SupabaseDB.create_user(user_data)
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/database/supabase_db.py", line 49, in create_user
+    response = supabase_admin.table('users').insert(insert_data).execute()
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/postgrest/_sync/request_builder.py", line 57, in execute
+    r = self.session.request(
+        self.http_method,
+    ...<3 lines>...
+        headers=self.headers,
+    )
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpx/_client.py", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+        request,
+    ...<2 lines>...
+        history=[],
+    )
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+        request,
+        follow_redirects=follow_redirects,
+        history=history,
+    )
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.5/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/venv/lib/python3.13/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 8] nodename nor servname provided, or not known
+2025-07-29 09:19:46,965 - carebot - INFO - info:45 - リクエスト完了: POST /api/auth/register - ステータス: 500
