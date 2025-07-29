@@ -68,13 +68,20 @@ app = FastAPI(
     debug=DEBUG
 )
 
-# CORS設定（本番環境では適切なオリジンを指定）
+# CORS設定（開発環境と本番環境で適切なオリジンを指定）
 if ENVIRONMENT == "production":
     ALLOWED_ORIGINS = os.getenv("ALLOWED_ORIGINS", "").split(",")
     if not ALLOWED_ORIGINS or ALLOWED_ORIGINS == [""]:
         ALLOWED_ORIGINS = ["https://yourdomain.com"]  # 本番環境のドメインを指定
 else:
-    ALLOWED_ORIGINS = ["*"]
+    # 開発環境では明示的にフロントエンドのURLを指定
+    ALLOWED_ORIGINS = [
+        "http://localhost:5173",  # Vite開発サーバー
+        "http://localhost:3000",  # 一般的な開発サーバー
+        "http://127.0.0.1:5173",
+        "http://127.0.0.1:3000",
+        "*"  # フォールバック
+    ]
 
 app.add_middleware(
     CORSMiddleware,
@@ -82,6 +89,7 @@ app.add_middleware(
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
+    expose_headers=["*"]
 )
 
 # グローバルエラーハンドラー
