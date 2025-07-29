@@ -1,81 +1,179 @@
-from fastapi import APIRouter, Depends, HTTPException
-from typing import Dict, Any
-from ...database.rls_policies import rls_manager
-from ...database.supabase_db import SupabaseDB
-from ...utils.logger import logger
-from ...utils.error_handler import handle_carebot_error
+from fastapi import APIRouter, Depends, HTTPException, Request
+from typing import Dict, Any, List
+from app.utils.auth import get_current_user
+from app.database.supabase_db import SupabaseDB
+from app.utils.logger import logger
+from app.utils.error_handler import (
+    ValidationError, DatabaseError,
+    create_error_response, log_request_info, validate_required_fields
+)
+from app.schemas.user import UserUpdate
+from pydantic import BaseModel
 
 router = APIRouter(tags=["admin"])
 
-@router.get("/rls-status")
-async def get_rls_status():
-    """RLS設定状況を取得"""
+class RoleUpdate(BaseModel):
+    """ロール更新スキーマ"""
+    user_id: int
+    role: str
+    reason: str = "管理者によるロール変更"
+
+class UserRoleResponse(BaseModel):
+    """ユーザーロールレスポンススキーマ"""
+    user_id: int
+    email: str
+    name: str
+    current_role: str
+    plan_type: str
+    updated_at: str
+
+@router.get("/users", response_model=List[UserRoleResponse])
+def get_all_users(current_user: dict = Depends(get_current_user), request: Request = None):
+    """すべてのユーザーを取得（管理者のみ）"""
     try:
-        logger.info("RLS設定状況の確認を開始")
+        if request:
+            log_request_info(request, current_user['id'])
+
+        # 管理者権限チェック
+        if current_user.get('role') != 'admin':
+            raise HTTPException(status_code=403, detail="管理者権限が必要です")
+
+        # すべてのユーザーを取得
+        users = SupabaseDB.get_all_users()
         
-        # ポリシー状況を取得
-        status = rls_manager.get_policy_status()
+        logger.log_user_action(
+            user_id=current_user['id'],
+            action="admin_get_all_users"
+        )
+
+        return users
+
+    except DatabaseError as e:
+        if request:
+            raise create_error_response(e, request)
+        else:
+            raise HTTPException(status_code=500, detail=str(e))
+    except Exception as e:
+        logger.error("管理者ユーザー取得エラー", e, {"admin_id": current_user['id']})
+        if request:
+            raise create_error_response(e, request)
+        else:
+            raise HTTPException(status_code=500, detail="ユーザー取得に失敗しました")
+
+@router.put("/users/{user_id}/role")
+def update_user_role(
+    user_id: int,
+    role_data: RoleUpdate,
+    current_user: dict = Depends(get_current_user),
+    request: Request = None
+):
+    """ユーザーのロールを更新（管理者のみ）"""
+    try:
+        if request:
+            log_request_info(request, current_user['id'])
+
+        # 管理者権限チェック
+        if current_user.get('role') != 'admin':
+            raise HTTPException(status_code=403, detail="管理者権限が必要です")
+
+        # バリデーション
+        validate_required_fields(role_data.dict(), ['user_id', 'role'])
         
-        # 検証結果も取得
-        verification = rls_manager.verify_policies()
-        
-        result = {
-            "policy_status": status,
-            "verification": verification,
-            "summary": {
-                "total_tables": len(status),
-                "configured_tables": sum(1 for s in status.values() if s.get("status") == "configured"),
-                "error_tables": sum(1 for s in status.values() if s.get("status") == "error")
+        # 有効なロールかチェック
+        valid_roles = ['authenticated', 'admin', 'premium', 'moderator']
+        if role_data.role not in valid_roles:
+            raise ValidationError(f"無効なロールです。有効なロール: {valid_roles}")
+
+        # ユーザーが存在するかチェック
+        target_user = SupabaseDB.get_user_by_id(user_id)
+        if not target_user:
+            raise ValidationError("指定されたユーザーが見つかりません")
+
+        # ロール更新
+        updated_user = SupabaseDB.update_user_role(
+            user_id=user_id,
+            role=role_data.role,
+            updated_by=current_user['id'],
+            reason=role_data.reason
+        )
+
+        if not updated_user:
+            raise DatabaseError("ロールの更新に失敗しました")
+
+        logger.log_user_action(
+            user_id=current_user['id'],
+            action="admin_update_user_role",
+            details={
+                "target_user_id": user_id,
+                "new_role": role_data.role,
+                "reason": role_data.reason
             }
-        }
-        
-        logger.info("RLS設定状況の確認完了", result)
-        return result
-        
-    except Exception as e:
-        handle_carebot_error(e, "RLS設定状況の取得に失敗しました")
+        )
 
-@router.post("/rls-setup")
-async def setup_rls():
-    """RLS設定を実行"""
-    try:
-        logger.info("RLS設定の実行を開始")
-        
-        # RLS設定を実行
-        rls_manager.setup_all_policies()
-        
-        # 設定後の検証
-        verification = rls_manager.verify_policies()
-        
-        result = {
-            "message": "RLS設定が完了しました",
-            "verification": verification,
-            "setup_completed": True
+        return {
+            "message": f"ユーザー {target_user['email']} のロールを {role_data.role} に更新しました",
+            "user": updated_user
         }
-        
-        logger.info("RLS設定の実行完了", result)
-        return result
-        
-    except Exception as e:
-        handle_carebot_error(e, "RLS設定の実行に失敗しました")
 
-@router.get("/table-structure")
-async def get_table_structure():
-    """テーブル構造を確認"""
-    try:
-        logger.info("テーブル構造の確認を開始")
-        
-        # テーブル構造を確認
-        db = SupabaseDB()
-        structure = db.check_user_id_types()
-        
-        result = {
-            "table_structures": structure,
-            "message": "テーブル構造の確認完了"
-        }
-        
-        logger.info("テーブル構造の確認完了", result)
-        return result
-        
+    except ValidationError as e:
+        if request:
+            raise create_error_response(e, request)
+        else:
+            raise HTTPException(status_code=400, detail=str(e))
+    except DatabaseError as e:
+        if request:
+            raise create_error_response(e, request)
+        else:
+            raise HTTPException(status_code=500, detail=str(e))
     except Exception as e:
-        handle_carebot_error(e, "テーブル構造の確認に失敗しました") 
+        logger.error("ロール更新エラー", e, {"admin_id": current_user['id'], "target_user_id": user_id})
+        if request:
+            raise create_error_response(e, request)
+        else:
+            raise HTTPException(status_code=500, detail="ロール更新に失敗しました")
+
+@router.get("/users/{user_id}/role")
+def get_user_role(
+    user_id: int,
+    current_user: dict = Depends(get_current_user),
+    request: Request = None
+):
+    """ユーザーのロールを取得（管理者のみ）"""
+    try:
+        if request:
+            log_request_info(request, current_user['id'])
+
+        # 管理者権限チェック
+        if current_user.get('role') != 'admin':
+            raise HTTPException(status_code=403, detail="管理者権限が必要です")
+
+        # ユーザー情報を取得
+        user = SupabaseDB.get_user_by_id(user_id)
+        if not user:
+            raise HTTPException(status_code=404, detail="ユーザーが見つかりません")
+
+        logger.log_user_action(
+            user_id=current_user['id'],
+            action="admin_get_user_role",
+            details={"target_user_id": user_id}
+        )
+
+        return {
+            "user_id": user['id'],
+            "email": user['email'],
+            "name": user['name'],
+            "role": user.get('role', 'authenticated'),
+            "plan_type": user.get('plan_type', 'free')
+        }
+
+    except DatabaseError as e:
+        if request:
+            raise create_error_response(e, request)
+        else:
+            raise HTTPException(status_code=500, detail=str(e))
+    except Exception as e:
+        logger.error("ロール取得エラー", e, {"admin_id": current_user['id'], "target_user_id": user_id})
+        if request:
+            raise create_error_response(e, request)
+        else:
+            raise HTTPException(status_code=500, detail="ロール取得に失敗しました") 

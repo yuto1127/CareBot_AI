@@ -1,118 +1,103 @@
 import logging
 import os
 from datetime import datetime
-from typing import List, Dict, Any, Optional
-import json
+from typing import Dict, Any, Optional
+from dotenv import load_dotenv
 
-class Logger:
-    """アプリケーションログ管理クラス"""
+# 環境変数を読み込み
+load_dotenv()
+
+# ログ設定
+LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
+ENVIRONMENT = os.getenv("ENVIRONMENT", "development")
+
+# ログフォーマット
+if ENVIRONMENT == "production":
+    LOG_FORMAT = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+else:
+    LOG_FORMAT = "%(asctime)s - %(name)s - %(levelname)s - %(funcName)s:%(lineno)d - %(message)s"
+
+# ログ設定
+logging.basicConfig(
+    level=getattr(logging, LOG_LEVEL),
+    format=LOG_FORMAT,
+    handlers=[
+        logging.StreamHandler(),
+        logging.FileHandler(f"logs/app_{datetime.now().strftime('%Y%m%d')}.log")
+    ]
+)
+
+logger = logging.getLogger("carebot")
+
+class CareBotLogger:
+    """CareBot AI 専用ロガークラス"""
     
-    def __init__(self, name: str = "carebot_ai"):
-        self.logger = logging.getLogger(name)
-        self.logger.setLevel(logging.INFO)
-        
-        # ログディレクトリの作成
-        log_dir = "logs"
-        if not os.path.exists(log_dir):
-            os.makedirs(log_dir)
-        
-        # ファイルハンドラーの設定
-        file_handler = logging.FileHandler(
-            f"{log_dir}/app_{datetime.now().strftime('%Y%m%d')}.log",
-            encoding='utf-8'
-        )
-        file_handler.setLevel(logging.INFO)
-        
-        # コンソールハンドラーの設定
-        console_handler = logging.StreamHandler()
-        console_handler.setLevel(logging.INFO)
-        
-        # フォーマッターの設定
-        formatter = logging.Formatter(
-            '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-        )
-        file_handler.setFormatter(formatter)
-        console_handler.setFormatter(formatter)
-        
-        # ハンドラーの追加
-        self.logger.addHandler(file_handler)
-        self.logger.addHandler(console_handler)
+    def __init__(self):
+        self.logger = logger
     
-    def info(self, message: str, extra: Optional[Dict[str, Any]] = None):
+    def info(self, message: str, error: Optional[Exception] = None, context: Optional[Dict[str, Any]] = None):
         """情報ログ"""
-        if extra:
-            message = f"{message} - {self._safe_json_dumps(extra)}"
-        self.logger.info(message)
-    
-    def error(self, message: str, error: Optional[Exception] = None, extra: Optional[Dict[str, Any]] = None):
-        """エラーログ"""
+        log_message = f"{message}"
+        if context:
+            log_message += f" | Context: {context}"
         if error:
-            message = f"{message} - Error: {str(error)}"
-        if extra:
-            message = f"{message} - {self._safe_json_dumps(extra)}"
-        self.logger.error(message)
+            log_message += f" | Error: {str(error)}"
+        self.logger.info(log_message)
     
-    def warning(self, message: str, extra: Optional[Dict[str, Any]] = None):
+    def warning(self, message: str, error: Optional[Exception] = None, context: Optional[Dict[str, Any]] = None):
         """警告ログ"""
-        if extra:
-            message = f"{message} - {self._safe_json_dumps(extra)}"
-        self.logger.warning(message)
+        log_message = f"{message}"
+        if context:
+            log_message += f" | Context: {context}"
+        if error:
+            log_message += f" | Error: {str(error)}"
+        self.logger.warning(log_message)
     
-    def debug(self, message: str, extra: Optional[Dict[str, Any]] = None):
+    def error(self, message: str, error: Optional[Exception] = None, context: Optional[Dict[str, Any]] = None):
+        """エラーログ"""
+        log_message = f"{message}"
+        if context:
+            log_message += f" | Context: {context}"
+        if error:
+            log_message += f" | Error: {str(error)}"
+        self.logger.error(log_message, exc_info=error is not None)
+    
+    def debug(self, message: str, context: Optional[Dict[str, Any]] = None):
         """デバッグログ"""
-        if extra:
-            message = f"{message} - {self._safe_json_dumps(extra)}"
-        self.logger.debug(message)
+        log_message = f"{message}"
+        if context:
+            log_message += f" | Context: {context}"
+        self.logger.debug(log_message)
     
-    def _safe_json_dumps(self, obj: Any) -> str:
-        """安全なJSONシリアライズ"""
-        try:
-            return json.dumps(obj, ensure_ascii=False, default=str)
-        except Exception as e:
-            return f"JSON serialization error: {str(e)} - Object: {str(obj)}"
-    
-    def log_api_request(self, method: str, path: str, user_id: Optional[int] = None, status_code: int = 200):
+    def log_api_request(self, method: str, path: str, user_id: Optional[int] = None):
         """APIリクエストログ"""
-        extra = {
-            "method": method,
-            "path": path,
-            "user_id": user_id,
-            "status_code": status_code,
-            "timestamp": datetime.now().isoformat()
-        }
-        self.info(f"API Request: {method} {path}", extra)
+        context = {"method": method, "path": path}
+        if user_id:
+            context["user_id"] = user_id
+        self.info("API Request", context=context)
     
     def log_api_error(self, method: str, path: str, error: Exception, user_id: Optional[int] = None):
         """APIエラーログ"""
-        extra = {
-            "method": method,
-            "path": path,
-            "user_id": user_id,
-            "error_type": type(error).__name__,
-            "timestamp": datetime.now().isoformat()
-        }
-        self.error(f"API Error: {method} {path}", error, extra)
+        context = {"method": method, "path": path}
+        if user_id:
+            context["user_id"] = user_id
+        self.error("API Error", error=error, context=context)
     
     def log_user_action(self, user_id: int, action: str, details: Optional[Dict[str, Any]] = None):
         """ユーザーアクションログ"""
-        extra = {
-            "user_id": user_id,
-            "action": action,
-            "details": details,
-            "timestamp": datetime.now().isoformat()
-        }
-        self.info(f"User Action: {action}", extra)
+        context = {"user_id": user_id, "action": action}
+        if details:
+            context.update(details)
+        self.info("User Action", context=context)
     
-    def log_database_operation(self, operation: str, table: str, user_id: Optional[int] = None, details: Optional[Dict[str, Any]] = None):
-        """データベース操作ログ"""
-        extra = {
-            "operation": operation,
-            "table": table,
-            "user_id": user_id,
-            "details": details,
-            "timestamp": datetime.now().isoformat()
-        }
-        self.info(f"Database Operation: {operation} on {table}", extra)
+    def log_security_event(self, event_type: str, user_id: Optional[int] = None, details: Optional[Dict[str, Any]] = None):
+        """セキュリティイベントログ"""
+        context = {"event_type": event_type}
+        if user_id:
+            context["user_id"] = user_id
+        if details:
+            context.update(details)
+        self.warning("Security Event", context=context)
 
 # グローバルロガーインスタンス
-logger = Logger() 
+logger = CareBotLogger() 

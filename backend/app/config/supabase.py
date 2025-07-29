@@ -1,8 +1,25 @@
+import os
 from supabase import create_client, Client
+from dotenv import load_dotenv
 
-# Supabase設定
-SUPABASE_URL = "https://yfslwlwhnmkvkcuapqvs.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inlmc2x3bHdobm1rdmtjdWFwcXZzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTM0NDAzNzgsImV4cCI6MjA2OTAxNjM3OH0.cfK5sLZASwVuFRVEIDEMNvetHIRYtAKaIpaq9RT-T_Y"
+# 環境変数を読み込み
+load_dotenv()
 
-# Supabaseクライアントの初期化
-supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY) 
+# Supabase設定（環境変数から取得）
+SUPABASE_URL = os.getenv("SUPABASE_URL")
+SUPABASE_KEY = os.getenv("SUPABASE_KEY")
+SUPABASE_SERVICE_KEY = os.getenv("SUPABASE_SERVICE_KEY")
+
+# 必須環境変数のチェック
+if not SUPABASE_URL:
+    raise ValueError("SUPABASE_URL環境変数が設定されていません")
+if not SUPABASE_KEY:
+    raise ValueError("SUPABASE_KEY環境変数が設定されていません")
+if not SUPABASE_SERVICE_KEY:
+    raise ValueError("SUPABASE_SERVICE_KEY環境変数が設定されていません")
+
+# Supabaseクライアントの初期化（anon key）
+supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
+
+# service_roleキーを使用してRLSをバイパスするクライアント
+supabase_admin: Client = create_client(SUPABASE_URL, SUPABASE_SERVICE_KEY) 

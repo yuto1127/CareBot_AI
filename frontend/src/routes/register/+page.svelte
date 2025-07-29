@@ -18,16 +18,25 @@
     error = '';
 
     try {
-      const response = await fetchAPI('/auth/register', {
+      console.log('ユーザー登録を開始:', { email, name });
+      
+      // ユーザー登録
+      const registerResponse = await fetchAPI('/auth/register', {
         method: 'POST',
         body: JSON.stringify({ email, password, name })
       });
 
+      console.log('ユーザー登録成功:', registerResponse);
+
       // 登録成功後、自動ログイン
+      console.log('自動ログインを開始:', { email });
+      
       const loginResponse = await fetchAPI('/auth/login', {
         method: 'POST',
         body: JSON.stringify({ email, password })
       });
+
+      console.log('自動ログイン成功:', loginResponse);
 
       // トークンをlocalStorageに保存
       localStorage.setItem('token', loginResponse.access_token);
@@ -35,8 +44,17 @@
 
       // ダッシュボードへリダイレクト
       goto('/dashboard');
-    } catch (err) {
-      error = '登録に失敗しました。メールアドレスが既に使用されている可能性があります。';
+    } catch (err: any) {
+      console.error('登録エラー:', err);
+      if (err.message && err.message.includes('既に登録されています')) {
+        error = 'このメールアドレスは既に登録されています。';
+      } else if (err.message && err.message.includes('パスワード')) {
+        error = 'パスワードは8文字以上で、大文字・小文字・数字を含む必要があります。';
+      } else if (err.message && err.message.includes('メールアドレス')) {
+        error = '無効なメールアドレス形式です。';
+      } else {
+        error = '登録に失敗しました。もう一度お試しください。';
+      }
     } finally {
       loading = false;
     }
@@ -73,9 +91,10 @@
           type="password"
           bind:value={password}
           class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-          placeholder="パスワード"
+          placeholder="パスワード（8文字以上、大文字・小文字・数字を含む）"
           required
         />
+        <p class="text-xs text-gray-500 mt-1">パスワードは8文字以上で、大文字・小文字・数字を含む必要があります</p>
       </div>
 
       <div>
