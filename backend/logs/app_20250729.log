@@ -894,3 +894,101 @@ httpx.ConnectError: [Errno 8] nodename nor servname provided, or not known
 2025-07-29 10:02:08,392 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 1
 2025-07-29 10:02:08,533 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.1&feature_type=eq.ai_analysis "HTTP/2 200 OK"
 2025-07-29 10:02:08,541 - carebot - INFO - info:45 - リクエスト完了: GET /api/usage/status - ステータス: 200
+2025-07-29 10:29:52,124 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals
+2025-07-29 10:29:52,146 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals - ステータス: 200
+2025-07-29 10:29:52,185 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-29 10:29:52,205 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-29 10:29:52,222 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals/
+2025-07-29 10:29:52,227 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals/ - ステータス: 200
+2025-07-29 10:29:52,239 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-29 10:29:53,277 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.1 "HTTP/2 200 OK"
+2025-07-29 10:29:53,280 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 1
+2025-07-29 10:29:53,281 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/journals/', 'user_id': 1}
+2025-07-29 10:29:53,396 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/journals?select=%2A&user_id=eq.1&order=created_at.desc "HTTP/2 200 OK"
+2025-07-29 10:29:53,397 - carebot - INFO - info:45 - User Action | Context: {'user_id': 1, 'action': 'get_journals', 'count': 0}
+2025-07-29 10:29:53,400 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 200
+2025-07-29 10:29:53,408 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/moods
+2025-07-29 10:29:53,409 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/moods - ステータス: 200
+2025-07-29 10:29:53,411 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods
+2025-07-29 10:29:53,411 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods - ステータス: 307
+2025-07-29 10:29:53,419 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/moods/
+2025-07-29 10:29:53,419 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/moods/ - ステータス: 200
+2025-07-29 10:29:53,421 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods/
+2025-07-29 10:29:53,500 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.1 "HTTP/2 200 OK"
+2025-07-29 10:29:53,501 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 1
+2025-07-29 10:29:53,501 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/moods/', 'user_id': 1}
+2025-07-29 10:29:53,570 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/moods?select=%2A&user_id=eq.1&order=recorded_at.desc "HTTP/2 200 OK"
+2025-07-29 10:29:53,570 - carebot - INFO - info:45 - User Action | Context: {'user_id': 1, 'action': 'get_moods', 'count': 0}
+2025-07-29 10:29:53,572 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods/ - ステータス: 200
+2025-07-29 10:29:53,577 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/usage/status
+2025-07-29 10:29:53,577 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/usage/status - ステータス: 200
+2025-07-29 10:29:53,580 - carebot - INFO - info:45 - リクエスト開始: GET /api/usage/status
+2025-07-29 10:29:53,655 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.1 "HTTP/2 200 OK"
+2025-07-29 10:29:53,709 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 1
+2025-07-29 10:29:53,787 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.1 "HTTP/2 200 OK"
+2025-07-29 10:29:53,789 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 1
+2025-07-29 10:29:53,870 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.1&feature_type=eq.journal "HTTP/2 200 OK"
+2025-07-29 10:29:54,109 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.1 "HTTP/2 200 OK"
+2025-07-29 10:29:54,110 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 1
+2025-07-29 10:29:54,277 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.1&feature_type=eq.mood "HTTP/2 200 OK"
+2025-07-29 10:29:54,436 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.1 "HTTP/2 200 OK"
+2025-07-29 10:29:54,436 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 1
+2025-07-29 10:29:54,614 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.1&feature_type=eq.ai_analysis "HTTP/2 200 OK"
+2025-07-29 10:29:54,617 - carebot - INFO - info:45 - リクエスト完了: GET /api/usage/status - ステータス: 200
+2025-07-29 10:44:50,300 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-29 10:44:50,303 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-29 10:44:50,307 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-29 10:44:50,326 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 401
+2025-07-29 12:02:55,063 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals
+2025-07-29 12:02:55,066 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals - ステータス: 200
+2025-07-29 12:02:55,069 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-29 12:02:55,070 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-29 12:02:55,071 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals/
+2025-07-29 12:02:55,072 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals/ - ステータス: 200
+2025-07-29 12:02:55,074 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-29 12:02:55,091 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 401
+2025-07-29 19:22:11,878 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals
+2025-07-29 19:22:11,887 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals - ステータス: 200
+2025-07-29 19:22:11,897 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-29 19:22:11,903 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-29 19:22:11,908 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals/
+2025-07-29 19:22:11,910 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals/ - ステータス: 200
+2025-07-29 19:22:11,913 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-29 19:22:11,943 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 401
+2025-07-29 22:36:09,515 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-29 22:36:09,552 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-29 22:36:09,572 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-29 22:36:09,624 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 401
+2025-07-30 09:18:29,530 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals
+2025-07-30 09:18:29,542 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals - ステータス: 200
+2025-07-30 09:18:29,553 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 09:18:29,574 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 09:18:29,582 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals/
+2025-07-30 09:18:29,582 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals/ - ステータス: 200
+2025-07-30 09:18:29,585 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 09:18:29,605 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 401
+2025-07-30 09:28:15,551 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 09:28:15,562 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 09:28:15,571 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 09:28:15,604 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 401
+2025-07-30 09:59:08,431 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals
+2025-07-30 09:59:08,437 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals - ステータス: 200
+2025-07-30 09:59:08,442 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 09:59:08,443 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 09:59:08,448 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals/
+2025-07-30 09:59:08,449 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals/ - ステータス: 200
+2025-07-30 09:59:08,452 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 09:59:08,461 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 401
+2025-07-30 10:48:16,530 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals
+2025-07-30 10:48:16,547 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals - ステータス: 200
+2025-07-30 10:48:16,583 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 10:48:16,589 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 10:48:16,596 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals/
+2025-07-30 10:48:16,598 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals/ - ステータス: 200
+2025-07-30 10:48:16,608 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 10:48:16,639 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 401
+2025-07-30 10:48:24,192 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 10:48:24,195 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 10:48:24,198 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 10:48:24,204 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 401
+2025-07-30 11:07:43,209 - carebot - INFO - info:45 - CareBot AI アプリケーションを終了中...

@@ -1,0 +1,1225 @@
+2025-07-30 11:07:44,338 - carebot - INFO - info:45 - CareBot AI アプリケーションを起動中... (環境: development)
+2025-07-30 11:07:44,338 - carebot - INFO - info:45 - RLSポリシーを設定中...
+2025-07-30 11:07:44,338 - carebot - INFO - info:45 - RLSポリシーの設定を開始
+2025-07-30 11:07:44,338 - carebot - INFO - info:45 - RLS enabled for table: users
+2025-07-30 11:07:44,338 - carebot - INFO - info:45 - RLS enabled for table: journals
+2025-07-30 11:07:44,338 - carebot - INFO - info:45 - RLS enabled for table: moods
+2025-07-30 11:07:44,338 - carebot - INFO - info:45 - RLS enabled for table: usage_counts
+2025-07-30 11:07:44,338 - carebot - INFO - info:45 - ユーザーテーブルのポリシー設定完了
+2025-07-30 11:07:44,338 - carebot - INFO - info:45 - ジャーナルテーブルのポリシー設定完了
+2025-07-30 11:07:44,338 - carebot - INFO - info:45 - 気分記録テーブルのポリシー設定完了
+2025-07-30 11:07:44,338 - carebot - INFO - info:45 - 使用回数テーブルのポリシー設定完了
+2025-07-30 11:07:44,338 - carebot - INFO - info:45 - RLSポリシーの設定が完了しました
+2025-07-30 11:07:44,338 - carebot - INFO - info:45 - テーブル users のポリシー検証: 設定済み
+2025-07-30 11:07:44,338 - carebot - INFO - info:45 - テーブル journals のポリシー検証: 設定済み
+2025-07-30 11:07:44,338 - carebot - INFO - info:45 - テーブル moods のポリシー検証: 設定済み
+2025-07-30 11:07:44,338 - carebot - INFO - info:45 - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-30 11:07:44,338 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:07:44,338 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:07:44,338 - carebot - INFO - info:45 - CareBot AI アプリケーションが正常に起動しました
+2025-07-30 11:07:59,350 - carebot - INFO - info:45 - CareBot AI アプリケーションを終了中...
+2025-07-30 11:08:00,853 - carebot - INFO - info:45 - CareBot AI アプリケーションを起動中... (環境: development)
+2025-07-30 11:08:00,853 - carebot - INFO - info:45 - RLSポリシーを設定中...
+2025-07-30 11:08:00,853 - carebot - INFO - info:45 - RLSポリシーの設定を開始
+2025-07-30 11:08:00,853 - carebot - INFO - info:45 - RLS enabled for table: users
+2025-07-30 11:08:00,853 - carebot - INFO - info:45 - RLS enabled for table: journals
+2025-07-30 11:08:00,853 - carebot - INFO - info:45 - RLS enabled for table: moods
+2025-07-30 11:08:00,853 - carebot - INFO - info:45 - RLS enabled for table: usage_counts
+2025-07-30 11:08:00,853 - carebot - INFO - info:45 - ユーザーテーブルのポリシー設定完了
+2025-07-30 11:08:00,853 - carebot - INFO - info:45 - ジャーナルテーブルのポリシー設定完了
+2025-07-30 11:08:00,853 - carebot - INFO - info:45 - 気分記録テーブルのポリシー設定完了
+2025-07-30 11:08:00,853 - carebot - INFO - info:45 - 使用回数テーブルのポリシー設定完了
+2025-07-30 11:08:00,853 - carebot - INFO - info:45 - RLSポリシーの設定が完了しました
+2025-07-30 11:08:00,853 - carebot - INFO - info:45 - テーブル users のポリシー検証: 設定済み
+2025-07-30 11:08:00,855 - carebot - INFO - info:45 - テーブル journals のポリシー検証: 設定済み
+2025-07-30 11:08:00,855 - carebot - INFO - info:45 - テーブル moods のポリシー検証: 設定済み
+2025-07-30 11:08:00,855 - carebot - INFO - info:45 - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-30 11:08:00,855 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:08:00,855 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:08:00,855 - carebot - INFO - info:45 - CareBot AI アプリケーションが正常に起動しました
+2025-07-30 11:08:32,338 - carebot - INFO - info:45 - CareBot AI アプリケーションを終了中...
+2025-07-30 11:08:33,347 - carebot - INFO - info:45 - CareBot AI アプリケーションを起動中... (環境: development)
+2025-07-30 11:08:33,347 - carebot - INFO - info:45 - RLSポリシーを設定中...
+2025-07-30 11:08:33,347 - carebot - INFO - info:45 - RLSポリシーの設定を開始
+2025-07-30 11:08:33,347 - carebot - INFO - info:45 - RLS enabled for table: users
+2025-07-30 11:08:33,347 - carebot - INFO - info:45 - RLS enabled for table: journals
+2025-07-30 11:08:33,347 - carebot - INFO - info:45 - RLS enabled for table: moods
+2025-07-30 11:08:33,347 - carebot - INFO - info:45 - RLS enabled for table: usage_counts
+2025-07-30 11:08:33,347 - carebot - INFO - info:45 - ユーザーテーブルのポリシー設定完了
+2025-07-30 11:08:33,347 - carebot - INFO - info:45 - ジャーナルテーブルのポリシー設定完了
+2025-07-30 11:08:33,347 - carebot - INFO - info:45 - 気分記録テーブルのポリシー設定完了
+2025-07-30 11:08:33,347 - carebot - INFO - info:45 - 使用回数テーブルのポリシー設定完了
+2025-07-30 11:08:33,347 - carebot - INFO - info:45 - RLSポリシーの設定が完了しました
+2025-07-30 11:08:33,347 - carebot - INFO - info:45 - テーブル users のポリシー検証: 設定済み
+2025-07-30 11:08:33,347 - carebot - INFO - info:45 - テーブル journals のポリシー検証: 設定済み
+2025-07-30 11:08:33,347 - carebot - INFO - info:45 - テーブル moods のポリシー検証: 設定済み
+2025-07-30 11:08:33,347 - carebot - INFO - info:45 - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-30 11:08:33,347 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:08:33,347 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:08:33,348 - carebot - INFO - info:45 - CareBot AI アプリケーションが正常に起動しました
+2025-07-30 11:09:01,427 - carebot - INFO - info:45 - CareBot AI アプリケーションを終了中...
+2025-07-30 11:09:02,899 - carebot - INFO - info:45 - CareBot AI アプリケーションを起動中... (環境: development)
+2025-07-30 11:09:02,899 - carebot - INFO - info:45 - RLSポリシーを設定中...
+2025-07-30 11:09:02,899 - carebot - INFO - info:45 - RLSポリシーの設定を開始
+2025-07-30 11:09:02,899 - carebot - INFO - info:45 - RLS enabled for table: users
+2025-07-30 11:09:02,899 - carebot - INFO - info:45 - RLS enabled for table: journals
+2025-07-30 11:09:02,899 - carebot - INFO - info:45 - RLS enabled for table: moods
+2025-07-30 11:09:02,899 - carebot - INFO - info:45 - RLS enabled for table: usage_counts
+2025-07-30 11:09:02,899 - carebot - INFO - info:45 - ユーザーテーブルのポリシー設定完了
+2025-07-30 11:09:02,899 - carebot - INFO - info:45 - ジャーナルテーブルのポリシー設定完了
+2025-07-30 11:09:02,899 - carebot - INFO - info:45 - 気分記録テーブルのポリシー設定完了
+2025-07-30 11:09:02,899 - carebot - INFO - info:45 - 使用回数テーブルのポリシー設定完了
+2025-07-30 11:09:02,899 - carebot - INFO - info:45 - RLSポリシーの設定が完了しました
+2025-07-30 11:09:02,900 - carebot - INFO - info:45 - テーブル users のポリシー検証: 設定済み
+2025-07-30 11:09:02,900 - carebot - INFO - info:45 - テーブル journals のポリシー検証: 設定済み
+2025-07-30 11:09:02,900 - carebot - INFO - info:45 - テーブル moods のポリシー検証: 設定済み
+2025-07-30 11:09:02,900 - carebot - INFO - info:45 - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-30 11:09:02,900 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:09:02,900 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:09:02,900 - carebot - INFO - info:45 - CareBot AI アプリケーションが正常に起動しました
+2025-07-30 11:10:33,221 - carebot - INFO - info:45 - CareBot AI アプリケーションを終了中...
+2025-07-30 11:10:34,237 - carebot - INFO - info:45 - CareBot AI アプリケーションを起動中... (環境: development)
+2025-07-30 11:10:34,237 - carebot - INFO - info:45 - RLSポリシーを設定中...
+2025-07-30 11:10:34,237 - carebot - INFO - info:45 - RLSポリシーの設定を開始
+2025-07-30 11:10:34,237 - carebot - INFO - info:45 - RLS enabled for table: users
+2025-07-30 11:10:34,237 - carebot - INFO - info:45 - RLS enabled for table: journals
+2025-07-30 11:10:34,237 - carebot - INFO - info:45 - RLS enabled for table: moods
+2025-07-30 11:10:34,237 - carebot - INFO - info:45 - RLS enabled for table: usage_counts
+2025-07-30 11:10:34,237 - carebot - INFO - info:45 - ユーザーテーブルのポリシー設定完了
+2025-07-30 11:10:34,237 - carebot - INFO - info:45 - ジャーナルテーブルのポリシー設定完了
+2025-07-30 11:10:34,237 - carebot - INFO - info:45 - 気分記録テーブルのポリシー設定完了
+2025-07-30 11:10:34,237 - carebot - INFO - info:45 - 使用回数テーブルのポリシー設定完了
+2025-07-30 11:10:34,237 - carebot - INFO - info:45 - RLSポリシーの設定が完了しました
+2025-07-30 11:10:34,237 - carebot - INFO - info:45 - テーブル users のポリシー検証: 設定済み
+2025-07-30 11:10:34,237 - carebot - INFO - info:45 - テーブル journals のポリシー検証: 設定済み
+2025-07-30 11:10:34,237 - carebot - INFO - info:45 - テーブル moods のポリシー検証: 設定済み
+2025-07-30 11:10:34,237 - carebot - INFO - info:45 - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-30 11:10:34,237 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:10:34,237 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:10:34,237 - carebot - INFO - info:45 - CareBot AI アプリケーションが正常に起動しました
+2025-07-30 11:10:35,870 - carebot - INFO - info:45 - CareBot AI アプリケーションを終了中...
+2025-07-30 11:10:36,832 - carebot - INFO - info:45 - CareBot AI アプリケーションを起動中... (環境: development)
+2025-07-30 11:10:36,832 - carebot - INFO - info:45 - RLSポリシーを設定中...
+2025-07-30 11:10:36,832 - carebot - INFO - info:45 - RLSポリシーの設定を開始
+2025-07-30 11:10:36,832 - carebot - INFO - info:45 - RLS enabled for table: users
+2025-07-30 11:10:36,832 - carebot - INFO - info:45 - RLS enabled for table: journals
+2025-07-30 11:10:36,832 - carebot - INFO - info:45 - RLS enabled for table: moods
+2025-07-30 11:10:36,832 - carebot - INFO - info:45 - RLS enabled for table: usage_counts
+2025-07-30 11:10:36,832 - carebot - INFO - info:45 - ユーザーテーブルのポリシー設定完了
+2025-07-30 11:10:36,832 - carebot - INFO - info:45 - ジャーナルテーブルのポリシー設定完了
+2025-07-30 11:10:36,833 - carebot - INFO - info:45 - 気分記録テーブルのポリシー設定完了
+2025-07-30 11:10:36,833 - carebot - INFO - info:45 - 使用回数テーブルのポリシー設定完了
+2025-07-30 11:10:36,833 - carebot - INFO - info:45 - RLSポリシーの設定が完了しました
+2025-07-30 11:10:36,833 - carebot - INFO - info:45 - テーブル users のポリシー検証: 設定済み
+2025-07-30 11:10:36,833 - carebot - INFO - info:45 - テーブル journals のポリシー検証: 設定済み
+2025-07-30 11:10:36,833 - carebot - INFO - info:45 - テーブル moods のポリシー検証: 設定済み
+2025-07-30 11:10:36,833 - carebot - INFO - info:45 - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-30 11:10:36,833 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:10:36,833 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:10:36,833 - carebot - INFO - info:45 - CareBot AI アプリケーションが正常に起動しました
+2025-07-30 11:11:26,265 - carebot - INFO - info:45 - CareBot AI アプリケーションを終了中...
+2025-07-30 11:11:28,234 - carebot - INFO - info:45 - CareBot AI アプリケーションを起動中... (環境: development)
+2025-07-30 11:11:28,234 - carebot - INFO - info:45 - RLSポリシーを設定中...
+2025-07-30 11:11:28,234 - carebot - INFO - info:45 - RLSポリシーの設定を開始
+2025-07-30 11:11:28,234 - carebot - INFO - info:45 - RLS enabled for table: users
+2025-07-30 11:11:28,234 - carebot - INFO - info:45 - RLS enabled for table: journals
+2025-07-30 11:11:28,234 - carebot - INFO - info:45 - RLS enabled for table: moods
+2025-07-30 11:11:28,234 - carebot - INFO - info:45 - RLS enabled for table: usage_counts
+2025-07-30 11:11:28,234 - carebot - INFO - info:45 - ユーザーテーブルのポリシー設定完了
+2025-07-30 11:11:28,234 - carebot - INFO - info:45 - ジャーナルテーブルのポリシー設定完了
+2025-07-30 11:11:28,234 - carebot - INFO - info:45 - 気分記録テーブルのポリシー設定完了
+2025-07-30 11:11:28,234 - carebot - INFO - info:45 - 使用回数テーブルのポリシー設定完了
+2025-07-30 11:11:28,234 - carebot - INFO - info:45 - RLSポリシーの設定が完了しました
+2025-07-30 11:11:28,234 - carebot - INFO - info:45 - テーブル users のポリシー検証: 設定済み
+2025-07-30 11:11:28,234 - carebot - INFO - info:45 - テーブル journals のポリシー検証: 設定済み
+2025-07-30 11:11:28,234 - carebot - INFO - info:45 - テーブル moods のポリシー検証: 設定済み
+2025-07-30 11:11:28,234 - carebot - INFO - info:45 - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-30 11:11:28,234 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:11:28,234 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:11:28,234 - carebot - INFO - info:45 - CareBot AI アプリケーションが正常に起動しました
+2025-07-30 11:12:52,832 - carebot - INFO - info:45 - CareBot AI アプリケーションを終了中...
+2025-07-30 11:12:54,127 - carebot - INFO - info:45 - CareBot AI アプリケーションを起動中... (環境: development)
+2025-07-30 11:12:54,127 - carebot - INFO - info:45 - RLSポリシーを設定中...
+2025-07-30 11:12:54,127 - carebot - INFO - info:45 - RLSポリシーの設定を開始
+2025-07-30 11:12:54,127 - carebot - INFO - info:45 - RLS enabled for table: users
+2025-07-30 11:12:54,127 - carebot - INFO - info:45 - RLS enabled for table: journals
+2025-07-30 11:12:54,127 - carebot - INFO - info:45 - RLS enabled for table: moods
+2025-07-30 11:12:54,127 - carebot - INFO - info:45 - RLS enabled for table: usage_counts
+2025-07-30 11:12:54,127 - carebot - INFO - info:45 - ユーザーテーブルのポリシー設定完了
+2025-07-30 11:12:54,127 - carebot - INFO - info:45 - ジャーナルテーブルのポリシー設定完了
+2025-07-30 11:12:54,127 - carebot - INFO - info:45 - 気分記録テーブルのポリシー設定完了
+2025-07-30 11:12:54,127 - carebot - INFO - info:45 - 使用回数テーブルのポリシー設定完了
+2025-07-30 11:12:54,127 - carebot - INFO - info:45 - RLSポリシーの設定が完了しました
+2025-07-30 11:12:54,127 - carebot - INFO - info:45 - テーブル users のポリシー検証: 設定済み
+2025-07-30 11:12:54,127 - carebot - INFO - info:45 - テーブル journals のポリシー検証: 設定済み
+2025-07-30 11:12:54,127 - carebot - INFO - info:45 - テーブル moods のポリシー検証: 設定済み
+2025-07-30 11:12:54,127 - carebot - INFO - info:45 - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-30 11:12:54,127 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:12:54,128 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:12:54,128 - carebot - INFO - info:45 - CareBot AI アプリケーションが正常に起動しました
+2025-07-30 11:13:02,605 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&email=eq.test%40example.com "HTTP/2 200 OK"
+2025-07-30 11:13:02,608 - app.database.supabase_db - INFO - get_user_by_email:85 - ユーザーが見つかりません: test@example.com
+2025-07-30 11:13:03,043 - app.database.supabase_db - INFO - create_user:24 - === ユーザー作成開始 ===
+2025-07-30 11:13:03,043 - app.database.supabase_db - ERROR - create_user:69 - ユーザー作成エラー: 'dict' object has no attribute 'email'
+2025-07-30 11:13:18,736 - carebot - INFO - info:45 - CareBot AI アプリケーションを終了中...
+2025-07-30 11:13:19,804 - carebot - INFO - info:45 - CareBot AI アプリケーションを起動中... (環境: development)
+2025-07-30 11:13:19,805 - carebot - INFO - info:45 - RLSポリシーを設定中...
+2025-07-30 11:13:19,805 - carebot - INFO - info:45 - RLSポリシーの設定を開始
+2025-07-30 11:13:19,805 - carebot - INFO - info:45 - RLS enabled for table: users
+2025-07-30 11:13:19,805 - carebot - INFO - info:45 - RLS enabled for table: journals
+2025-07-30 11:13:19,805 - carebot - INFO - info:45 - RLS enabled for table: moods
+2025-07-30 11:13:19,805 - carebot - INFO - info:45 - RLS enabled for table: usage_counts
+2025-07-30 11:13:19,805 - carebot - INFO - info:45 - ユーザーテーブルのポリシー設定完了
+2025-07-30 11:13:19,805 - carebot - INFO - info:45 - ジャーナルテーブルのポリシー設定完了
+2025-07-30 11:13:19,805 - carebot - INFO - info:45 - 気分記録テーブルのポリシー設定完了
+2025-07-30 11:13:19,805 - carebot - INFO - info:45 - 使用回数テーブルのポリシー設定完了
+2025-07-30 11:13:19,805 - carebot - INFO - info:45 - RLSポリシーの設定が完了しました
+2025-07-30 11:13:19,805 - carebot - INFO - info:45 - テーブル users のポリシー検証: 設定済み
+2025-07-30 11:13:19,805 - carebot - INFO - info:45 - テーブル journals のポリシー検証: 設定済み
+2025-07-30 11:13:19,805 - carebot - INFO - info:45 - テーブル moods のポリシー検証: 設定済み
+2025-07-30 11:13:19,805 - carebot - INFO - info:45 - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-30 11:13:19,805 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:13:19,805 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:13:19,805 - carebot - INFO - info:45 - CareBot AI アプリケーションが正常に起動しました
+2025-07-30 11:13:20,008 - carebot - INFO - info:45 - CareBot AI アプリケーションを終了中...
+2025-07-30 11:13:20,790 - carebot - INFO - info:45 - CareBot AI アプリケーションを起動中... (環境: development)
+2025-07-30 11:13:20,790 - carebot - INFO - info:45 - RLSポリシーを設定中...
+2025-07-30 11:13:20,790 - carebot - INFO - info:45 - RLSポリシーの設定を開始
+2025-07-30 11:13:20,790 - carebot - INFO - info:45 - RLS enabled for table: users
+2025-07-30 11:13:20,790 - carebot - INFO - info:45 - RLS enabled for table: journals
+2025-07-30 11:13:20,790 - carebot - INFO - info:45 - RLS enabled for table: moods
+2025-07-30 11:13:20,790 - carebot - INFO - info:45 - RLS enabled for table: usage_counts
+2025-07-30 11:13:20,790 - carebot - INFO - info:45 - ユーザーテーブルのポリシー設定完了
+2025-07-30 11:13:20,790 - carebot - INFO - info:45 - ジャーナルテーブルのポリシー設定完了
+2025-07-30 11:13:20,790 - carebot - INFO - info:45 - 気分記録テーブルのポリシー設定完了
+2025-07-30 11:13:20,790 - carebot - INFO - info:45 - 使用回数テーブルのポリシー設定完了
+2025-07-30 11:13:20,790 - carebot - INFO - info:45 - RLSポリシーの設定が完了しました
+2025-07-30 11:13:20,790 - carebot - INFO - info:45 - テーブル users のポリシー検証: 設定済み
+2025-07-30 11:13:20,790 - carebot - INFO - info:45 - テーブル journals のポリシー検証: 設定済み
+2025-07-30 11:13:20,790 - carebot - INFO - info:45 - テーブル moods のポリシー検証: 設定済み
+2025-07-30 11:13:20,790 - carebot - INFO - info:45 - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-30 11:13:20,790 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:13:20,790 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:13:20,790 - carebot - INFO - info:45 - CareBot AI アプリケーションが正常に起動しました
+2025-07-30 11:14:43,651 - carebot - INFO - info:45 - CareBot AI アプリケーションを終了中...
+2025-07-30 11:14:44,674 - carebot - INFO - info:45 - CareBot AI アプリケーションを起動中... (環境: development)
+2025-07-30 11:14:44,674 - carebot - INFO - info:45 - RLSポリシーを設定中...
+2025-07-30 11:14:44,674 - carebot - INFO - info:45 - RLSポリシーの設定を開始
+2025-07-30 11:14:44,674 - carebot - INFO - info:45 - RLS enabled for table: users
+2025-07-30 11:14:44,674 - carebot - INFO - info:45 - RLS enabled for table: journals
+2025-07-30 11:14:44,674 - carebot - INFO - info:45 - RLS enabled for table: moods
+2025-07-30 11:14:44,674 - carebot - INFO - info:45 - RLS enabled for table: usage_counts
+2025-07-30 11:14:44,675 - carebot - INFO - info:45 - ユーザーテーブルのポリシー設定完了
+2025-07-30 11:14:44,675 - carebot - INFO - info:45 - ジャーナルテーブルのポリシー設定完了
+2025-07-30 11:14:44,675 - carebot - INFO - info:45 - 気分記録テーブルのポリシー設定完了
+2025-07-30 11:14:44,675 - carebot - INFO - info:45 - 使用回数テーブルのポリシー設定完了
+2025-07-30 11:14:44,675 - carebot - INFO - info:45 - RLSポリシーの設定が完了しました
+2025-07-30 11:14:44,675 - carebot - INFO - info:45 - テーブル users のポリシー検証: 設定済み
+2025-07-30 11:14:44,675 - carebot - INFO - info:45 - テーブル journals のポリシー検証: 設定済み
+2025-07-30 11:14:44,675 - carebot - INFO - info:45 - テーブル moods のポリシー検証: 設定済み
+2025-07-30 11:14:44,675 - carebot - INFO - info:45 - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-30 11:14:44,675 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:14:44,675 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:14:44,675 - carebot - INFO - info:45 - CareBot AI アプリケーションが正常に起動しました
+2025-07-30 11:14:46,256 - carebot - INFO - info:45 - CareBot AI アプリケーションを終了中...
+2025-07-30 11:14:47,072 - carebot - INFO - info:45 - CareBot AI アプリケーションを起動中... (環境: development)
+2025-07-30 11:14:47,072 - carebot - INFO - info:45 - RLSポリシーを設定中...
+2025-07-30 11:14:47,072 - carebot - INFO - info:45 - RLSポリシーの設定を開始
+2025-07-30 11:14:47,072 - carebot - INFO - info:45 - RLS enabled for table: users
+2025-07-30 11:14:47,072 - carebot - INFO - info:45 - RLS enabled for table: journals
+2025-07-30 11:14:47,072 - carebot - INFO - info:45 - RLS enabled for table: moods
+2025-07-30 11:14:47,072 - carebot - INFO - info:45 - RLS enabled for table: usage_counts
+2025-07-30 11:14:47,072 - carebot - INFO - info:45 - ユーザーテーブルのポリシー設定完了
+2025-07-30 11:14:47,073 - carebot - INFO - info:45 - ジャーナルテーブルのポリシー設定完了
+2025-07-30 11:14:47,073 - carebot - INFO - info:45 - 気分記録テーブルのポリシー設定完了
+2025-07-30 11:14:47,073 - carebot - INFO - info:45 - 使用回数テーブルのポリシー設定完了
+2025-07-30 11:14:47,073 - carebot - INFO - info:45 - RLSポリシーの設定が完了しました
+2025-07-30 11:14:47,073 - carebot - INFO - info:45 - テーブル users のポリシー検証: 設定済み
+2025-07-30 11:14:47,073 - carebot - INFO - info:45 - テーブル journals のポリシー検証: 設定済み
+2025-07-30 11:14:47,073 - carebot - INFO - info:45 - テーブル moods のポリシー検証: 設定済み
+2025-07-30 11:14:47,073 - carebot - INFO - info:45 - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-30 11:14:47,073 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:14:47,073 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:14:47,073 - carebot - INFO - info:45 - CareBot AI アプリケーションが正常に起動しました
+2025-07-30 11:14:58,525 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&email=eq.test%40example.com "HTTP/2 200 OK"
+2025-07-30 11:14:58,528 - app.database.supabase_db - INFO - get_user_by_email:85 - ユーザーが見つかりません: test@example.com
+2025-07-30 11:14:58,536 - app.database.supabase_db - INFO - create_user:24 - === ユーザー作成開始 ===
+2025-07-30 11:14:58,537 - app.database.supabase_db - INFO - create_user:25 - メールアドレス: test@example.com
+2025-07-30 11:14:58,537 - app.database.supabase_db - ERROR - create_user:69 - ユーザー作成エラー: 'UserRegister' object has no attribute 'name'
+2025-07-30 11:15:09,212 - carebot - INFO - info:45 - CareBot AI アプリケーションを終了中...
+2025-07-30 11:15:11,303 - carebot - INFO - info:45 - CareBot AI アプリケーションを起動中... (環境: development)
+2025-07-30 11:15:11,304 - carebot - INFO - info:45 - RLSポリシーを設定中...
+2025-07-30 11:15:11,304 - carebot - INFO - info:45 - RLSポリシーの設定を開始
+2025-07-30 11:15:11,304 - carebot - INFO - info:45 - RLS enabled for table: users
+2025-07-30 11:15:11,304 - carebot - INFO - info:45 - RLS enabled for table: journals
+2025-07-30 11:15:11,304 - carebot - INFO - info:45 - RLS enabled for table: moods
+2025-07-30 11:15:11,304 - carebot - INFO - info:45 - RLS enabled for table: usage_counts
+2025-07-30 11:15:11,304 - carebot - INFO - info:45 - ユーザーテーブルのポリシー設定完了
+2025-07-30 11:15:11,304 - carebot - INFO - info:45 - ジャーナルテーブルのポリシー設定完了
+2025-07-30 11:15:11,304 - carebot - INFO - info:45 - 気分記録テーブルのポリシー設定完了
+2025-07-30 11:15:11,304 - carebot - INFO - info:45 - 使用回数テーブルのポリシー設定完了
+2025-07-30 11:15:11,304 - carebot - INFO - info:45 - RLSポリシーの設定が完了しました
+2025-07-30 11:15:11,304 - carebot - INFO - info:45 - テーブル users のポリシー検証: 設定済み
+2025-07-30 11:15:11,304 - carebot - INFO - info:45 - テーブル journals のポリシー検証: 設定済み
+2025-07-30 11:15:11,304 - carebot - INFO - info:45 - テーブル moods のポリシー検証: 設定済み
+2025-07-30 11:15:11,304 - carebot - INFO - info:45 - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-30 11:15:11,304 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:15:11,304 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:15:11,304 - carebot - INFO - info:45 - CareBot AI アプリケーションが正常に起動しました
+2025-07-30 11:15:25,028 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&email=eq.test%40example.com "HTTP/2 200 OK"
+2025-07-30 11:15:25,032 - app.database.supabase_db - INFO - get_user_by_email:85 - ユーザーが見つかりません: test@example.com
+2025-07-30 11:15:25,040 - app.database.supabase_db - INFO - create_user:24 - === ユーザー作成開始 ===
+2025-07-30 11:15:25,040 - app.database.supabase_db - INFO - create_user:25 - メールアドレス: test@example.com
+2025-07-30 11:15:25,040 - app.database.supabase_db - INFO - create_user:26 - ユーザー名: testuser
+2025-07-30 11:15:25,438 - app.database.supabase_db - INFO - create_user:34 - パスワードハッシュ化完了
+2025-07-30 11:15:25,439 - app.database.supabase_db - INFO - create_user:44 - Supabaseに挿入するデータ: {'email': 'test@example.com', 'password': '$2b$12$qrZEtYOVB/IyG/y937DA..0C/XmqMsqrAlOCKAvaK8amEaE/O2zSG', 'name': 'testuser', 'plan_type': 'free'}
+2025-07-30 11:15:25,439 - app.database.supabase_db - INFO - create_user:48 - Supabaseテーブルに挿入中（service_role使用）...
+2025-07-30 11:15:25,691 - httpx - INFO - _send_single_request:1025 - HTTP Request: POST https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users "HTTP/2 201 Created"
+2025-07-30 11:15:25,692 - app.database.supabase_db - INFO - create_user:51 - Supabaseレスポンス: data=[{'id': 3, 'email': 'test@example.com', 'name': 'testuser', 'created_at': '2025-07-30T02:15:25.687557+00:00', 'password': '$2b$12$qrZEtYOVB/IyG/y937DA..0C/XmqMsqrAlOCKAvaK8amEaE/O2zSG', 'plan_type': 'free'}] count=None
+2025-07-30 11:15:25,692 - app.database.supabase_db - INFO - create_user:56 - Supabase挿入成功: {'id': 3, 'email': 'test@example.com', 'name': 'testuser', 'created_at': '2025-07-30T02:15:25.687557+00:00', 'password': '$2b$12$qrZEtYOVB/IyG/y937DA..0C/XmqMsqrAlOCKAvaK8amEaE/O2zSG', 'plan_type': 'free'}
+2025-07-30 11:15:25,692 - app.database.supabase_db - INFO - create_user:61 - ユーザー作成成功: test@example.com
+2025-07-30 11:15:34,462 - carebot - INFO - info:45 - CareBot AI アプリケーションを終了中...
+2025-07-30 11:15:35,449 - carebot - INFO - info:45 - CareBot AI アプリケーションを起動中... (環境: development)
+2025-07-30 11:15:35,449 - carebot - INFO - info:45 - RLSポリシーを設定中...
+2025-07-30 11:15:35,449 - carebot - INFO - info:45 - RLSポリシーの設定を開始
+2025-07-30 11:15:35,449 - carebot - INFO - info:45 - RLS enabled for table: users
+2025-07-30 11:15:35,449 - carebot - INFO - info:45 - RLS enabled for table: journals
+2025-07-30 11:15:35,449 - carebot - INFO - info:45 - RLS enabled for table: moods
+2025-07-30 11:15:35,449 - carebot - INFO - info:45 - RLS enabled for table: usage_counts
+2025-07-30 11:15:35,449 - carebot - INFO - info:45 - ユーザーテーブルのポリシー設定完了
+2025-07-30 11:15:35,449 - carebot - INFO - info:45 - ジャーナルテーブルのポリシー設定完了
+2025-07-30 11:15:35,449 - carebot - INFO - info:45 - 気分記録テーブルのポリシー設定完了
+2025-07-30 11:15:35,449 - carebot - INFO - info:45 - 使用回数テーブルのポリシー設定完了
+2025-07-30 11:15:35,449 - carebot - INFO - info:45 - RLSポリシーの設定が完了しました
+2025-07-30 11:15:35,449 - carebot - INFO - info:45 - テーブル users のポリシー検証: 設定済み
+2025-07-30 11:15:35,449 - carebot - INFO - info:45 - テーブル journals のポリシー検証: 設定済み
+2025-07-30 11:15:35,449 - carebot - INFO - info:45 - テーブル moods のポリシー検証: 設定済み
+2025-07-30 11:15:35,449 - carebot - INFO - info:45 - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-30 11:15:35,449 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:15:35,449 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:15:35,449 - carebot - INFO - info:45 - CareBot AI アプリケーションが正常に起動しました
+2025-07-30 11:15:37,890 - carebot - INFO - info:45 - リクエスト開始: GET /docs
+2025-07-30 11:15:37,891 - carebot - INFO - info:45 - リクエスト完了: GET /docs - ステータス: 200
+2025-07-30 11:15:37,893 - carebot - INFO - info:45 - リクエスト開始: POST /api/auth/login
+2025-07-30 11:15:37,901 - carebot - INFO - info:45 - API Request | Context: {'method': 'POST', 'path': '/api/auth/login'}
+2025-07-30 11:15:37,901 - carebot - INFO - info:45 - === ユーザーログイン開始 ===
+2025-07-30 11:15:37,902 - carebot - INFO - info:45 - ログインメールアドレス: test@example.com
+2025-07-30 11:15:37,903 - carebot - INFO - info:45 - 認証処理開始: test@example.com
+2025-07-30 11:15:37,903 - app.database.supabase_db - INFO - authenticate_user:116 - 認証開始: test@example.com
+2025-07-30 11:15:38,119 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&email=eq.test%40example.com "HTTP/2 200 OK"
+2025-07-30 11:15:38,121 - app.database.supabase_db - INFO - get_user_by_email:82 - ユーザー取得成功: test@example.com
+2025-07-30 11:15:38,511 - app.database.supabase_db - INFO - authenticate_user:143 - パスワード検証成功: test@example.com
+2025-07-30 11:15:38,522 - carebot - INFO - info:45 - アクセストークン生成完了: ユーザーID 3
+2025-07-30 11:15:38,523 - carebot - INFO - info:45 - User Action | Context: {'user_id': 3, 'action': 'user_login', 'email': 'test@example.com'}
+2025-07-30 11:15:38,523 - carebot - INFO - info:45 - === ユーザーログイン完了 ===
+2025-07-30 11:15:38,523 - carebot - INFO - info:45 - ログイン成功: test@example.com (ID: 3)
+2025-07-30 11:15:38,523 - carebot - INFO - info:45 - リクエスト完了: POST /api/auth/login - ステータス: 200
+2025-07-30 11:15:38,526 - carebot - INFO - info:45 - リクエスト開始: POST /api/cbt/session
+2025-07-30 11:15:38,644 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.3 "HTTP/2 200 OK"
+2025-07-30 11:15:38,644 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 3
+2025-07-30 11:15:38,645 - carebot - INFO - info:45 - API Request | Context: {'method': 'POST', 'path': '/api/cbt/session', 'user_id': 3}
+2025-07-30 11:15:38,645 - carebot - INFO - info:45 - User Action | Context: {'user_id': 3, 'action': 'start_cbt_session'}
+2025-07-30 11:15:38,646 - carebot - INFO - info:45 - リクエスト完了: POST /api/cbt/session - ステータス: 200
+2025-07-30 11:15:38,649 - carebot - INFO - info:45 - リクエスト開始: POST /api/cbt/conversation
+2025-07-30 11:15:38,845 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.3 "HTTP/2 200 OK"
+2025-07-30 11:15:38,858 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 3
+2025-07-30 11:15:38,859 - carebot - INFO - info:45 - API Request | Context: {'method': 'POST', 'path': '/api/cbt/conversation', 'user_id': 3}
+2025-07-30 11:15:38,859 - carebot - ERROR - error:63 - API Error | Context: {'method': 'POST', 'path': '/api/cbt/conversation'} | Error: 必須フィールドが不足しています: message
+Traceback (most recent call last):
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/api/endpoints/cbt.py", line 85, in cbt_conversation
+    validate_required_fields(request, ["message"])
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/utils/error_handler.py", line 141, in validate_required_fields
+    raise ValidationError(
+    ...<2 lines>...
+    )
+app.utils.error_handler.ValidationError: 必須フィールドが不足しています: message
+2025-07-30 11:15:38,863 - carebot - INFO - info:45 - リクエスト完了: POST /api/cbt/conversation - ステータス: 400
+2025-07-30 11:15:39,869 - carebot - INFO - info:45 - リクエスト開始: POST /api/cbt/conversation
+2025-07-30 11:15:39,980 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.3 "HTTP/2 200 OK"
+2025-07-30 11:15:39,980 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 3
+2025-07-30 11:15:39,981 - carebot - INFO - info:45 - API Request | Context: {'method': 'POST', 'path': '/api/cbt/conversation', 'user_id': 3}
+2025-07-30 11:15:39,981 - carebot - ERROR - error:63 - API Error | Context: {'method': 'POST', 'path': '/api/cbt/conversation'} | Error: 必須フィールドが不足しています: message
+Traceback (most recent call last):
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/api/endpoints/cbt.py", line 85, in cbt_conversation
+    validate_required_fields(request, ["message"])
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/utils/error_handler.py", line 141, in validate_required_fields
+    raise ValidationError(
+    ...<2 lines>...
+    )
+app.utils.error_handler.ValidationError: 必須フィールドが不足しています: message
+2025-07-30 11:15:39,982 - carebot - INFO - info:45 - リクエスト完了: POST /api/cbt/conversation - ステータス: 400
+2025-07-30 11:15:40,991 - carebot - INFO - info:45 - リクエスト開始: POST /api/cbt/conversation
+2025-07-30 11:15:41,107 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.3 "HTTP/2 200 OK"
+2025-07-30 11:15:41,108 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 3
+2025-07-30 11:15:41,108 - carebot - INFO - info:45 - API Request | Context: {'method': 'POST', 'path': '/api/cbt/conversation', 'user_id': 3}
+2025-07-30 11:15:41,108 - carebot - ERROR - error:63 - API Error | Context: {'method': 'POST', 'path': '/api/cbt/conversation'} | Error: 必須フィールドが不足しています: message
+Traceback (most recent call last):
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/api/endpoints/cbt.py", line 85, in cbt_conversation
+    validate_required_fields(request, ["message"])
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/utils/error_handler.py", line 141, in validate_required_fields
+    raise ValidationError(
+    ...<2 lines>...
+    )
+app.utils.error_handler.ValidationError: 必須フィールドが不足しています: message
+2025-07-30 11:15:41,109 - carebot - INFO - info:45 - リクエスト完了: POST /api/cbt/conversation - ステータス: 400
+2025-07-30 11:15:42,118 - carebot - INFO - info:45 - リクエスト開始: POST /api/cbt/conversation
+2025-07-30 11:15:42,313 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.3 "HTTP/2 200 OK"
+2025-07-30 11:15:42,314 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 3
+2025-07-30 11:15:42,314 - carebot - INFO - info:45 - API Request | Context: {'method': 'POST', 'path': '/api/cbt/conversation', 'user_id': 3}
+2025-07-30 11:15:42,314 - carebot - ERROR - error:63 - API Error | Context: {'method': 'POST', 'path': '/api/cbt/conversation'} | Error: 必須フィールドが不足しています: message
+Traceback (most recent call last):
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/api/endpoints/cbt.py", line 85, in cbt_conversation
+    validate_required_fields(request, ["message"])
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/utils/error_handler.py", line 141, in validate_required_fields
+    raise ValidationError(
+    ...<2 lines>...
+    )
+app.utils.error_handler.ValidationError: 必須フィールドが不足しています: message
+2025-07-30 11:15:42,315 - carebot - INFO - info:45 - リクエスト完了: POST /api/cbt/conversation - ステータス: 400
+2025-07-30 11:15:43,326 - carebot - INFO - info:45 - リクエスト開始: POST /api/cbt/conversation
+2025-07-30 11:15:43,468 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.3 "HTTP/2 200 OK"
+2025-07-30 11:15:43,468 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 3
+2025-07-30 11:15:43,468 - carebot - INFO - info:45 - API Request | Context: {'method': 'POST', 'path': '/api/cbt/conversation', 'user_id': 3}
+2025-07-30 11:15:43,469 - carebot - ERROR - error:63 - API Error | Context: {'method': 'POST', 'path': '/api/cbt/conversation'} | Error: 必須フィールドが不足しています: message
+Traceback (most recent call last):
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/api/endpoints/cbt.py", line 85, in cbt_conversation
+    validate_required_fields(request, ["message"])
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/utils/error_handler.py", line 141, in validate_required_fields
+    raise ValidationError(
+    ...<2 lines>...
+    )
+app.utils.error_handler.ValidationError: 必須フィールドが不足しています: message
+2025-07-30 11:15:43,469 - carebot - INFO - info:45 - リクエスト完了: POST /api/cbt/conversation - ステータス: 400
+2025-07-30 11:15:44,480 - carebot - INFO - info:45 - リクエスト開始: GET /api/cbt/conversation/summary
+2025-07-30 11:15:44,556 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.3 "HTTP/2 200 OK"
+2025-07-30 11:15:44,556 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 3
+2025-07-30 11:15:44,556 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/cbt/conversation/summary', 'user_id': 3}
+2025-07-30 11:15:44,557 - carebot - INFO - info:45 - User Action | Context: {'user_id': 3, 'action': 'get_conversation_summary'}
+2025-07-30 11:15:44,557 - carebot - INFO - info:45 - リクエスト完了: GET /api/cbt/conversation/summary - ステータス: 200
+2025-07-30 11:15:44,560 - carebot - INFO - info:45 - リクエスト開始: GET /api/cbt/quality/report
+2025-07-30 11:15:44,689 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.3 "HTTP/2 200 OK"
+2025-07-30 11:15:44,689 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 3
+2025-07-30 11:15:44,689 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/cbt/quality/report', 'user_id': 3}
+2025-07-30 11:15:44,690 - carebot - INFO - info:45 - リクエスト完了: GET /api/cbt/quality/report - ステータス: 403
+2025-07-30 11:15:52,774 - carebot - INFO - info:45 - CareBot AI アプリケーションを終了中...
+2025-07-30 11:15:53,753 - carebot - INFO - info:45 - CareBot AI アプリケーションを起動中... (環境: development)
+2025-07-30 11:15:53,753 - carebot - INFO - info:45 - RLSポリシーを設定中...
+2025-07-30 11:15:53,753 - carebot - INFO - info:45 - RLSポリシーの設定を開始
+2025-07-30 11:15:53,753 - carebot - INFO - info:45 - RLS enabled for table: users
+2025-07-30 11:15:53,753 - carebot - INFO - info:45 - RLS enabled for table: journals
+2025-07-30 11:15:53,753 - carebot - INFO - info:45 - RLS enabled for table: moods
+2025-07-30 11:15:53,753 - carebot - INFO - info:45 - RLS enabled for table: usage_counts
+2025-07-30 11:15:53,753 - carebot - INFO - info:45 - ユーザーテーブルのポリシー設定完了
+2025-07-30 11:15:53,753 - carebot - INFO - info:45 - ジャーナルテーブルのポリシー設定完了
+2025-07-30 11:15:53,753 - carebot - INFO - info:45 - 気分記録テーブルのポリシー設定完了
+2025-07-30 11:15:53,753 - carebot - INFO - info:45 - 使用回数テーブルのポリシー設定完了
+2025-07-30 11:15:53,753 - carebot - INFO - info:45 - RLSポリシーの設定が完了しました
+2025-07-30 11:15:53,753 - carebot - INFO - info:45 - テーブル users のポリシー検証: 設定済み
+2025-07-30 11:15:53,754 - carebot - INFO - info:45 - テーブル journals のポリシー検証: 設定済み
+2025-07-30 11:15:53,754 - carebot - INFO - info:45 - テーブル moods のポリシー検証: 設定済み
+2025-07-30 11:15:53,754 - carebot - INFO - info:45 - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-30 11:15:53,754 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:15:53,754 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:15:53,754 - carebot - INFO - info:45 - CareBot AI アプリケーションが正常に起動しました
+2025-07-30 11:16:00,287 - carebot - INFO - info:45 - リクエスト開始: GET /docs
+2025-07-30 11:16:00,288 - carebot - INFO - info:45 - リクエスト完了: GET /docs - ステータス: 200
+2025-07-30 11:16:00,290 - carebot - INFO - info:45 - リクエスト開始: POST /api/auth/login
+2025-07-30 11:16:00,297 - carebot - INFO - info:45 - API Request | Context: {'method': 'POST', 'path': '/api/auth/login'}
+2025-07-30 11:16:00,298 - carebot - INFO - info:45 - === ユーザーログイン開始 ===
+2025-07-30 11:16:00,298 - carebot - INFO - info:45 - ログインメールアドレス: test@example.com
+2025-07-30 11:16:00,298 - carebot - INFO - info:45 - 認証処理開始: test@example.com
+2025-07-30 11:16:00,298 - app.database.supabase_db - INFO - authenticate_user:116 - 認証開始: test@example.com
+2025-07-30 11:16:00,461 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&email=eq.test%40example.com "HTTP/2 200 OK"
+2025-07-30 11:16:00,464 - app.database.supabase_db - INFO - get_user_by_email:82 - ユーザー取得成功: test@example.com
+2025-07-30 11:16:00,848 - app.database.supabase_db - INFO - authenticate_user:143 - パスワード検証成功: test@example.com
+2025-07-30 11:16:00,854 - carebot - INFO - info:45 - アクセストークン生成完了: ユーザーID 3
+2025-07-30 11:16:00,854 - carebot - INFO - info:45 - User Action | Context: {'user_id': 3, 'action': 'user_login', 'email': 'test@example.com'}
+2025-07-30 11:16:00,854 - carebot - INFO - info:45 - === ユーザーログイン完了 ===
+2025-07-30 11:16:00,854 - carebot - INFO - info:45 - ログイン成功: test@example.com (ID: 3)
+2025-07-30 11:16:00,854 - carebot - INFO - info:45 - リクエスト完了: POST /api/auth/login - ステータス: 200
+2025-07-30 11:16:00,857 - carebot - INFO - info:45 - リクエスト開始: POST /api/cbt/session
+2025-07-30 11:16:00,994 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.3 "HTTP/2 200 OK"
+2025-07-30 11:16:00,995 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 3
+2025-07-30 11:16:00,997 - carebot - INFO - info:45 - API Request | Context: {'method': 'POST', 'path': '/api/cbt/session', 'user_id': 3}
+2025-07-30 11:16:00,998 - carebot - INFO - info:45 - User Action | Context: {'user_id': 3, 'action': 'start_cbt_session'}
+2025-07-30 11:16:00,998 - carebot - INFO - info:45 - リクエスト完了: POST /api/cbt/session - ステータス: 200
+2025-07-30 11:16:01,002 - carebot - INFO - info:45 - リクエスト開始: POST /api/cbt/conversation
+2025-07-30 11:16:01,198 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.3 "HTTP/2 200 OK"
+2025-07-30 11:16:01,199 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 3
+2025-07-30 11:16:01,200 - carebot - INFO - info:45 - API Request | Context: {'method': 'POST', 'path': '/api/cbt/conversation', 'user_id': 3}
+2025-07-30 11:16:01,200 - carebot - ERROR - error:63 - CBT対話記録エラー | Context: {'user_id': 3} | Error: SupabaseDB.create_journal() missing 1 required positional argument: 'journal_data'
+Traceback (most recent call last):
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/api/endpoints/cbt.py", line 214, in record_cbt_conversation
+    SupabaseDB.create_journal(journal_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: SupabaseDB.create_journal() missing 1 required positional argument: 'journal_data'
+2025-07-30 11:16:01,201 - carebot - ERROR - error:63 - CBT対話記録エラー | Context: {'user_id': 3} | Error: CBT対話の記録に失敗しました
+Traceback (most recent call last):
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/api/endpoints/cbt.py", line 214, in record_cbt_conversation
+    SupabaseDB.create_journal(journal_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: SupabaseDB.create_journal() missing 1 required positional argument: 'journal_data'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/api/endpoints/cbt.py", line 101, in cbt_conversation
+    await record_cbt_conversation(
+    ...<5 lines>...
+    )
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/api/endpoints/cbt.py", line 218, in record_cbt_conversation
+    raise DatabaseError("CBT対話の記録に失敗しました")
+app.utils.error_handler.DatabaseError: CBT対話の記録に失敗しました
+2025-07-30 11:16:01,202 - carebot - INFO - info:45 - User Action | Context: {'user_id': 3, 'action': 'cbt_conversation'}
+2025-07-30 11:16:01,202 - carebot - INFO - info:45 - リクエスト完了: POST /api/cbt/conversation - ステータス: 200
+2025-07-30 11:16:02,212 - carebot - INFO - info:45 - リクエスト開始: POST /api/cbt/conversation
+2025-07-30 11:16:02,516 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.3 "HTTP/2 200 OK"
+2025-07-30 11:16:02,517 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 3
+2025-07-30 11:16:02,517 - carebot - INFO - info:45 - API Request | Context: {'method': 'POST', 'path': '/api/cbt/conversation', 'user_id': 3}
+2025-07-30 11:16:02,517 - carebot - ERROR - error:63 - CBT対話記録エラー | Context: {'user_id': 3} | Error: SupabaseDB.create_journal() missing 1 required positional argument: 'journal_data'
+Traceback (most recent call last):
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/api/endpoints/cbt.py", line 214, in record_cbt_conversation
+    SupabaseDB.create_journal(journal_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: SupabaseDB.create_journal() missing 1 required positional argument: 'journal_data'
+2025-07-30 11:16:02,517 - carebot - ERROR - error:63 - CBT対話記録エラー | Context: {'user_id': 3} | Error: CBT対話の記録に失敗しました
+Traceback (most recent call last):
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/api/endpoints/cbt.py", line 214, in record_cbt_conversation
+    SupabaseDB.create_journal(journal_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: SupabaseDB.create_journal() missing 1 required positional argument: 'journal_data'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/api/endpoints/cbt.py", line 101, in cbt_conversation
+    await record_cbt_conversation(
+    ...<5 lines>...
+    )
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/api/endpoints/cbt.py", line 218, in record_cbt_conversation
+    raise DatabaseError("CBT対話の記録に失敗しました")
+app.utils.error_handler.DatabaseError: CBT対話の記録に失敗しました
+2025-07-30 11:16:02,518 - carebot - INFO - info:45 - User Action | Context: {'user_id': 3, 'action': 'cbt_conversation'}
+2025-07-30 11:16:02,518 - carebot - INFO - info:45 - リクエスト完了: POST /api/cbt/conversation - ステータス: 200
+2025-07-30 11:16:03,526 - carebot - INFO - info:45 - リクエスト開始: POST /api/cbt/conversation
+2025-07-30 11:16:03,639 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.3 "HTTP/2 200 OK"
+2025-07-30 11:16:03,640 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 3
+2025-07-30 11:16:03,640 - carebot - INFO - info:45 - API Request | Context: {'method': 'POST', 'path': '/api/cbt/conversation', 'user_id': 3}
+2025-07-30 11:16:03,640 - carebot - ERROR - error:63 - CBT対話記録エラー | Context: {'user_id': 3} | Error: SupabaseDB.create_journal() missing 1 required positional argument: 'journal_data'
+Traceback (most recent call last):
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/api/endpoints/cbt.py", line 214, in record_cbt_conversation
+    SupabaseDB.create_journal(journal_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: SupabaseDB.create_journal() missing 1 required positional argument: 'journal_data'
+2025-07-30 11:16:03,641 - carebot - ERROR - error:63 - CBT対話記録エラー | Context: {'user_id': 3} | Error: CBT対話の記録に失敗しました
+Traceback (most recent call last):
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/api/endpoints/cbt.py", line 214, in record_cbt_conversation
+    SupabaseDB.create_journal(journal_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: SupabaseDB.create_journal() missing 1 required positional argument: 'journal_data'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/api/endpoints/cbt.py", line 101, in cbt_conversation
+    await record_cbt_conversation(
+    ...<5 lines>...
+    )
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/api/endpoints/cbt.py", line 218, in record_cbt_conversation
+    raise DatabaseError("CBT対話の記録に失敗しました")
+app.utils.error_handler.DatabaseError: CBT対話の記録に失敗しました
+2025-07-30 11:16:03,641 - carebot - INFO - info:45 - User Action | Context: {'user_id': 3, 'action': 'cbt_conversation'}
+2025-07-30 11:16:03,641 - carebot - INFO - info:45 - リクエスト完了: POST /api/cbt/conversation - ステータス: 200
+2025-07-30 11:16:04,646 - carebot - INFO - info:45 - リクエスト開始: POST /api/cbt/conversation
+2025-07-30 11:16:04,724 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.3 "HTTP/2 200 OK"
+2025-07-30 11:16:04,725 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 3
+2025-07-30 11:16:04,725 - carebot - INFO - info:45 - API Request | Context: {'method': 'POST', 'path': '/api/cbt/conversation', 'user_id': 3}
+2025-07-30 11:16:04,725 - carebot - ERROR - error:63 - CBT対話記録エラー | Context: {'user_id': 3} | Error: SupabaseDB.create_journal() missing 1 required positional argument: 'journal_data'
+Traceback (most recent call last):
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/api/endpoints/cbt.py", line 214, in record_cbt_conversation
+    SupabaseDB.create_journal(journal_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: SupabaseDB.create_journal() missing 1 required positional argument: 'journal_data'
+2025-07-30 11:16:04,725 - carebot - ERROR - error:63 - CBT対話記録エラー | Context: {'user_id': 3} | Error: CBT対話の記録に失敗しました
+Traceback (most recent call last):
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/api/endpoints/cbt.py", line 214, in record_cbt_conversation
+    SupabaseDB.create_journal(journal_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: SupabaseDB.create_journal() missing 1 required positional argument: 'journal_data'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/api/endpoints/cbt.py", line 101, in cbt_conversation
+    await record_cbt_conversation(
+    ...<5 lines>...
+    )
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/api/endpoints/cbt.py", line 218, in record_cbt_conversation
+    raise DatabaseError("CBT対話の記録に失敗しました")
+app.utils.error_handler.DatabaseError: CBT対話の記録に失敗しました
+2025-07-30 11:16:04,726 - carebot - INFO - info:45 - User Action | Context: {'user_id': 3, 'action': 'cbt_conversation'}
+2025-07-30 11:16:04,726 - carebot - INFO - info:45 - リクエスト完了: POST /api/cbt/conversation - ステータス: 200
+2025-07-30 11:16:05,734 - carebot - INFO - info:45 - リクエスト開始: POST /api/cbt/conversation
+2025-07-30 11:16:05,917 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.3 "HTTP/2 200 OK"
+2025-07-30 11:16:05,917 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 3
+2025-07-30 11:16:05,917 - carebot - INFO - info:45 - API Request | Context: {'method': 'POST', 'path': '/api/cbt/conversation', 'user_id': 3}
+2025-07-30 11:16:05,918 - carebot - INFO - info:45 - User Action | Context: {'user_id': 3, 'action': 'cbt_conversation'}
+2025-07-30 11:16:05,918 - carebot - INFO - info:45 - リクエスト完了: POST /api/cbt/conversation - ステータス: 200
+2025-07-30 11:16:06,926 - carebot - INFO - info:45 - リクエスト開始: GET /api/cbt/conversation/summary
+2025-07-30 11:16:07,026 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.3 "HTTP/2 200 OK"
+2025-07-30 11:16:07,026 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 3
+2025-07-30 11:16:07,026 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/cbt/conversation/summary', 'user_id': 3}
+2025-07-30 11:16:07,026 - carebot - INFO - info:45 - User Action | Context: {'user_id': 3, 'action': 'get_conversation_summary'}
+2025-07-30 11:16:07,027 - carebot - INFO - info:45 - リクエスト完了: GET /api/cbt/conversation/summary - ステータス: 200
+2025-07-30 11:16:07,031 - carebot - INFO - info:45 - リクエスト開始: GET /api/cbt/quality/report
+2025-07-30 11:16:07,114 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.3 "HTTP/2 200 OK"
+2025-07-30 11:16:07,114 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 3
+2025-07-30 11:16:07,115 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/cbt/quality/report', 'user_id': 3}
+2025-07-30 11:16:07,116 - carebot - INFO - info:45 - リクエスト完了: GET /api/cbt/quality/report - ステータス: 403
+2025-07-30 11:45:45,081 - carebot - INFO - info:45 - CareBot AI アプリケーションを起動中... (環境: development)
+2025-07-30 11:45:45,081 - carebot - INFO - info:45 - RLSポリシーを設定中...
+2025-07-30 11:45:45,081 - carebot - INFO - info:45 - RLSポリシーの設定を開始
+2025-07-30 11:45:45,081 - carebot - INFO - info:45 - RLS enabled for table: users
+2025-07-30 11:45:45,081 - carebot - INFO - info:45 - RLS enabled for table: journals
+2025-07-30 11:45:45,081 - carebot - INFO - info:45 - RLS enabled for table: moods
+2025-07-30 11:45:45,081 - carebot - INFO - info:45 - RLS enabled for table: usage_counts
+2025-07-30 11:45:45,081 - carebot - INFO - info:45 - ユーザーテーブルのポリシー設定完了
+2025-07-30 11:45:45,081 - carebot - INFO - info:45 - ジャーナルテーブルのポリシー設定完了
+2025-07-30 11:45:45,081 - carebot - INFO - info:45 - 気分記録テーブルのポリシー設定完了
+2025-07-30 11:45:45,082 - carebot - INFO - info:45 - 使用回数テーブルのポリシー設定完了
+2025-07-30 11:45:45,082 - carebot - INFO - info:45 - RLSポリシーの設定が完了しました
+2025-07-30 11:45:45,082 - carebot - INFO - info:45 - テーブル users のポリシー検証: 設定済み
+2025-07-30 11:45:45,082 - carebot - INFO - info:45 - テーブル journals のポリシー検証: 設定済み
+2025-07-30 11:45:45,082 - carebot - INFO - info:45 - テーブル moods のポリシー検証: 設定済み
+2025-07-30 11:45:45,082 - carebot - INFO - info:45 - テーブル usage_counts のポリシー検証: 設定済み
+2025-07-30 11:45:45,082 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:45:45,082 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-07-30 11:45:45,082 - carebot - INFO - info:45 - CareBot AI アプリケーションが正常に起動しました
+2025-07-30 11:46:05,074 - carebot - INFO - info:45 - リクエスト開始: GET /docs
+2025-07-30 11:46:05,078 - carebot - INFO - info:45 - リクエスト完了: GET /docs - ステータス: 200
+2025-07-30 11:46:05,288 - carebot - INFO - info:45 - リクエスト開始: GET /openapi.json
+2025-07-30 11:46:05,345 - carebot - INFO - info:45 - リクエスト完了: GET /openapi.json - ステータス: 200
+2025-07-30 11:46:09,271 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals
+2025-07-30 11:46:09,273 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals - ステータス: 200
+2025-07-30 11:46:09,286 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 11:46:09,288 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 11:46:09,295 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals/
+2025-07-30 11:46:09,295 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals/ - ステータス: 200
+2025-07-30 11:46:09,298 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 11:46:09,326 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 401
+2025-07-30 11:46:22,804 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 11:46:22,809 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 11:46:22,818 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 11:46:22,836 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 401
+2025-07-30 11:46:28,333 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/meditation/sessions
+2025-07-30 11:46:28,334 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/meditation/sessions - ステータス: 200
+2025-07-30 11:46:28,337 - carebot - INFO - info:45 - リクエスト開始: GET /api/meditation/sessions
+2025-07-30 11:46:28,346 - carebot - INFO - info:45 - リクエスト完了: GET /api/meditation/sessions - ステータス: 401
+2025-07-30 11:46:36,881 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 11:46:36,882 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 11:46:36,895 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 11:46:36,897 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 401
+2025-07-30 11:47:32,469 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/auth/login
+2025-07-30 11:47:32,470 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/auth/login - ステータス: 200
+2025-07-30 11:47:32,472 - carebot - INFO - info:45 - リクエスト開始: POST /api/auth/login
+2025-07-30 11:47:32,486 - carebot - INFO - info:45 - API Request | Context: {'method': 'POST', 'path': '/api/auth/login'}
+2025-07-30 11:47:32,486 - carebot - INFO - info:45 - === ユーザーログイン開始 ===
+2025-07-30 11:47:32,487 - carebot - INFO - info:45 - ログインメールアドレス: user1@gmail.com
+2025-07-30 11:47:32,487 - carebot - INFO - info:45 - 認証処理開始: user1@gmail.com
+2025-07-30 11:47:32,487 - app.database.supabase_db - INFO - authenticate_user:116 - 認証開始: user1@gmail.com
+2025-07-30 11:47:33,903 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&email=eq.user1%40gmail.com "HTTP/2 200 OK"
+2025-07-30 11:47:33,905 - app.database.supabase_db - INFO - get_user_by_email:82 - ユーザー取得成功: user1@gmail.com
+2025-07-30 11:47:34,286 - app.database.supabase_db - WARNING - authenticate_user:149 - パスワード検証失敗: user1@gmail.com
+2025-07-30 11:47:34,286 - carebot - WARNING - warning:54 - 認証失敗: user1@gmail.com
+2025-07-30 11:47:34,286 - carebot - ERROR - error:63 - ログイン認証エラー: メールアドレスまたはパスワードが正しくありません
+2025-07-30 11:47:34,286 - carebot - ERROR - error:63 - API Error | Context: {'method': 'POST', 'path': '/api/auth/login'} | Error: メールアドレスまたはパスワードが正しくありません
+Traceback (most recent call last):
+  File "/Users/akaishiyuuto/Desktop/CareBot_AI/backend/app/api/endpoints/auth.py", line 127, in login
+    raise AuthenticationError("メールアドレスまたはパスワードが正しくありません")
+app.utils.error_handler.AuthenticationError: メールアドレスまたはパスワードが正しくありません
+2025-07-30 11:47:34,288 - carebot - INFO - info:45 - リクエスト完了: POST /api/auth/login - ステータス: 401
+2025-07-30 11:48:00,019 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/auth/register
+2025-07-30 11:48:00,028 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/auth/register - ステータス: 200
+2025-07-30 11:48:00,031 - carebot - INFO - info:45 - リクエスト開始: POST /api/auth/register
+2025-07-30 11:48:00,046 - carebot - INFO - info:45 - API Request | Context: {'method': 'POST', 'path': '/api/auth/register'}
+2025-07-30 11:48:00,047 - carebot - INFO - info:45 - === ユーザー登録開始 ===
+2025-07-30 11:48:00,047 - carebot - INFO - info:45 - 登録メールアドレス: user2@gmail.com
+2025-07-30 11:48:00,047 - carebot - INFO - info:45 - 登録ユーザー名: user2
+2025-07-30 11:48:00,294 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&email=eq.user2%40gmail.com "HTTP/2 200 OK"
+2025-07-30 11:48:00,294 - app.database.supabase_db - INFO - get_user_by_email:85 - ユーザーが見つかりません: user2@gmail.com
+2025-07-30 11:48:00,294 - carebot - INFO - info:45 - データベースにユーザー登録中: user2@gmail.com
+2025-07-30 11:48:00,294 - app.database.supabase_db - INFO - create_user:24 - === ユーザー作成開始 ===
+2025-07-30 11:48:00,295 - app.database.supabase_db - INFO - create_user:25 - メールアドレス: user2@gmail.com
+2025-07-30 11:48:00,295 - app.database.supabase_db - INFO - create_user:26 - ユーザー名: user2
+2025-07-30 11:48:00,680 - app.database.supabase_db - INFO - create_user:34 - パスワードハッシュ化完了
+2025-07-30 11:48:00,680 - app.database.supabase_db - INFO - create_user:44 - Supabaseに挿入するデータ: {'email': 'user2@gmail.com', 'password': '$2b$12$5PAuiH09uvXEbQrxW.n/Uu5sdSbA1380pVNgk.sWBefl3ca7iuMTy', 'name': 'user2', 'plan_type': 'free'}
+2025-07-30 11:48:00,680 - app.database.supabase_db - INFO - create_user:48 - Supabaseテーブルに挿入中（service_role使用）...
+2025-07-30 11:48:00,833 - httpx - INFO - _send_single_request:1025 - HTTP Request: POST https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users "HTTP/2 201 Created"
+2025-07-30 11:48:00,833 - app.database.supabase_db - INFO - create_user:51 - Supabaseレスポンス: data=[{'id': 4, 'email': 'user2@gmail.com', 'name': 'user2', 'created_at': '2025-07-30T02:48:00.810689+00:00', 'password': '$2b$12$5PAuiH09uvXEbQrxW.n/Uu5sdSbA1380pVNgk.sWBefl3ca7iuMTy', 'plan_type': 'free'}] count=None
+2025-07-30 11:48:00,833 - app.database.supabase_db - INFO - create_user:56 - Supabase挿入成功: {'id': 4, 'email': 'user2@gmail.com', 'name': 'user2', 'created_at': '2025-07-30T02:48:00.810689+00:00', 'password': '$2b$12$5PAuiH09uvXEbQrxW.n/Uu5sdSbA1380pVNgk.sWBefl3ca7iuMTy', 'plan_type': 'free'}
+2025-07-30 11:48:00,833 - app.database.supabase_db - INFO - create_user:61 - ユーザー作成成功: user2@gmail.com
+2025-07-30 11:48:00,834 - carebot - INFO - info:45 - アクセストークン生成完了: ユーザーID 4
+2025-07-30 11:48:00,834 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'user_registration', 'email': 'user2@gmail.com', 'name': 'user2'}
+2025-07-30 11:48:00,834 - carebot - INFO - info:45 - === ユーザー登録完了 ===
+2025-07-30 11:48:00,834 - carebot - INFO - info:45 - 登録成功: user2@gmail.com (ID: 4)
+2025-07-30 11:48:00,835 - carebot - INFO - info:45 - リクエスト完了: POST /api/auth/register - ステータス: 200
+2025-07-30 11:48:00,842 - carebot - INFO - info:45 - リクエスト開始: POST /api/auth/login
+2025-07-30 11:48:00,843 - carebot - INFO - info:45 - API Request | Context: {'method': 'POST', 'path': '/api/auth/login'}
+2025-07-30 11:48:00,843 - carebot - INFO - info:45 - === ユーザーログイン開始 ===
+2025-07-30 11:48:00,843 - carebot - INFO - info:45 - ログインメールアドレス: user2@gmail.com
+2025-07-30 11:48:00,843 - carebot - INFO - info:45 - 認証処理開始: user2@gmail.com
+2025-07-30 11:48:00,843 - app.database.supabase_db - INFO - authenticate_user:116 - 認証開始: user2@gmail.com
+2025-07-30 11:48:01,040 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&email=eq.user2%40gmail.com "HTTP/2 200 OK"
+2025-07-30 11:48:01,040 - app.database.supabase_db - INFO - get_user_by_email:82 - ユーザー取得成功: user2@gmail.com
+2025-07-30 11:48:01,445 - app.database.supabase_db - INFO - authenticate_user:143 - パスワード検証成功: user2@gmail.com
+2025-07-30 11:48:01,445 - carebot - INFO - info:45 - アクセストークン生成完了: ユーザーID 4
+2025-07-30 11:48:01,446 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'user_login', 'email': 'user2@gmail.com'}
+2025-07-30 11:48:01,446 - carebot - INFO - info:45 - === ユーザーログイン完了 ===
+2025-07-30 11:48:01,446 - carebot - INFO - info:45 - ログイン成功: user2@gmail.com (ID: 4)
+2025-07-30 11:48:01,446 - carebot - INFO - info:45 - リクエスト完了: POST /api/auth/login - ステータス: 200
+2025-07-30 11:48:01,461 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 11:48:01,462 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 11:48:01,473 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 11:48:01,668 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:48:01,668 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:48:01,669 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/journals/', 'user_id': 4}
+2025-07-30 11:48:01,814 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/journals?select=%2A&user_id=eq.4&order=created_at.desc "HTTP/2 200 OK"
+2025-07-30 11:48:01,815 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'get_journals', 'count': 0}
+2025-07-30 11:48:01,816 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 200
+2025-07-30 11:48:01,823 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/moods
+2025-07-30 11:48:01,823 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/moods - ステータス: 200
+2025-07-30 11:48:01,827 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods
+2025-07-30 11:48:01,830 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods - ステータス: 307
+2025-07-30 11:48:01,837 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/moods/
+2025-07-30 11:48:01,837 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/moods/ - ステータス: 200
+2025-07-30 11:48:01,844 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods/
+2025-07-30 11:48:01,944 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:48:01,945 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:48:01,945 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/moods/', 'user_id': 4}
+2025-07-30 11:48:02,086 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/moods?select=%2A&user_id=eq.4&order=recorded_at.desc "HTTP/2 200 OK"
+2025-07-30 11:48:02,086 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'get_moods', 'count': 0}
+2025-07-30 11:48:02,087 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods/ - ステータス: 200
+2025-07-30 11:48:02,092 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/usage/status
+2025-07-30 11:48:02,092 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/usage/status - ステータス: 200
+2025-07-30 11:48:02,094 - carebot - INFO - info:45 - リクエスト開始: GET /api/usage/status
+2025-07-30 11:48:02,201 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:48:02,202 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:48:02,307 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:48:02,308 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:48:02,423 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.journal "HTTP/2 200 OK"
+2025-07-30 11:48:02,514 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:48:02,515 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:48:02,696 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.mood "HTTP/2 200 OK"
+2025-07-30 11:48:02,783 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:48:02,783 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:48:02,881 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.ai_analysis "HTTP/2 200 OK"
+2025-07-30 11:48:02,883 - carebot - INFO - info:45 - リクエスト完了: GET /api/usage/status - ステータス: 200
+2025-07-30 11:48:11,215 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 11:48:11,221 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 11:48:11,231 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 11:48:11,399 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:48:11,399 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:48:11,400 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/journals/', 'user_id': 4}
+2025-07-30 11:48:11,524 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/journals?select=%2A&user_id=eq.4&order=created_at.desc "HTTP/2 200 OK"
+2025-07-30 11:48:11,524 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'get_journals', 'count': 0}
+2025-07-30 11:48:11,526 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 200
+2025-07-30 11:48:11,534 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods
+2025-07-30 11:48:11,534 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods - ステータス: 307
+2025-07-30 11:48:11,536 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods/
+2025-07-30 11:48:11,618 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:48:11,621 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:48:11,622 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/moods/', 'user_id': 4}
+2025-07-30 11:48:11,706 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/moods?select=%2A&user_id=eq.4&order=recorded_at.desc "HTTP/2 200 OK"
+2025-07-30 11:48:11,707 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'get_moods', 'count': 0}
+2025-07-30 11:48:11,707 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods/ - ステータス: 200
+2025-07-30 11:48:11,710 - carebot - INFO - info:45 - リクエスト開始: GET /api/usage/status
+2025-07-30 11:48:11,801 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:48:11,802 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:48:11,875 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:48:11,876 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:48:11,944 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.journal "HTTP/2 200 OK"
+2025-07-30 11:48:12,047 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:48:12,048 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:48:12,145 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.mood "HTTP/2 200 OK"
+2025-07-30 11:48:12,204 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:48:12,204 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:48:12,292 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.ai_analysis "HTTP/2 200 OK"
+2025-07-30 11:48:12,294 - carebot - INFO - info:45 - リクエスト完了: GET /api/usage/status - ステータス: 200
+2025-07-30 11:48:12,733 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/profiles/me/stats
+2025-07-30 11:48:12,734 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/profiles/me/stats - ステータス: 200
+2025-07-30 11:48:12,738 - carebot - INFO - info:45 - リクエスト開始: GET /api/profiles/me/stats
+2025-07-30 11:48:12,739 - carebot - INFO - info:45 - リクエスト完了: GET /api/profiles/me/stats - ステータス: 404
+2025-07-30 11:48:14,252 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 11:48:14,253 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 11:48:14,274 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 11:48:14,357 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:48:14,358 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:48:14,358 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/journals/', 'user_id': 4}
+2025-07-30 11:48:14,453 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/journals?select=%2A&user_id=eq.4&order=created_at.desc "HTTP/2 200 OK"
+2025-07-30 11:48:14,453 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'get_journals', 'count': 0}
+2025-07-30 11:48:14,454 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 200
+2025-07-30 11:48:14,457 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods
+2025-07-30 11:48:14,457 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods - ステータス: 307
+2025-07-30 11:48:14,459 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods/
+2025-07-30 11:48:14,540 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:48:14,541 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:48:14,541 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/moods/', 'user_id': 4}
+2025-07-30 11:48:14,667 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/moods?select=%2A&user_id=eq.4&order=recorded_at.desc "HTTP/2 200 OK"
+2025-07-30 11:48:14,668 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'get_moods', 'count': 0}
+2025-07-30 11:48:14,668 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods/ - ステータス: 200
+2025-07-30 11:48:14,671 - carebot - INFO - info:45 - リクエスト開始: GET /api/usage/status
+2025-07-30 11:48:14,752 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:48:14,753 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:48:14,871 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:48:14,871 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:48:14,962 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.journal "HTTP/2 200 OK"
+2025-07-30 11:48:15,025 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:48:15,026 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:48:15,079 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.mood "HTTP/2 200 OK"
+2025-07-30 11:48:15,203 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:48:15,203 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:48:15,285 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.ai_analysis "HTTP/2 200 OK"
+2025-07-30 11:48:15,286 - carebot - INFO - info:45 - リクエスト完了: GET /api/usage/status - ステータス: 200
+2025-07-30 11:48:31,275 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/pomodoro/settings/default
+2025-07-30 11:48:31,277 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/pomodoro/settings/default - ステータス: 200
+2025-07-30 11:48:31,281 - carebot - INFO - info:45 - リクエスト開始: GET /api/pomodoro/settings/default
+2025-07-30 11:48:31,285 - carebot - INFO - info:45 - リクエスト完了: GET /api/pomodoro/settings/default - ステータス: 200
+2025-07-30 11:48:31,302 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/pomodoro/statistics
+2025-07-30 11:48:31,303 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/pomodoro/statistics - ステータス: 200
+2025-07-30 11:48:31,304 - carebot - INFO - info:45 - リクエスト開始: GET /api/pomodoro/statistics
+2025-07-30 11:48:31,557 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:48:31,560 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:48:31,640 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/journals?select=%2A&user_id=eq.4&order=created_at.desc "HTTP/2 200 OK"
+2025-07-30 11:48:31,641 - carebot - INFO - info:45 - リクエスト完了: GET /api/pomodoro/statistics - ステータス: 200
+2025-07-30 11:48:37,518 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 11:48:37,518 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 11:48:37,532 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 11:48:38,056 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:48:38,056 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:48:38,057 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/journals/', 'user_id': 4}
+2025-07-30 11:48:38,159 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/journals?select=%2A&user_id=eq.4&order=created_at.desc "HTTP/2 200 OK"
+2025-07-30 11:48:38,161 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'get_journals', 'count': 0}
+2025-07-30 11:48:38,162 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 200
+2025-07-30 11:48:38,168 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods
+2025-07-30 11:48:38,169 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods - ステータス: 307
+2025-07-30 11:48:38,173 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods/
+2025-07-30 11:48:38,352 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:48:38,352 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:48:38,353 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/moods/', 'user_id': 4}
+2025-07-30 11:48:38,447 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/moods?select=%2A&user_id=eq.4&order=recorded_at.desc "HTTP/2 200 OK"
+2025-07-30 11:48:38,447 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'get_moods', 'count': 0}
+2025-07-30 11:48:38,448 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods/ - ステータス: 200
+2025-07-30 11:48:38,452 - carebot - INFO - info:45 - リクエスト開始: GET /api/usage/status
+2025-07-30 11:48:38,552 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:48:38,553 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:48:38,625 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:48:38,626 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:48:38,793 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.journal "HTTP/2 200 OK"
+2025-07-30 11:48:38,886 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:48:38,887 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:48:38,978 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.mood "HTTP/2 200 OK"
+2025-07-30 11:48:39,042 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:48:39,042 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:48:39,121 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.ai_analysis "HTTP/2 200 OK"
+2025-07-30 11:48:39,122 - carebot - INFO - info:45 - リクエスト完了: GET /api/usage/status - ステータス: 200
+2025-07-30 11:49:18,881 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 11:49:18,883 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 11:49:18,886 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 11:49:19,687 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:49:19,688 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:49:19,688 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/journals/', 'user_id': 4}
+2025-07-30 11:49:19,766 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/journals?select=%2A&user_id=eq.4&order=created_at.desc "HTTP/2 200 OK"
+2025-07-30 11:49:19,766 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'get_journals', 'count': 0}
+2025-07-30 11:49:19,767 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 200
+2025-07-30 11:49:19,773 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods
+2025-07-30 11:49:19,773 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods - ステータス: 307
+2025-07-30 11:49:19,777 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods/
+2025-07-30 11:49:19,864 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:49:19,865 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:49:19,865 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/moods/', 'user_id': 4}
+2025-07-30 11:49:19,954 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/moods?select=%2A&user_id=eq.4&order=recorded_at.desc "HTTP/2 200 OK"
+2025-07-30 11:49:19,956 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'get_moods', 'count': 0}
+2025-07-30 11:49:19,957 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods/ - ステータス: 200
+2025-07-30 11:49:19,961 - carebot - INFO - info:45 - リクエスト開始: GET /api/usage/status
+2025-07-30 11:49:20,033 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:49:20,034 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:49:20,212 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:49:20,213 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:49:20,312 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.journal "HTTP/2 200 OK"
+2025-07-30 11:49:20,382 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:49:20,382 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:49:20,471 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.mood "HTTP/2 200 OK"
+2025-07-30 11:49:20,544 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:49:20,545 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:49:20,619 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.ai_analysis "HTTP/2 200 OK"
+2025-07-30 11:49:20,620 - carebot - INFO - info:45 - リクエスト完了: GET /api/usage/status - ステータス: 200
+2025-07-30 11:50:00,980 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 11:50:00,987 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 11:50:00,990 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 11:50:01,266 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:50:01,271 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:50:01,272 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/journals/', 'user_id': 4}
+2025-07-30 11:50:01,337 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/journals?select=%2A&user_id=eq.4&order=created_at.desc "HTTP/2 200 OK"
+2025-07-30 11:50:01,337 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'get_journals', 'count': 0}
+2025-07-30 11:50:01,338 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 200
+2025-07-30 11:50:01,342 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods
+2025-07-30 11:50:01,343 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods - ステータス: 307
+2025-07-30 11:50:01,346 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods/
+2025-07-30 11:50:01,392 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:50:01,393 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:50:01,393 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/moods/', 'user_id': 4}
+2025-07-30 11:50:01,445 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/moods?select=%2A&user_id=eq.4&order=recorded_at.desc "HTTP/2 200 OK"
+2025-07-30 11:50:01,446 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'get_moods', 'count': 0}
+2025-07-30 11:50:01,446 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods/ - ステータス: 200
+2025-07-30 11:50:01,450 - carebot - INFO - info:45 - リクエスト開始: GET /api/usage/status
+2025-07-30 11:50:01,507 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:50:01,507 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:50:01,624 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:50:01,624 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:50:01,687 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.journal "HTTP/2 200 OK"
+2025-07-30 11:50:01,735 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:50:01,742 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:50:01,804 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.mood "HTTP/2 200 OK"
+2025-07-30 11:50:01,857 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:50:01,857 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:50:01,931 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.ai_analysis "HTTP/2 200 OK"
+2025-07-30 11:50:01,932 - carebot - INFO - info:45 - リクエスト完了: GET /api/usage/status - ステータス: 200
+2025-07-30 11:50:49,938 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 11:50:49,940 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 11:50:49,943 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 11:50:50,139 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:50:50,140 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:50:50,141 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/journals/', 'user_id': 4}
+2025-07-30 11:50:50,224 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/journals?select=%2A&user_id=eq.4&order=created_at.desc "HTTP/2 200 OK"
+2025-07-30 11:50:50,224 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'get_journals', 'count': 0}
+2025-07-30 11:50:50,225 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 200
+2025-07-30 11:50:50,229 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods
+2025-07-30 11:50:50,230 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods - ステータス: 307
+2025-07-30 11:50:50,233 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods/
+2025-07-30 11:50:50,408 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:50:50,409 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:50:50,409 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/moods/', 'user_id': 4}
+2025-07-30 11:50:50,519 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/moods?select=%2A&user_id=eq.4&order=recorded_at.desc "HTTP/2 200 OK"
+2025-07-30 11:50:50,519 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'get_moods', 'count': 0}
+2025-07-30 11:50:50,520 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods/ - ステータス: 200
+2025-07-30 11:50:50,524 - carebot - INFO - info:45 - リクエスト開始: GET /api/usage/status
+2025-07-30 11:50:50,598 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:50:50,599 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:50:50,670 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:50:50,670 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:50:50,739 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.journal "HTTP/2 200 OK"
+2025-07-30 11:50:50,804 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:50:50,806 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:50:50,959 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.mood "HTTP/2 200 OK"
+2025-07-30 11:50:51,038 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:50:51,038 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:50:51,161 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.ai_analysis "HTTP/2 200 OK"
+2025-07-30 11:50:51,162 - carebot - INFO - info:45 - リクエスト完了: GET /api/usage/status - ステータス: 200
+2025-07-30 11:51:21,142 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 11:51:21,147 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 11:51:21,153 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 11:51:21,836 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:51:21,836 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:51:21,837 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/journals/', 'user_id': 4}
+2025-07-30 11:51:21,905 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/journals?select=%2A&user_id=eq.4&order=created_at.desc "HTTP/2 200 OK"
+2025-07-30 11:51:21,905 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'get_journals', 'count': 0}
+2025-07-30 11:51:21,906 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 200
+2025-07-30 11:51:21,910 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods
+2025-07-30 11:51:21,910 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods - ステータス: 307
+2025-07-30 11:51:21,913 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods/
+2025-07-30 11:51:22,003 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:51:22,003 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:51:22,004 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/moods/', 'user_id': 4}
+2025-07-30 11:51:22,069 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/moods?select=%2A&user_id=eq.4&order=recorded_at.desc "HTTP/2 200 OK"
+2025-07-30 11:51:22,069 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'get_moods', 'count': 0}
+2025-07-30 11:51:22,069 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods/ - ステータス: 200
+2025-07-30 11:51:22,074 - carebot - INFO - info:45 - リクエスト開始: GET /api/usage/status
+2025-07-30 11:51:22,127 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:51:22,128 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:51:22,193 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:51:22,194 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:51:22,256 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.journal "HTTP/2 200 OK"
+2025-07-30 11:51:22,362 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:51:22,362 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:51:22,421 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.mood "HTTP/2 200 OK"
+2025-07-30 11:51:22,491 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:51:22,492 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:51:22,543 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.ai_analysis "HTTP/2 200 OK"
+2025-07-30 11:51:22,544 - carebot - INFO - info:45 - リクエスト完了: GET /api/usage/status - ステータス: 200
+2025-07-30 11:52:22,953 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 11:52:22,956 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 11:52:22,959 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 11:52:23,308 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:52:23,311 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:52:23,312 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/journals/', 'user_id': 4}
+2025-07-30 11:52:23,375 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/journals?select=%2A&user_id=eq.4&order=created_at.desc "HTTP/2 200 OK"
+2025-07-30 11:52:23,376 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'get_journals', 'count': 0}
+2025-07-30 11:52:23,376 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 200
+2025-07-30 11:52:23,381 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods
+2025-07-30 11:52:23,382 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods - ステータス: 307
+2025-07-30 11:52:23,385 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods/
+2025-07-30 11:52:23,444 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:52:23,444 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:52:23,445 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/moods/', 'user_id': 4}
+2025-07-30 11:52:23,507 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/moods?select=%2A&user_id=eq.4&order=recorded_at.desc "HTTP/2 200 OK"
+2025-07-30 11:52:23,508 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'get_moods', 'count': 0}
+2025-07-30 11:52:23,509 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods/ - ステータス: 200
+2025-07-30 11:52:23,512 - carebot - INFO - info:45 - リクエスト開始: GET /api/usage/status
+2025-07-30 11:52:23,604 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:52:23,605 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:52:23,739 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:52:23,739 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:52:23,789 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.journal "HTTP/2 200 OK"
+2025-07-30 11:52:23,867 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:52:23,867 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:52:23,929 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.mood "HTTP/2 200 OK"
+2025-07-30 11:52:24,004 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:52:24,004 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:52:24,057 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.ai_analysis "HTTP/2 200 OK"
+2025-07-30 11:52:24,058 - carebot - INFO - info:45 - リクエスト完了: GET /api/usage/status - ステータス: 200
+2025-07-30 11:52:27,587 - carebot - INFO - info:45 - リクエスト開始: GET /api/profiles/me/stats
+2025-07-30 11:52:27,589 - carebot - INFO - info:45 - リクエスト完了: GET /api/profiles/me/stats - ステータス: 404
+2025-07-30 11:52:29,602 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 11:52:29,603 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 11:52:29,615 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 11:52:30,000 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:52:30,003 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:52:30,003 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/journals/', 'user_id': 4}
+2025-07-30 11:52:30,068 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/journals?select=%2A&user_id=eq.4&order=created_at.desc "HTTP/2 200 OK"
+2025-07-30 11:52:30,069 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'get_journals', 'count': 0}
+2025-07-30 11:52:30,070 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 200
+2025-07-30 11:52:30,074 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods
+2025-07-30 11:52:30,075 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods - ステータス: 307
+2025-07-30 11:52:30,077 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods/
+2025-07-30 11:52:30,132 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:52:30,132 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:52:30,133 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/moods/', 'user_id': 4}
+2025-07-30 11:52:30,198 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/moods?select=%2A&user_id=eq.4&order=recorded_at.desc "HTTP/2 200 OK"
+2025-07-30 11:52:30,198 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'get_moods', 'count': 0}
+2025-07-30 11:52:30,199 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods/ - ステータス: 200
+2025-07-30 11:52:30,201 - carebot - INFO - info:45 - リクエスト開始: GET /api/usage/status
+2025-07-30 11:52:30,251 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:52:30,252 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:52:30,317 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:52:30,317 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:52:30,379 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.journal "HTTP/2 200 OK"
+2025-07-30 11:52:30,549 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:52:30,549 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:52:30,608 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.mood "HTTP/2 200 OK"
+2025-07-30 11:52:30,670 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:52:30,670 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:52:30,719 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.ai_analysis "HTTP/2 200 OK"
+2025-07-30 11:52:30,720 - carebot - INFO - info:45 - リクエスト完了: GET /api/usage/status - ステータス: 200
+2025-07-30 11:53:37,612 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 11:53:37,614 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 11:53:37,626 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 11:53:38,164 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:53:38,165 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:53:38,166 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/journals/', 'user_id': 4}
+2025-07-30 11:53:38,269 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/journals?select=%2A&user_id=eq.4&order=created_at.desc "HTTP/2 200 OK"
+2025-07-30 11:53:38,269 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'get_journals', 'count': 0}
+2025-07-30 11:53:38,270 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 200
+2025-07-30 11:53:38,272 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods
+2025-07-30 11:53:38,273 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods - ステータス: 307
+2025-07-30 11:53:38,274 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods/
+2025-07-30 11:53:38,346 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:53:38,347 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:53:38,347 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/moods/', 'user_id': 4}
+2025-07-30 11:53:38,411 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/moods?select=%2A&user_id=eq.4&order=recorded_at.desc "HTTP/2 200 OK"
+2025-07-30 11:53:38,412 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'get_moods', 'count': 0}
+2025-07-30 11:53:38,413 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods/ - ステータス: 200
+2025-07-30 11:53:38,418 - carebot - INFO - info:45 - リクエスト開始: GET /api/usage/status
+2025-07-30 11:53:38,488 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:53:38,488 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:53:38,545 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:53:38,545 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:53:38,678 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.journal "HTTP/2 200 OK"
+2025-07-30 11:53:38,743 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:53:38,743 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:53:38,820 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.mood "HTTP/2 200 OK"
+2025-07-30 11:53:38,884 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:53:38,884 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:53:38,952 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.ai_analysis "HTTP/2 200 OK"
+2025-07-30 11:53:38,953 - carebot - INFO - info:45 - リクエスト完了: GET /api/usage/status - ステータス: 200
+2025-07-30 11:54:14,127 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 11:54:14,132 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 11:54:14,134 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 11:54:14,477 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:54:14,478 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:54:14,479 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/journals/', 'user_id': 4}
+2025-07-30 11:54:14,558 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/journals?select=%2A&user_id=eq.4&order=created_at.desc "HTTP/2 200 OK"
+2025-07-30 11:54:14,559 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'get_journals', 'count': 0}
+2025-07-30 11:54:14,559 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 200
+2025-07-30 11:54:14,563 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods
+2025-07-30 11:54:14,564 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods - ステータス: 307
+2025-07-30 11:54:14,566 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods/
+2025-07-30 11:54:14,644 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:54:14,645 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:54:14,645 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/moods/', 'user_id': 4}
+2025-07-30 11:54:14,752 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/moods?select=%2A&user_id=eq.4&order=recorded_at.desc "HTTP/2 200 OK"
+2025-07-30 11:54:14,754 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'get_moods', 'count': 0}
+2025-07-30 11:54:14,755 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods/ - ステータス: 200
+2025-07-30 11:54:14,760 - carebot - INFO - info:45 - リクエスト開始: GET /api/usage/status
+2025-07-30 11:54:14,928 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:54:14,929 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:54:15,020 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:54:15,020 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:54:15,105 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.journal "HTTP/2 200 OK"
+2025-07-30 11:54:15,183 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:54:15,184 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:54:15,261 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.mood "HTTP/2 200 OK"
+2025-07-30 11:54:15,374 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:54:15,374 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:54:15,456 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.ai_analysis "HTTP/2 200 OK"
+2025-07-30 11:54:15,457 - carebot - INFO - info:45 - リクエスト完了: GET /api/usage/status - ステータス: 200
+2025-07-30 11:54:53,693 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 11:54:53,705 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 11:54:53,712 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 11:54:54,053 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:54:54,054 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:54:54,055 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/journals/', 'user_id': 4}
+2025-07-30 11:54:54,176 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/journals?select=%2A&user_id=eq.4&order=created_at.desc "HTTP/2 200 OK"
+2025-07-30 11:54:54,176 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'get_journals', 'count': 0}
+2025-07-30 11:54:54,177 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 200
+2025-07-30 11:54:54,181 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods
+2025-07-30 11:54:54,181 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods - ステータス: 307
+2025-07-30 11:54:54,183 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods/
+2025-07-30 11:54:54,280 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:54:54,282 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:54:54,282 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/moods/', 'user_id': 4}
+2025-07-30 11:54:54,394 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/moods?select=%2A&user_id=eq.4&order=recorded_at.desc "HTTP/2 200 OK"
+2025-07-30 11:54:54,394 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'get_moods', 'count': 0}
+2025-07-30 11:54:54,395 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods/ - ステータス: 200
+2025-07-30 11:54:54,397 - carebot - INFO - info:45 - リクエスト開始: GET /api/usage/status
+2025-07-30 11:54:54,538 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:54:54,538 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:54:54,711 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:54:54,711 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:54:54,791 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.journal "HTTP/2 200 OK"
+2025-07-30 11:54:54,876 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:54:54,878 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:54:55,008 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.mood "HTTP/2 200 OK"
+2025-07-30 11:54:55,118 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:54:55,119 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:54:55,223 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.ai_analysis "HTTP/2 200 OK"
+2025-07-30 11:54:55,224 - carebot - INFO - info:45 - リクエスト完了: GET /api/usage/status - ステータス: 200
+2025-07-30 11:57:26,352 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals
+2025-07-30 11:57:26,353 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals - ステータス: 200
+2025-07-30 11:57:26,355 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 11:57:26,356 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 11:57:26,361 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals/
+2025-07-30 11:57:26,363 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals/ - ステータス: 200
+2025-07-30 11:57:26,369 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 11:57:26,948 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:57:26,951 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:57:26,952 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/journals/', 'user_id': 4}
+2025-07-30 11:57:27,024 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/journals?select=%2A&user_id=eq.4&order=created_at.desc "HTTP/2 200 OK"
+2025-07-30 11:57:27,025 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'get_journals', 'count': 0}
+2025-07-30 11:57:27,026 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 200
+2025-07-30 11:57:27,028 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods
+2025-07-30 11:57:27,029 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods - ステータス: 307
+2025-07-30 11:57:27,032 - carebot - INFO - info:45 - リクエスト開始: GET /api/moods/
+2025-07-30 11:57:27,088 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:57:27,089 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:57:27,089 - carebot - INFO - info:45 - API Request | Context: {'method': 'GET', 'path': '/api/moods/', 'user_id': 4}
+2025-07-30 11:57:27,142 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/moods?select=%2A&user_id=eq.4&order=recorded_at.desc "HTTP/2 200 OK"
+2025-07-30 11:57:27,142 - carebot - INFO - info:45 - User Action | Context: {'user_id': 4, 'action': 'get_moods', 'count': 0}
+2025-07-30 11:57:27,143 - carebot - INFO - info:45 - リクエスト完了: GET /api/moods/ - ステータス: 200
+2025-07-30 11:57:27,147 - carebot - INFO - info:45 - リクエスト開始: GET /api/usage/status
+2025-07-30 11:57:27,271 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:57:27,272 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:57:27,323 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:57:27,324 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:57:27,378 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.journal "HTTP/2 200 OK"
+2025-07-30 11:57:27,440 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:57:27,441 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:57:27,512 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.mood "HTTP/2 200 OK"
+2025-07-30 11:57:27,576 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/users?select=%2A&id=eq.4 "HTTP/2 200 OK"
+2025-07-30 11:57:27,576 - app.database.supabase_db - INFO - get_user_by_id:102 - ユーザー取得成功: ID 4
+2025-07-30 11:57:27,627 - httpx - INFO - _send_single_request:1025 - HTTP Request: GET https://yfslwlwhnmkvkcuapqvs.supabase.co/rest/v1/usage_counts?select=%2A&user_id=eq.4&feature_type=eq.ai_analysis "HTTP/2 200 OK"
+2025-07-30 11:57:27,628 - carebot - INFO - info:45 - リクエスト完了: GET /api/usage/status - ステータス: 200
+2025-07-30 12:19:01,000 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals
+2025-07-30 12:19:01,008 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals - ステータス: 200
+2025-07-30 12:19:01,047 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 12:19:01,057 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 12:19:01,061 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals/
+2025-07-30 12:19:01,062 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals/ - ステータス: 200
+2025-07-30 12:19:01,066 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 12:19:01,084 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 401
+2025-07-30 14:02:32,936 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals
+2025-07-30 14:02:32,962 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals - ステータス: 200
+2025-07-30 14:02:32,979 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 14:02:32,986 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 14:02:32,992 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals/
+2025-07-30 14:02:32,994 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals/ - ステータス: 200
+2025-07-30 14:02:32,997 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 14:02:33,025 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 401
+2025-07-30 14:11:46,252 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 14:11:46,254 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 14:11:46,258 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 14:11:46,265 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 401
+2025-07-30 14:26:35,708 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 14:26:35,716 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 14:26:35,720 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 14:26:35,735 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 401
+2025-07-30 16:22:57,067 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals
+2025-07-30 16:22:57,072 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals - ステータス: 200
+2025-07-30 16:22:57,078 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 16:22:57,082 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 16:22:57,088 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals/
+2025-07-30 16:22:57,088 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals/ - ステータス: 200
+2025-07-30 16:22:57,092 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 16:22:57,111 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 401
+2025-07-30 18:38:40,264 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals
+2025-07-30 18:38:40,270 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals - ステータス: 200
+2025-07-30 18:38:40,274 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 18:38:40,278 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 18:38:40,288 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals/
+2025-07-30 18:38:40,288 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals/ - ステータス: 200
+2025-07-30 18:38:40,291 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 18:38:40,308 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 401
+2025-07-30 18:41:38,305 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 18:41:38,309 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 18:41:38,318 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 18:41:38,323 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 401
+2025-07-30 18:43:59,428 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 18:43:59,433 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 18:43:59,441 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 18:43:59,475 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 401
+2025-07-30 19:54:19,529 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals
+2025-07-30 19:54:19,534 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals - ステータス: 200
+2025-07-30 19:54:19,545 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 19:54:19,548 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 19:54:19,575 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals/
+2025-07-30 19:54:19,576 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals/ - ステータス: 200
+2025-07-30 19:54:19,581 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 19:54:19,614 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 401
+2025-07-30 20:57:15,791 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-30 20:57:15,808 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-30 20:57:15,820 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-30 20:57:15,839 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 401
+2025-07-31 11:32:22,746 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals
+2025-07-31 11:32:22,756 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals - ステータス: 200
+2025-07-31 11:32:22,771 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-31 11:32:22,775 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-31 11:32:22,783 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals/
+2025-07-31 11:32:22,783 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals/ - ステータス: 200
+2025-07-31 11:32:22,786 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-31 11:32:22,846 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 401
+2025-07-31 11:32:30,392 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-31 11:32:30,395 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-31 11:32:30,402 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-31 11:32:30,412 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 401
+2025-07-31 14:03:05,003 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals
+2025-07-31 14:03:05,011 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals - ステータス: 200
+2025-07-31 14:03:05,016 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-07-31 14:03:05,034 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-07-31 14:03:05,041 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals/
+2025-07-31 14:03:05,041 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals/ - ステータス: 200
+2025-07-31 14:03:05,046 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-07-31 14:03:05,082 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 401

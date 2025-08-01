@@ -18,12 +18,12 @@ class SupabaseDB:
     
     # ユーザー関連
     @staticmethod
-    def create_user(user_data: UserCreate) -> Dict[str, Any]:
+    def create_user(user_data) -> Dict[str, Any]:
         """ユーザーを作成"""
         try:
             logger.info(f"=== ユーザー作成開始 ===")
             logger.info(f"メールアドレス: {user_data.email}")
-            logger.info(f"ユーザー名: {user_data.name}")
+            logger.info(f"ユーザー名: {getattr(user_data, 'name', getattr(user_data, 'username', 'Unknown'))}")
             
             # パスワードをハッシュ化
             hashed_password = bcrypt.hashpw(
@@ -37,8 +37,8 @@ class SupabaseDB:
             insert_data = {
                 'email': user_data.email,
                 'password': hashed_password,
-                'name': user_data.name,
-                'plan_type': 'free'
+                'name': getattr(user_data, 'name', getattr(user_data, 'username', 'Unknown')),
+                'plan_type': getattr(user_data, 'plan_type', 'free')
             }
             
             logger.info(f"Supabaseに挿入するデータ: {insert_data}")

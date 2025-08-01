@@ -1,155 +1,218 @@
-from fastapi import APIRouter, Depends, HTTPException
-from typing import Dict, Any, Optional
+"""
+CBT対話APIエンドポイント
+"""
+
+from fastapi import APIRouter, Depends, HTTPException, Request
+from typing import Dict, Any
+from app.schemas.cbt import (
+    CBTRequest, CBTResponse, CBTSessionRequest, CBTSessionResponse,
+    CBTConversationHistory, CBTQualityReport
+)
 from app.utils.auth import get_current_user
-from app.utils.cbt_analyzer import CBTAnalyzer
-from app.utils.usage_limits import can_use_feature, increment_usage
+from app.utils.ai_engine import LightweightAIEngine, AIQualityMonitor
+from app.utils.logger import logger
+from app.utils.error_handler import (
+    ValidationError, DatabaseError,
+    create_error_response, log_request_info, validate_required_fields
+)
 from app.database.supabase_db import SupabaseDB
-import json
+import uuid
+from datetime import datetime
 
 router = APIRouter(tags=["cbt"])
 
-# CBTアナライザーの初期化（完全無料版）
-cbt_analyzer = CBTAnalyzer()
+# AIエンジンのインスタンス（グローバルで管理）
+ai_engine = LightweightAIEngine()
+quality_monitor = AIQualityMonitor()
 
-@router.post("/session/start")
-def start_cbt_session(
-    initial_thought: Optional[str] = None,
-    current_user: dict = Depends(get_current_user)
+@router.post("/session", response_model=CBTSessionResponse)
+async def start_cbt_session(
+    request: CBTSessionRequest,
+    current_user: dict = Depends(get_current_user),
+    request_obj: Request = None
 ):
     """CBTセッションを開始"""
-    # 使用制限チェック
-    if not can_use_feature(current_user['id'], 'cbt_session'):
-        raise HTTPException(
-            status_code=429,
-            detail="CBTセッションの使用回数上限に達しました。プレミアムプランへのアップグレードをご検討ください。"
-        )
-    
     try:
-        # セッション開始
-        session_data = cbt_analyzer.start_cbt_session(
+        if request_obj:
+            log_request_info(request_obj, current_user['id'])
+        
+        # セッションIDを生成
+        session_id = str(uuid.uuid4())
+        
+        # 歓迎メッセージ
+        welcome_message = """
+こんにちは！私はあなたのメンタルウェルネスをサポートするAIコーチです。
+認知行動療法（CBT）の原則に基づいて、あなたの思考プロセスを整理するお手伝いをします。
+
+何でもお気軽にお話しください。あなたの気持ちや考えを聞かせてください。
+"""
+        
+        # 初期メッセージがある場合は処理
+        if request.initial_message:
+            ai_response = ai_engine.process_message(request.initial_message, current_user['id'])
+            welcome_message += f"\n\nあなた: {request.initial_message}\n\n私: {ai_response['response']}"
+        
+        logger.log_user_action(
             user_id=current_user['id'],
-            initial_thought=initial_thought
+            action="start_cbt_session"
         )
         
-        # 使用回数を増加
-        increment_usage(current_user['id'], 'cbt_session')
-        
-        return {
-            "session_id": session_data["session_id"],
-            "message": session_data["conversation"][0]["content"],
-            "session_data": session_data
-        }
+        return CBTSessionResponse(
+            session_id=session_id,
+            welcome_message=welcome_message,
+            timestamp=datetime.now().isoformat()
+        )
         
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"CBTセッション開始エラー: {str(e)}")
+        logger.error("CBTセッション開始エラー", e, {"user_id": current_user['id']})
+        if request_obj:
+            raise create_error_response(e, request_obj)
+        else:
+            raise HTTPException(status_code=500, detail="セッションの開始に失敗しました")
 
-@router.post("/session/{session_id}/continue")
-def continue_cbt_session(
-    session_id: str,
-    message: str,
-    current_user: dict = Depends(get_current_user)
+@router.post("/conversation", response_model=CBTResponse)
+async def cbt_conversation(
+    request: CBTRequest,
+    current_user: dict = Depends(get_current_user),
+    request_obj: Request = None
 ):
-    """CBTセッションを継続"""
+    """CBT対話セッション"""
     try:
-        # セッションデータを取得（実際の実装ではデータベースから取得）
-        # ここでは簡易実装
-        session_data = {
-            "session_id": session_id,
-            "user_id": current_user['id'],
-            "conversation": []
-        }
+        if request_obj:
+            log_request_info(request_obj, current_user['id'])
         
-        # 危機的状況を検知
-        if cbt_analyzer.detect_crisis(message):
-            return {
-                "session_id": session_id,
-                "message": cbt_analyzer.get_crisis_response(),
-                "crisis_detected": True,
-                "session_data": session_data
-            }
+        # 入力検証
+        validate_required_fields(request.dict(), ["message"])
         
-        # セッション継続
-        updated_session = cbt_analyzer.continue_cbt_session(session_data, message)
+        # AIエンジンでメッセージを処理
+        ai_response = ai_engine.process_message(request.message, current_user['id'])
         
-        return {
-            "session_id": session_id,
-            "message": updated_session["conversation"][-1]["content"],
-            "session_data": updated_session
-        }
+        # 品質監視に記録
+        quality_monitor.log_conversation(
+            user_input=request.message,
+            ai_response=ai_response['response'],
+            emotion=ai_response['emotion'],
+            crisis_detected=ai_response['crisis_detected']
+        )
         
+        # ジャーナルとして記録（危機的状況でない場合）
+        if not ai_response['crisis_detected']:
+            try:
+                await record_cbt_conversation(
+                    user_id=current_user['id'],
+                    message=request.message,
+                    response=ai_response['response'],
+                    emotion=ai_response['emotion'],
+                    session_id=request.session_id
+                )
+            except Exception as e:
+                logger.error("CBT対話記録エラー", e, {"user_id": current_user['id']})
+                # 記録エラーは対話自体には影響しない
+        
+        logger.log_user_action(
+            user_id=current_user['id'],
+            action="cbt_conversation"
+        )
+        
+        return CBTResponse(
+            message=ai_response['response'],
+            emotion=ai_response['emotion'],
+            crisis_detected=ai_response['crisis_detected'],
+            session_id=request.session_id,
+            timestamp=ai_response['timestamp'],
+            context=ai_response['context']
+        )
+        
+    except ValidationError as e:
+        if request_obj:
+            raise create_error_response(e, request_obj)
+        else:
+            raise HTTPException(status_code=400, detail=str(e))
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"CBTセッション継続エラー: {str(e)}")
+        logger.error("CBT対話エラー", e, {"user_id": current_user['id']})
+        if request_obj:
+            raise create_error_response(e, request_obj)
+        else:
+            raise HTTPException(status_code=500, detail="対話の処理中にエラーが発生しました")
 
-@router.post("/session/{session_id}/end")
-def end_cbt_session(
-    session_id: str,
-    current_user: dict = Depends(get_current_user)
+@router.get("/conversation/summary", response_model=str)
+async def get_conversation_summary(
+    current_user: dict = Depends(get_current_user),
+    request_obj: Request = None
 ):
-    """CBTセッションを終了"""
+    """対話の要約を取得"""
     try:
-        # セッションデータを取得（実際の実装ではデータベースから取得）
-        session_data = {
-            "session_id": session_id,
-            "user_id": current_user['id'],
-            "conversation": []
-        }
+        if request_obj:
+            log_request_info(request_obj, current_user['id'])
         
-        # セッション終了
-        completed_session = cbt_analyzer.end_cbt_session(session_data)
+        summary = ai_engine.get_conversation_summary()
         
-        return {
-            "session_id": session_id,
-            "summary": completed_session.get("summary", ""),
-            "message": "CBTセッションが完了しました。セッション内容はジャーナルに保存されました。",
-            "session_data": completed_session
-        }
+        logger.log_user_action(
+            user_id=current_user['id'],
+            action="get_conversation_summary"
+        )
+        
+        return summary
         
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"CBTセッション終了エラー: {str(e)}")
+        logger.error("対話要約取得エラー", e, {"user_id": current_user['id']})
+        if request_obj:
+            raise create_error_response(e, request_obj)
+        else:
+            raise HTTPException(status_code=500, detail="対話要約の取得に失敗しました")
 
-@router.get("/cbt-sessions")
-def get_cbt_sessions(current_user: dict = Depends(get_current_user)):
-    """ユーザーのCBTセッション履歴を取得"""
-    try:
-        # CBTセッションをジャーナルから取得
-        journals = SupabaseDB.get_user_journals(current_user['id'])
-        cbt_sessions = [
-            journal for journal in journals 
-            if journal.get('session_type') == 'cbt'
-        ]
-        
-        return {
-            "sessions": cbt_sessions,
-            "total_count": len(cbt_sessions)
-        }
-        
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=f"CBTセッション履歴取得エラー: {str(e)}")
-
-@router.get("/session/{session_id}")
-def get_cbt_session(
-    session_id: str,
-    current_user: dict = Depends(get_current_user)
+@router.get("/quality/report", response_model=CBTQualityReport)
+async def get_quality_report(
+    current_user: dict = Depends(get_current_user),
+    request_obj: Request = None
 ):
-    """特定のCBTセッション詳細を取得"""
+    """AI品質レポートを取得"""
     try:
-        # セッションIDでジャーナルを検索
-        journals = SupabaseDB.get_user_journals(current_user['id'])
-        session_journal = None
+        if request_obj:
+            log_request_info(request_obj, current_user['id'])
         
-        for journal in journals:
-            if journal.get('session_id') == session_id:
-                session_journal = journal
-                break
+        # 管理者のみアクセス可能
+        if current_user.get('role') != 'admin':
+            raise HTTPException(status_code=403, detail="管理者権限が必要です")
         
-        if not session_journal:
-            raise HTTPException(status_code=404, detail="CBTセッションが見つかりません")
+        report = quality_monitor.get_quality_report()
+        report['timestamp'] = datetime.now().isoformat()
         
-        return {
-            "session": session_journal
-        }
+        logger.log_user_action(
+            user_id=current_user['id'],
+            action="get_quality_report"
+        )
+        
+        return CBTQualityReport(**report)
         
     except HTTPException:
         raise
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"CBTセッション取得エラー: {str(e)}") 
+        logger.error("品質レポート取得エラー", e, {"user_id": current_user['id']})
+        if request_obj:
+            raise create_error_response(e, request_obj)
+        else:
+            raise HTTPException(status_code=500, detail="品質レポートの取得に失敗しました")
+
+async def record_cbt_conversation(
+    user_id: int,
+    message: str,
+    response: str,
+    emotion: str,
+    session_id: str = None
+):
+    """CBT対話をジャーナルとして記録"""
+    try:
+        # ジャーナルテーブルに記録
+        journal_data = {
+            "user_id": user_id,
+            "content": f"【CBT対話】\nユーザー: {message}\nAI: {response}\n感情: {emotion}",
+            "cbt_session_id": session_id,
+            "emotion": emotion
+        }
+        
+        SupabaseDB.create_journal(journal_data)
+        
+    except Exception as e:
+        logger.error("CBT対話記録エラー", e, {"user_id": user_id})
+        raise DatabaseError("CBT対話の記録に失敗しました") 
