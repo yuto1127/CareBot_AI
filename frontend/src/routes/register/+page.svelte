@@ -1,12 +1,22 @@
 <script lang="ts">
   import { fetchAPI } from '$lib/api';
   import { goto } from '$app/navigation';
+  import { onMount } from 'svelte';
 
   let email = '';
   let password = '';
   let name = '';
   let error = '';
   let loading = false;
+
+  onMount(() => {
+    // 法的・倫理的ポジショニングの同意確認
+    const legalAgreement = localStorage.getItem('legal_agreement');
+    if (!legalAgreement) {
+      // 同意していない場合は法的・倫理的ポジショニングページにリダイレクト
+      goto('/legal');
+    }
+  });
 
   async function handleRegister() {
     if (!email || !password) {
@@ -19,6 +29,19 @@
 
     try {
       console.log('ユーザー登録を開始:', { email, name });
+      
+      // 法的・倫理的ポジショニングの同意確認を再送信
+      const legalAgreement = localStorage.getItem('legal_agreement');
+      if (legalAgreement) {
+        await fetchAPI('/auth/legal-agreement', {
+          method: 'POST',
+          body: JSON.stringify({
+            privacy_policy_agreed: true,
+            terms_of_service_agreed: true,
+            safety_guidelines_agreed: true
+          })
+        });
+      }
       
       // ユーザー登録
       const registerResponse = await fetchAPI('/auth/register', {

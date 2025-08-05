@@ -1223,3 +1223,20 @@ app.utils.error_handler.AuthenticationError: メールアドレスまたはパ�
 2025-07-31 14:03:05,041 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals/ - ステータス: 200
 2025-07-31 14:03:05,046 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
 2025-07-31 14:03:05,082 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 401
+2025-08-01 14:37:04,019 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals
+2025-08-01 14:37:04,059 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals - ステータス: 200
+2025-08-01 14:37:04,098 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-08-01 14:37:04,109 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-08-01 14:37:04,115 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals/
+2025-08-01 14:37:04,116 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals/ - ステータス: 200
+2025-08-01 14:37:04,119 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-08-01 14:37:04,161 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 401
+2025-08-01 23:13:32,600 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals
+2025-08-01 23:13:32,641 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals - ステータス: 200
+2025-08-01 23:13:32,718 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals
+2025-08-01 23:13:32,729 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals - ステータス: 307
+2025-08-01 23:13:32,733 - carebot - INFO - info:45 - リクエスト開始: OPTIONS /api/journals/
+2025-08-01 23:13:32,734 - carebot - INFO - info:45 - リクエスト完了: OPTIONS /api/journals/ - ステータス: 200
+2025-08-01 23:13:32,738 - carebot - INFO - info:45 - リクエスト開始: GET /api/journals/
+2025-08-01 23:13:32,766 - carebot - INFO - info:45 - リクエスト完了: GET /api/journals/ - ステータス: 401
+2025-08-01 23:14:01,838 - carebot - INFO - info:45 - CareBot AI アプリケーションを終了中...

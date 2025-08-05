@@ -1,6 +1,7 @@
 <script lang="ts">
   import { fetchAPI } from '$lib/api';
   import { goto } from '$app/navigation';
+  import { authStore } from '$lib/stores/auth';
 
   let email = '';
   let password = '';
@@ -17,19 +18,30 @@
     error = '';
 
     try {
+      console.log('🔐 Attempting login with:', { email, password: '***' });
+      
       const response = await fetchAPI('/auth/login', {
         method: 'POST',
         body: JSON.stringify({ email, password })
       });
 
-      // トークンをlocalStorageに保存
-      localStorage.setItem('token', response.access_token);
-      localStorage.setItem('user', JSON.stringify(response.user));
+      console.log('✅ Login successful:', response);
 
-      // ダッシュボードへリダイレクト
-      goto('/dashboard');
-    } catch (err) {
-      error = 'ログインに失敗しました。メールアドレスとパスワードを確認してください。';
+      // ストアを使用してログイン状態を更新
+      authStore.login(response.user);
+      localStorage.setItem('token', response.access_token);
+      
+      console.log('💾 Login state updated via store');
+      console.log('💾 User data:', response.user);
+      console.log('💾 Token saved');
+
+      // 少し待ってからダッシュボードへリダイレクト（状態更新を確実にするため）
+      setTimeout(() => {
+        goto('/dashboard');
+      }, 100);
+    } catch (err: any) {
+      console.error('❌ Login failed:', err);
+      error = `ログインに失敗しました: ${err.message}`;
     } finally {
       loading = false;
     }
@@ -89,6 +101,16 @@
 
     <div class="mt-4 text-center">
       <a href="/" class="text-sm text-gray-500 hover:text-gray-700">ホームに戻る</a>
+    </div>
+    
+    <!-- デバッグ情報（開発環境のみ） -->
+    <div class="mt-6 p-4 bg-gray-100 rounded-lg">
+      <h3 class="text-sm font-semibold text-gray-700 mb-2">デバッグ情報（テスト用）</h3>
+      <div class="text-xs text-gray-600 space-y-1">
+        <p><strong>テストユーザー:</strong> test@example.com</p>
+        <p><strong>パスワード:</strong> Test1234</p>
+        <p><strong>API URL:</strong> http://localhost:8000/api</p>
+      </div>
     </div>
   </div>
 </main> 

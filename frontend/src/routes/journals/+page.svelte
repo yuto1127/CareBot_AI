@@ -20,11 +20,37 @@
     // ログイン状態をチェック
     const token = localStorage.getItem('token');
     isLoggedIn = !!token;
+    
+    // デバッグ用：ログイン状態の確認
+    console.log('🔍 Login status check:', { isLoggedIn, tokenExists: !!token });
+    
+    if (!isLoggedIn) {
+      console.log('⚠️ User not logged in, redirecting to login page');
+      // ログインしていない場合はログインページにリダイレクト
+      window.location.href = '/login';
+      return;
+    }
+    
     loadJournals();
   });
 
   async function loadJournals() {
-    journals = await fetchAPI('/journals');
+    try {
+      console.log('📖 Loading journals...');
+      journals = await fetchAPI('/journals');
+      console.log('✅ Journals loaded successfully:', journals);
+    } catch (err: any) {
+      console.error('❌ Failed to load journals:', err);
+      error = `データの取得に失敗しました: ${err.message}`;
+      
+      // 認証エラーの場合はログインページにリダイレクト
+      if (err.message && err.message.includes('Could not validate credentials')) {
+        console.log('🔐 Authentication error, redirecting to login');
+        localStorage.removeItem('token'); // 無効なトークンを削除
+        localStorage.removeItem('user');
+        window.location.href = '/login';
+      }
+    }
   }
 
   async function addJournal() {

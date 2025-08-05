@@ -1,7 +1,9 @@
 from fastapi import APIRouter, HTTPException, Request, Depends
 from typing import Dict, Any
+from datetime import datetime
 from app.schemas.auth import UserLogin, UserResponse
 from app.schemas.user import UserCreate
+from app.schemas.legal import LegalAgreement, LegalAgreementResponse
 from app.database.supabase_db import SupabaseDB
 from app.utils.auth import create_access_token, get_current_user
 from app.utils.logger import logger
@@ -187,4 +189,50 @@ async def get_current_user_info(current_user: Dict[str, Any] = Depends(get_curre
         }
     except Exception as e:
         logger.error("ユーザー情報取得エラー", e)
-        raise HTTPException(status_code=500, detail="ユーザー情報の取得に失敗しました") 
+        raise HTTPException(status_code=500, detail="ユーザー情報の取得に失敗しました")
+
+@router.post("/legal-agreement", response_model=LegalAgreementResponse)
+async def record_legal_agreement(agreement: LegalAgreement, request: Request):
+    """法的・倫理的ポジショニングの同意確認を記録"""
+    try:
+        # リクエストログ
+        log_request_info(request)
+        logger.info(f"=== 法的・倫理的ポジショニング同意確認 ===")
+        
+        # バリデーション
+        if not agreement.privacy_policy_agreed:
+            raise ValidationError("プライバシーポリシーへの同意が必要です")
+        if not agreement.terms_of_service_agreed:
+            raise ValidationError("利用規約への同意が必要です")
+        if not agreement.safety_guidelines_agreed:
+            raise ValidationError("セーフティガード機能への同意が必要です")
+        
+        # 同意日時を設定
+        if not agreement.agreement_date:
+            agreement.agreement_date = datetime.utcnow()
+        
+        # IPアドレスとユーザーエージェントを記録
+        agreement.ip_address = request.client.host if request.client else None
+        agreement.user_agent = request.headers.get("user-agent")
+        
+        # 同意記録をデータベースに保存（オプション）
+        # ここではログに記録するのみ
+        logger.info(f"法的・倫理的ポジショニング同意確認記録:")
+        logger.info(f"  同意日時: {agreement.agreement_date}")
+        logger.info(f"  IPアドレス: {agreement.ip_address}")
+        logger.info(f"  ユーザーエージェント: {agreement.user_agent}")
+        
+        logger.info(f"=== 法的・倫理的ポジショニング同意確認完了 ===")
+        
+        return {
+            "message": "法的・倫理的ポジショニングへの同意が記録されました",
+            "agreement_id": f"legal_{int(agreement.agreement_date.timestamp())}",
+            "agreement_date": agreement.agreement_date
+        }
+        
+    except ValidationError as e:
+        logger.error(f"法的・倫理的ポジショニング同意確認エラー: {e.message}")
+        raise create_error_response(e, request)
+    except Exception as e:
+        logger.error("法的・倫理的ポジショニング同意確認エラー", e)
+        raise create_error_response(e, request) 

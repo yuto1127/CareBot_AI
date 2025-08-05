@@ -10,26 +10,53 @@
   let loading = true;
 
   onMount(() => {
-    // localStorageからユーザー情報を取得
+    // localStorageからユーザー情報とトークンを取得
     const userStr = localStorage.getItem('user');
-    if (!userStr) {
+    const token = localStorage.getItem('token');
+    
+    console.log('🔍 Dashboard auth check:', { userExists: !!userStr, tokenExists: !!token });
+    
+    if (!userStr || !token) {
+      console.log('⚠️ No user or token found, redirecting to login');
       goto('/login');
       return;
     }
-    user = JSON.parse(userStr);
-    loadData();
+    
+    try {
+      user = JSON.parse(userStr);
+      console.log('✅ User loaded:', user);
+      loadData();
+    } catch (err) {
+      console.error('❌ Failed to parse user data:', err);
+      localStorage.removeItem('user');
+      localStorage.removeItem('token');
+      goto('/login');
+    }
   });
 
   async function loadData() {
     try {
+      console.log('📊 Loading dashboard data...');
+      
       // ジャーナルと気分記録を取得
       journals = await fetchAPI('/journals');
       moods = await fetchAPI('/moods');
       
       // 使用回数状況を取得
       usageStatus = await fetchAPI('/usage/status');
-    } catch (err) {
-      console.error('データの取得に失敗しました:', err);
+      
+      console.log('✅ Dashboard data loaded successfully');
+    } catch (err: any) {
+      console.error('❌ Failed to load dashboard data:', err);
+      
+      // 認証エラーの場合はログインページにリダイレクト
+      if (err.message && err.message.includes('Could not validate credentials')) {
+        console.log('🔐 Authentication error, redirecting to login');
+        localStorage.removeItem('token');
+        localStorage.removeItem('user');
+        goto('/login');
+        return;
+      }
     } finally {
       loading = false;
     }

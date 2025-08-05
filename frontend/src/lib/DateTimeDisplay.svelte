@@ -1,12 +1,6 @@
 <script lang="ts">
 	import { onMount, onDestroy } from 'svelte';
 
-	// Props（オプション）
-	let { show = true, position = 'top-right' } = $props<{
-		show?: boolean;
-		position?: 'top-right' | 'top-left' | 'bottom-right' | 'bottom-left';
-	}>();
-
 	// 日時をフォーマットする関数
 	function formatDateTime(date: Date): string {
 		const year = date.getFullYear();
@@ -42,17 +36,17 @@
 	});
 </script>
 
-{#if show}
-	<div class="datetime-display" class:top-right={position === 'top-right'} class:top-left={position === 'top-left'} class:bottom-right={position === 'bottom-right'} class:bottom-left={position === 'bottom-left'}>
-		{currentDateTime}
-	</div>
-{/if}
+<div class="datetime-display">
+	{currentDateTime}
+</div>
 
 <style>
 	.datetime-display {
 		position: fixed;
-		background-color: rgba(0, 0, 0, 0.8);
-		color: white;
+		top: 10px;
+		right: 10px;
+		background-color: rgba(255, 255, 255, 0.9);
+		color: #000000;
 		padding: 8px 12px;
 		border-radius: 6px;
 		font-family: 'Courier New', monospace;
@@ -63,59 +57,13 @@
 		backdrop-filter: blur(4px);
 	}
 
-	.datetime-display.top-right {
-		top: 10px;
-		right: 10px;
-	}
-
-	.datetime-display.top-left {
-		top: 10px;
-		left: 10px;
-	}
-
-	.datetime-display.bottom-right {
-		bottom: 10px;
-		right: 10px;
-	}
-
-	.datetime-display.bottom-left {
-		bottom: 10px;
-		left: 10px;
-	}
-
-	/* ダークモード対応 */
-	@media (prefers-color-scheme: dark) {
-		.datetime-display {
-			background-color: rgba(255, 255, 255, 0.1);
-			color: #e5e5e5;
-		}
-	}
-
 	/* モバイル対応 */
 	@media (max-width: 768px) {
 		.datetime-display {
 			font-size: 12px;
 			padding: 6px 10px;
-		}
-		
-		.datetime-display.top-right {
 			top: 5px;
 			right: 5px;
-		}
-		
-		.datetime-display.top-left {
-			top: 5px;
-			left: 5px;
-		}
-		
-		.datetime-display.bottom-right {
-			bottom: 5px;
-			right: 5px;
-		}
-		
-		.datetime-display.bottom-left {
-			bottom: 5px;
-			left: 5px;
 		}
 	}
 </style> 

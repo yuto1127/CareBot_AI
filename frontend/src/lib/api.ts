@@ -4,6 +4,9 @@ export async function fetchAPI(path: string, options: RequestInit = {}) {
   // localStorageからトークンを取得
   const token = localStorage.getItem('token');
   
+  // デバッグ用：トークンの存在確認
+  console.log('🔑 Token check:', token ? `Token exists (${token.substring(0, 20)}...)` : 'No token found');
+  
   const headers: Record<string, string> = {
     'Content-Type': 'application/json',
     ...options.headers as Record<string, string>
@@ -12,6 +15,9 @@ export async function fetchAPI(path: string, options: RequestInit = {}) {
   // トークンがある場合はAuthorizationヘッダーに追加
   if (token) {
     headers['Authorization'] = `Bearer ${token}`;
+    console.log('🔐 Authorization header set:', `Bearer ${token.substring(0, 20)}...`);
+  } else {
+    console.log('⚠️ No token available for authorization');
   }
 
   const url = `${API_BASE}${path}`;

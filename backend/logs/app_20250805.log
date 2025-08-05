@@ -1,0 +1,19 @@
+2025-08-05 19:15:27,760 - carebot - INFO - info:45 - CareBot AI アプリケーションを起動中... (環境: development)
+2025-08-05 19:15:27,760 - carebot - INFO - info:45 - RLSポリシーを設定中...
+2025-08-05 19:15:27,760 - carebot - INFO - info:45 - RLSポリシーの設定を開始
+2025-08-05 19:15:27,760 - carebot - INFO - info:45 - RLS enabled for table: users
+2025-08-05 19:15:27,760 - carebot - INFO - info:45 - RLS enabled for table: journals
+2025-08-05 19:15:27,760 - carebot - INFO - info:45 - RLS enabled for table: moods
+2025-08-05 19:15:27,760 - carebot - INFO - info:45 - RLS enabled for table: usage_counts
+2025-08-05 19:15:27,760 - carebot - INFO - info:45 - ユーザーテーブルのポリシー設定完了
+2025-08-05 19:15:27,760 - carebot - INFO - info:45 - ジャーナルテーブルのポリシー設定完了
+2025-08-05 19:15:27,760 - carebot - INFO - info:45 - 気分記録テーブルのポリシー設定完了
+2025-08-05 19:15:27,760 - carebot - INFO - info:45 - 使用回数テーブルのポリシー設定完了
+2025-08-05 19:15:27,761 - carebot - INFO - info:45 - RLSポリシーの設定が完了しました
+2025-08-05 19:15:27,761 - carebot - INFO - info:45 - テーブル users のポリシー検証: 設定済み
+2025-08-05 19:15:27,761 - carebot - INFO - info:45 - テーブル journals のポリシー検証: 設定済み
+2025-08-05 19:15:27,761 - carebot - INFO - info:45 - テーブル moods のポリシー検証: 設定済み
+2025-08-05 19:15:27,761 - carebot - INFO - info:45 - テーブル usage_counts のポリシー検証: 設定済み
+2025-08-05 19:15:27,761 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-08-05 19:15:27,761 - carebot - INFO - info:45 - RLSポリシー検証結果: {'users': True, 'journals': True, 'moods': True, 'usage_counts': True}
+2025-08-05 19:15:27,761 - carebot - INFO - info:45 - CareBot AI アプリケーションが正常に起動しました
